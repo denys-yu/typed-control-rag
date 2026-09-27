@@ -1,0 +1,64 @@
+{
+  "status": "proposals_pending_researcher_acceptance",
+  "created_at_utc": "2026-09-21T07:52:45.947922+00:00",
+  "protocol_v3_hash_verified": true,
+  "source_sha256": {
+    "main_experiment_protocol_v3.md": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7",
+    "main_answer_grounding_cases.jsonl": "719601cb4fc950443c50688c5aa5ebfbfed2378d1fbd36c50ad91364f82cf0a3",
+    "main_answer_grounding_reviews.jsonl": "45a333453044d72bc93d8f9a2458f82cfcae41590290e434c6d449d76da68447",
+    "main_answer_grounding_lookup.json": "af39e1701ea1074adebc48581e093b8819a71da54aec5e5ecac5d4f1e63d911a",
+    "main_post_retry_contexts.jsonl": "f68ab389a595c69950a1ee60d66cfd36b7fb929f15fdf7e9880dd3b96a2fd864",
+    "main_post_retry_reviews.jsonl": "0e8bafa6606048016c9adc4a851989b6de41295fb1e155ba70e6eb764b2ee1a8",
+    "main_post_retry_lookup.json": "5b9c27d6bf92fb87019bc28ace7528f4b33db0bdb099f87abd3b0a530a203d77",
+    "main_run_index.jsonl": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "pilot_post_retry_annotation_rules.md": "6c9ab3a7edee03a66fa22d482faff9583d3c6f5c309ddd66168fcd099980872e",
+    "pilot_answer_grounding_review.md": "ba7aece5c3929affa855bcdcd566f24483c166831ebaa009f8eb9c5d000224a3",
+    "stage13_adjudication.md": "71b4574422b00081c18d508dc62fc3c2af2ab8f764c0473806303f5d80d258a1",
+    "stage14_report.json": "26c828e17618d24c9170b7edc3024eb2040b91215c2494458935abb64673cf95"
+  },
+  "counts": {
+    "post_retry_states": {
+      "PARTIAL": 82,
+      "OK": 250,
+      "EMPTY": 3
+    },
+    "answer_support": {
+      "FULLY_SUPPORTED": 249,
+      "PARTIALLY_SUPPORTED": 67,
+      "CONFLICTED": 25,
+      "UNSUPPORTED": 6
+    },
+    "explanation_support": {
+      "FULLY_SUPPORTED": 292,
+      "CONFLICTED": 18,
+      "PARTIALLY_SUPPORTED": 37
+    }
+  },
+  "coverage": {
+    "questions": 60,
+    "post_retry_contexts": 335,
+    "answer_cases": 347,
+    "inspection_document_set_groups": 314,
+    "exact_ordered_initial_context_matches": 8,
+    "conflicts_in_exact_initial_matches": 0,
+    "completed_retry_instances_in_original_lookup": 1024,
+    "additional_technical_retry_instances_in_supplement": 3,
+    "new_distinct_contexts_needed_for_supplement": 0
+  },
+  "checks": {
+    "one_to_one_proposal_coverage": true,
+    "canonical_source_hashes_verified": true,
+    "note_evidence_ids_belong_to_case_context": true,
+    "original_inputs_unchanged_during_build": true,
+    "original_review_templates_still_pending": true
+  },
+  "provider_calls": 0,
+  "coordinate_reruns": 0,
+  "effectiveness_analysis_performed": false,
+  "output_sha256": {
+    "main_answer_grounding_review_proposals.jsonl": "0bcb6fe22e5275d63c28bd3452c2cf597bc703927d9c14f0b1a3487775560c22",
+    "main_post_retry_lookup_additions.json": "7685986f1d8eebaef9028e5e6365d354ca51a6b3148afce8d72ec12df90fb843",
+    "main_post_retry_review_proposals.jsonl": "8b95513d648e788c16e9d593608078344213a3b7e5183293a078031d4f1c147f",
+    "main_semantic_review_summary.md": "31dabbb319da97398e5aa38c7b9a3d6085d3453f1c4cc10c62bc90850b739769"
+  }
+}

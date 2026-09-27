@@ -1,0 +1,334 @@
+{
+  "archived_before_replacement": {
+    "results/main_analysis_figures/figure1_branch_outcome_composition.svg": {
+      "archived_to": "results/stage15_1_archive/figure1_branch_outcome_composition_pre15_1_3e58976eaf78.svg",
+      "post_correction_sha256": "3e58976eaf7831d13aa892f9a9a4c84ea26e1e3d4d0a3d878dfea182ea72a740",
+      "pre_correction_sha256": "3e58976eaf78"
+    },
+    "results/main_analysis_figures/figure2_effect_estimates.svg": {
+      "archived_to": "results/stage15_1_archive/figure2_effect_estimates_pre15_1_0610cc0c6643.svg",
+      "post_correction_sha256": "0610cc0c6643a521780b37e95124be08361c035c625feedf72c4d2c9b3e6d1eb",
+      "pre_correction_sha256": "0610cc0c6643"
+    },
+    "results/main_analysis_results.json": {
+      "archived_to": "results/stage15_1_archive/main_analysis_results_pre15_1_236879d7d450.json",
+      "post_correction_sha256": "0ff01253aa8ba370860db86b84bfa0daff1fc473d371f29857ac15e0b8aef3a0",
+      "pre_correction_sha256": "236879d7d450"
+    },
+    "results/main_analysis_summary.md": {
+      "archived_to": "results/stage15_1_archive/main_analysis_summary_pre15_1_2ed7bcfc217b.md",
+      "post_correction_sha256": "f374edfca95a9e29594d38086d1fdd66e37790b216a3e66d5f13bcf9dea5d328",
+      "pre_correction_sha256": "2ed7bcfc217b"
+    },
+    "results/main_analysis_tables/branch_outcomes.csv": {
+      "archived_to": "results/stage15_1_archive/branch_outcomes_pre15_1_390e69a6ecb3.csv",
+      "post_correction_sha256": "390e69a6ecb335782ae8f6af04b9e5d6b4052cab0c0b4d68adf178a7d6776c24",
+      "pre_correction_sha256": "390e69a6ecb3"
+    },
+    "results/main_analysis_tables/contrasts.csv": {
+      "archived_to": "results/stage15_1_archive/contrasts_pre15_1_26cb05ac1078.csv",
+      "post_correction_sha256": "26cb05ac1078413587279f64597eba1d5f21cfb7f9170df9deea7208a2d2476c",
+      "pre_correction_sha256": "26cb05ac1078"
+    },
+    "results/main_analysis_tables/terminal_outcomes.csv": {
+      "archived_to": "results/stage15_1_archive/terminal_outcomes_pre15_1_e9fa47b39847.csv",
+      "post_correction_sha256": "e9fa47b3984756c0de0eec5022fd72124d44883c4eccfc3ef6ec357776f84954",
+      "pre_correction_sha256": "e9fa47b39847"
+    },
+    "results/stage15_report.json": {
+      "archived_to": "results/stage15_1_archive/stage15_report_pre15_1_7750fee27a0b.json",
+      "post_correction_sha256": "64e69edcf22545e353186e3de65b87e9fa1da81d320971e404ed6194bd7cdcff",
+      "pre_correction_sha256": "7750fee27a0b"
+    },
+    "results/stage15_validation.json": {
+      "archived_to": "results/stage15_1_archive/stage15_validation_pre15_1_7459bb100cbf.json",
+      "post_correction_sha256": "73348b7ec16c8d231bb20e7e6435eaf96599e509d6d2c4e50947b7279d1d9849",
+      "pre_correction_sha256": "7459bb100cbf"
+    }
+  },
+  "author": "Denys Yuvzhenko",
+  "code_sha256": {
+    "tools/stage15_1_correction.py": "af59e000637955d8d798790e1bfe3e5d904cf54b5464f10e44eff9a5189bda12",
+    "tools/stage15_analysis.py": "f7117e425d0b9a7c0d24b627c7b77c80ec0842d55d76c21908e9df652a6e55ed",
+    "tools/stage15_outputs.py": "298dc4347b7d53f2dfa2a5815a65c7bcb71261bcd6a994d7e4bc577d90d56724",
+    "tools/stage15_package.py": "e9129e2d6359cd2d4795c30d92e50db85b5ae270fb1b34d5fb4ac4f9cbc5733a",
+    "tools/stage15_run.py": "cc54ade5390c1499db46ce42724cb2e50b8e5bf40575b51f76ee059a06b8fc39",
+    "tools/stage15_validate.py": "8807ac98dc5110160739865f4006c44313303f8c242020a117044c1f336baf0c"
+  },
+  "coordinate_reruns": 0,
+  "corrections": {
+    "conditional_percentages": {
+      "fix": "the weighted ratio is now labelled 'Ratio of question/condition-weighted rates - descriptive', computed from unrounded aggregates with unclear answers in the denominator and an undefined result for a zero denominator; a separate pooled descriptive table over the defective conditions reports completed, answered and fully supported counts with both proportions",
+      "note": "the two views have different denominators and neither replaces the protocol-v3 estimator; branches answer different subsets of runs, so conditional proportions alone do not establish equal or superior answer quality",
+      "pooled_counts": {
+        "by_branch": {
+          "A": {
+            "answered_of_completed_percent": 28.15,
+            "answered_runs": 152,
+            "completed_runs": 540,
+            "defined": true,
+            "fully_supported_answers": 53,
+            "fully_supported_of_answered_percent": 34.87
+          },
+          "B": {
+            "answered_of_completed_percent": 10.04,
+            "answered_runs": 54,
+            "completed_runs": 538,
+            "defined": true,
+            "fully_supported_answers": 13,
+            "fully_supported_of_answered_percent": 24.07
+          },
+          "C": {
+            "answered_of_completed_percent": 56.05,
+            "answered_runs": 301,
+            "completed_runs": 537,
+            "defined": true,
+            "fully_supported_answers": 181,
+            "fully_supported_of_answered_percent": 60.13
+          },
+          "D": {
+            "answered_of_completed_percent": 24.35,
+            "answered_runs": 131,
+            "completed_runs": 538,
+            "defined": true,
+            "fully_supported_answers": 76,
+            "fully_supported_of_answered_percent": 58.02
+          }
+        },
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "label": "Pooled proportions among observed runs - descriptive",
+        "note": "counts pooled over all completed runs of the defective conditions, ignoring the question-level weighting. Branches answer different subsets of runs, so a conditional proportion alone does not establish equal or superior answer quality, and it does not replace the protocol-v3 estimator"
+      },
+      "problem": "the answer-conditional diagnostic was a ratio of question/condition-weighted rates computed from rounded values, presented without that label and without a pooled counterpart",
+      "weighted_ratio": {
+        "by_branch": {
+          "A": {
+            "defined": true,
+            "denominator_includes_unclear": true,
+            "unrounded": {
+              "weighted_answer_rate": 0.28148148148148144,
+              "weighted_fully_supported_rate": 0.09814814814814814,
+              "weighted_fully_supported_share": 0.3486842105263158
+            },
+            "weighted_answer_rate_percent": 28.15,
+            "weighted_fully_supported_share_percent": 34.87
+          },
+          "B": {
+            "defined": true,
+            "denominator_includes_unclear": true,
+            "unrounded": {
+              "weighted_answer_rate": 0.10185185185185185,
+              "weighted_fully_supported_rate": 0.02592592592592592,
+              "weighted_fully_supported_share": 0.2545454545454545
+            },
+            "weighted_answer_rate_percent": 10.19,
+            "weighted_fully_supported_share_percent": 25.45
+          },
+          "C": {
+            "defined": true,
+            "denominator_includes_unclear": true,
+            "unrounded": {
+              "weighted_answer_rate": 0.5611111111111111,
+              "weighted_fully_supported_rate": 0.33888888888888885,
+              "weighted_fully_supported_share": 0.6039603960396039
+            },
+            "weighted_answer_rate_percent": 56.11,
+            "weighted_fully_supported_share_percent": 60.4
+          },
+          "D": {
+            "defined": true,
+            "denominator_includes_unclear": true,
+            "unrounded": {
+              "weighted_answer_rate": 0.24259259259259258,
+              "weighted_fully_supported_rate": 0.14074074074074075,
+              "weighted_fully_supported_share": 0.5801526717557253
+            },
+            "weighted_answer_rate_percent": 24.26,
+            "weighted_fully_supported_share_percent": 58.02
+          }
+        },
+        "label": "Ratio of question/condition-weighted rates - descriptive",
+        "note": "the ratio of two question-level aggregated rates on defective inputs, computed from unrounded values and rounded only for presentation. The denominator is the weighted answer rate (fully supported + not fully supported + unclear); a zero denominator is reported as undefined. This is not a pooled proportion among observed answers and it does not replace the protocol-v3 estimator"
+      }
+    },
+    "interpretation": {
+      "fix": "the conclusion now states the observed trade-off, says explicitly that the descriptive conditional proportions establish neither improved support among emitted answers nor the mechanism behind the aggregate differences, defines not-fully-supported as PARTIALLY_SUPPORTED + UNSUPPORTED + CONFLICTED without calling those answers factually incorrect or hallucinated, and records that the acceptability of the CLEAN utility loss was not established because no acceptance threshold or non-inferiority margin was specified",
+      "problem": "the conclusion asserted that the reduction was bought by answering less often rather than by answering better, which claims a mechanism the data do not isolate"
+    },
+    "pooled_rates_statement": {
+      "fix": "it now says pooled proportions are never substituted for the estimator and are reported separately as labelled descriptive diagnostics",
+      "problem": "the estimator note said pooled proportions are never reported"
+    },
+    "technical_failure_prose": {
+      "fix": "seven coordinates failed technically in total; three of those failures occurred after a retry. Preserved: 2,880 planned, 2,873 completed, 7 technical failures, 1,024 completed retry instances, 3 technically failed retry instances, 1,027 retry instances in total",
+      "problem": "wording could be read as seven failures plus three further failures"
+    }
+  },
+  "estimates_unchanged": {
+    "branch_levels": true,
+    "clean_utility": true,
+    "companions": true,
+    "exploratory": true,
+    "note": "compares every contrast, interval, branch level and question set. The corrected reports additionally carry the two labelled conditional diagnostics, which are new descriptive fields rather than changed estimates",
+    "per_condition": true,
+    "primary_D_minus_C_not_fully_supported": true,
+    "sensitivity_55_estimates": true
+  },
+  "generated_at_utc": "2026-09-21T13:02:19+00:00",
+  "new_analyses_added": false,
+  "protected_files_sha256": {
+    "config/experiment.json": "2bcca7f0bfbc76cdc2c1c3b1364d1e4322a9a7693e82caf93ff622669f326bae",
+    "results/main_analysis.jsonl": "675455f37e34a609d3115ba69977b648acd16d369dddf4178cce2c7c348db29d",
+    "results/main_answer_grounding_reviews.jsonl": "66fbc059303024fe03b8e02a3a0015f900709d74e4ce453fc0c2bc056905e4af",
+    "results/main_experiment_protocol_v3.md": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7",
+    "results/main_plan/manifest.json": "c0474a6715b2fb4201dab3b8aa1f5abc8660d61cef898402843685c1505a8bf8",
+    "results/main_post_retry_lookup_augmented.json": "83ac636e484cc9277e82fc193afdd1a31e0d8f5ee37c61d2713449789be95af3",
+    "results/main_post_retry_reviews.jsonl": "006e0641602aab4b716cf94344c23bf214e7ff8a797edc7e4d47e3c5428426ce",
+    "results/main_run_index.jsonl": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "results/main_sample_final.json": "021e12a392f3deae33c319746eafd7b0275fe050bc6468b01c69dc5978c4cabb",
+    "results/stage15_acceptance.json": "b65f93c61a8bc29c7ce8ac4d5c1ec0c260e3b34b7e7794a31b64233d73b76a5c"
+  },
+  "provider_calls": 0,
+  "regenerated_files": {
+    "results/main_analysis_figures/figure1_branch_outcome_composition.svg": "3e58976eaf7831d13aa892f9a9a4c84ea26e1e3d4d0a3d878dfea182ea72a740",
+    "results/main_analysis_figures/figure2_effect_estimates.svg": "0610cc0c6643a521780b37e95124be08361c035c625feedf72c4d2c9b3e6d1eb",
+    "results/main_analysis_results.json": "0ff01253aa8ba370860db86b84bfa0daff1fc473d371f29857ac15e0b8aef3a0",
+    "results/main_analysis_summary.md": "f374edfca95a9e29594d38086d1fdd66e37790b216a3e66d5f13bcf9dea5d328",
+    "results/main_analysis_tables/branch_outcomes.csv": "390e69a6ecb335782ae8f6af04b9e5d6b4052cab0c0b4d68adf178a7d6776c24",
+    "results/main_analysis_tables/contrasts.csv": "26cb05ac1078413587279f64597eba1d5f21cfb7f9170df9deea7208a2d2476c",
+    "results/main_analysis_tables/terminal_outcomes.csv": "e9fa47b3984756c0de0eec5022fd72124d44883c4eccfc3ef6ec357776f84954",
+    "results/stage15_report.json": "64e69edcf22545e353186e3de65b87e9fa1da81d320971e404ed6194bd7cdcff",
+    "results/stage15_validation.json": "73348b7ec16c8d231bb20e7e6435eaf96599e509d6d2c4e50947b7279d1d9849"
+  },
+  "reproduction_commands_powershell": [
+    "python tools/stage15_run.py",
+    "python tools/stage15_validate.py",
+    "python tools/stage15_report.py",
+    "python tools/stage15_1_correction.py",
+    "python tools/stage15_package.py"
+  ],
+  "scope": "reporting corrections only: the conditional diagnostics, the technical-failure prose and the interpretation wording. No estimate, interval, label or raw record changed",
+  "stage": "stage15_1_reporting_correction",
+  "validation": {
+    "checks": [
+      {
+        "name": "one_row_per_planned_coordinate",
+        "passed": true
+      },
+      {
+        "name": "deduplicated_annotations_expanded_correctly",
+        "passed": true
+      },
+      {
+        "name": "post_retry_labels_expanded_and_scoped",
+        "passed": true
+      },
+      {
+        "name": "technical_failures_and_non_answers",
+        "passed": true
+      },
+      {
+        "name": "mutually_exclusive_categories",
+        "passed": true
+      },
+      {
+        "name": "citation_validity_separate_from_grounding",
+        "passed": true
+      },
+      {
+        "name": "question_level_estimator_differs_from_pooled_runs",
+        "passed": true
+      },
+      {
+        "name": "missing_cell_excludes_only_the_affected_comparison",
+        "passed": true
+      },
+      {
+        "name": "paired_whole_question_resampling",
+        "passed": true
+      },
+      {
+        "name": "sensitivity_membership_exact",
+        "passed": true
+      },
+      {
+        "name": "deterministic_across_reruns",
+        "passed": true
+      },
+      {
+        "name": "frozen_inputs_unchanged",
+        "passed": true
+      },
+      {
+        "name": "weighted_conditional_uses_unrounded_values",
+        "passed": true
+      },
+      {
+        "name": "weighted_conditional_labelled_and_includes_unclear",
+        "passed": true
+      },
+      {
+        "name": "zero_denominator_reported_as_undefined",
+        "passed": true
+      },
+      {
+        "name": "pooled_counts_reconcile",
+        "passed": true
+      },
+      {
+        "name": "weighted_and_pooled_can_differ",
+        "passed": true
+      },
+      {
+        "name": "protocol_estimates_and_intervals_unchanged",
+        "passed": true
+      },
+      {
+        "name": "protected_inputs_byte_identical",
+        "passed": true
+      }
+    ],
+    "status": "ok",
+    "synthetic_examples": {
+      "missing_cell": {
+        "defective_available_questions": 1,
+        "defective_excluded": [
+          {
+            "question_id": "Q2",
+            "reason": "no completed run in a required cell for branch D"
+          }
+        ],
+        "dropped_only_from_affected_comparison": true,
+        "partial_only_available_questions": 2
+      },
+      "unclear_in_denominator": {
+        "unclear_counted_in_denominator": true,
+        "weighted_answer_rate_percent": 100.0,
+        "weighted_fully_supported_share_percent": 50.0
+      },
+      "undefined_ratio": {
+        "pooled_defined": false,
+        "pooled_share": null,
+        "reported_as_undefined": true,
+        "weighted_defined": false,
+        "weighted_share": null
+      },
+      "weighted_vs_pooled_conditional": {
+        "differs": true,
+        "explanation": "the weighted view gives PARTIAL and EMPTY one half each (50.00%), the pooled view counts nine PARTIAL answers against one EMPTY answer (10.00%)",
+        "pooled_fully_supported_of_answered_percent": 10.0,
+        "weighted_fully_supported_share_percent": 50.0
+      },
+      "weighting": {
+        "differs": true,
+        "explanation": "pooling runs lets the nine PARTIAL repeats dominate and reverses the sign; the protocol weights PARTIAL, EMPTY and INCONSISTENT one third each",
+        "pooled_run_difference_pp": -66.67,
+        "protocol_estimator_difference_pp": 0.0
+      }
+    }
+  }
+}

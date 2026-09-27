@@ -1,0 +1,2399 @@
+{
+  "author": "Denys Yuvzhenko",
+  "conclusions": "On initially defective inputs, branch D (typed state plus a programmatic contract) and branch C (binary grade plus rules) differ by -12.04 pp in the rate of answers their final context does not fully support (95% interval [-18.15, -6.48] pp), and by -19.81 pp in the rate of fully supported answers (95% interval [-27.96, -12.04] pp). D produced fewer not-fully-supported answers than C, and the interval stays below zero. The two figures belong together: D lowers both kinds of answer, so any reduction in unsupported answers is bought by answering less often rather than by answering better. Conditional on answering at all, the share of fully supported answers is 58.0% for D and 60.4% for C, while D answers 24.3% of completed runs against 56.1% for C, so the difference is mostly in how often each branch answers rather than in how well it answers when it does. On CLEAN inputs, D produces -8.33 pp fully supported answers relative to C and abstains or escalates +7.22 pp more often, which is the utility cost of the stricter branch. The 55-question sensitivity subset gives -10.71 pp [-16.57, -5.45] on the primary measure, the same direction and the same qualitative conclusion as the full sample. No significance test, non-inferiority margin or power claim is made, and these are descriptive interval estimates over 60 selected questions.",
+  "coordinate_reruns": 0,
+  "dataset_reconciliation": {
+    "answered": 1106,
+    "completed": 2873,
+    "expected": {
+      "answered": 1106,
+      "completed": 2873,
+      "provider_attempts": 6049,
+      "rows": 2880,
+      "technical_failures": 7
+    },
+    "matches_expected": true,
+    "provider_attempts": 6049,
+    "rows": 2880,
+    "technical_failures": 7
+  },
+  "diagnostics": {
+    "citation_id_validity": {
+      "by_answer_support": {
+        "CONFLICTED": {
+          "False": 31,
+          "True": 54
+        },
+        "FULLY_SUPPORTED": {
+          "False": 193,
+          "True": 577
+        },
+        "PARTIALLY_SUPPORTED": {
+          "False": 13,
+          "True": 225
+        },
+        "UNSUPPORTED": {
+          "False": 6,
+          "True": 7
+        }
+      },
+      "counts": {
+        "False": 243,
+        "True": 863,
+        "not_applicable": 1774
+      },
+      "note": "structural measure, independent of grounding; invalid citations are retained"
+    },
+    "denominators": {
+      "answered_runs": 1106,
+      "completed_runs": 2873,
+      "planned_coordinates": 2880,
+      "retried_completed_runs": 1024,
+      "technical_failures": 7
+    },
+    "initial_evaluator_binary_confusion": {
+      "note": "rows: accepted reviewed state collapsed to OK vs non-OK; columns: the binary grader's first sufficiency verdict. Completed runs of branches A and C only",
+      "table": {
+        "OK": {
+          "False": 111,
+          "True": 249
+        },
+        "non-OK": {
+          "False": 893,
+          "True": 184
+        }
+      }
+    },
+    "initial_evaluator_typed_confusion": {
+      "note": "rows: accepted reviewed state of the initial context; columns: the typed grader's first verdict. Completed runs of branches B and D only",
+      "table": {
+        "EMPTY": {
+          "EMPTY": 292,
+          "PARTIAL": 68
+        },
+        "INCONSISTENT": {
+          "INCONSISTENT": 154,
+          "OK": 31,
+          "PARTIAL": 171
+        },
+        "OK": {
+          "INCONSISTENT": 5,
+          "OK": 189,
+          "PARTIAL": 166
+        },
+        "PARTIAL": {
+          "EMPTY": 32,
+          "OK": 48,
+          "PARTIAL": 280
+        }
+      }
+    },
+    "policy": {
+      "by_branch": {
+        "A": {
+          "executions_differing_from_the_policy_action": 366,
+          "proposed_action_mismatches": 366,
+          "steps_with_a_proposal": 856
+        },
+        "B": {
+          "executions_differing_from_the_policy_action": 299,
+          "proposed_action_mismatches": 299,
+          "steps_with_a_proposal": 758
+        },
+        "C": {
+          "executions_differing_from_the_policy_action": 0,
+          "proposed_action_mismatches": 366,
+          "steps_with_a_proposal": 1219
+        },
+        "D": {
+          "executions_differing_from_the_policy_action": 0,
+          "proposed_action_mismatches": 326,
+          "steps_with_a_proposal": 1064
+        }
+      },
+      "contract_violations_in_C_and_D": 0,
+      "executions_differing_from_the_policy_action": 665,
+      "note": "proposed-action mismatch counts how often the LLM's proposed action differed from the policy action, in every branch. What happened next depends on the branch by design: A and B execute the proposal, so a divergent execution there is the design, not a defect; C and D execute the policy action, so any divergence there would be a contract violation. Enforced compliance is not evidence that the evaluator's state assessment was correct",
+      "policy_divergent_executions_by_design_in_A_and_B": 665,
+      "proposed_action_mismatches": 1357,
+      "steps_with_a_proposal": 3897
+    },
+    "retry": {
+      "note": "a changed document set is a retrieval change, not recovery; an OK post-retry context is reported separately from what the run then produced",
+      "post_retry_states_and_following_outcome": {
+        "post_retry_EMPTY": 14,
+        "post_retry_OK": 747,
+        "post_retry_OK_then_abstention_or_escalation": 400,
+        "post_retry_OK_then_fully_supported_answer": 332,
+        "post_retry_OK_then_not_fully_supported_answer": 15,
+        "post_retry_PARTIAL": 263
+      },
+      "retried_completed_runs": 1024,
+      "retrieval_change_after_retry": {
+        "identical": 4,
+        "order_only": 16,
+        "set_changed": 1004
+      },
+      "retry_rate_of_completed_pp": 35.64
+    },
+    "terminal_outcomes_by_branch_and_condition": {
+      "A": {
+        "CLEAN": {
+          "answered": 125,
+          "controller_abstained": 55
+        },
+        "EMPTY": {
+          "answered": 25,
+          "controller_abstained": 155
+        },
+        "INCONSISTENT": {
+          "answered": 61,
+          "controller_abstained": 116,
+          "generator_abstained": 3
+        },
+        "PARTIAL": {
+          "answered": 66,
+          "controller_abstained": 114
+        }
+      },
+      "B": {
+        "CLEAN": {
+          "answered": 100,
+          "controller_abstained": 77,
+          "escalated": 3
+        },
+        "EMPTY": {
+          "answered": 3,
+          "controller_abstained": 177
+        },
+        "INCONSISTENT": {
+          "answered": 20,
+          "controller_abstained": 81,
+          "escalated": 77,
+          "technical_failure": 2
+        },
+        "PARTIAL": {
+          "answered": 31,
+          "controller_abstained": 149
+        }
+      },
+      "C": {
+        "CLEAN": {
+          "answered": 128,
+          "controller_abstained": 52
+        },
+        "EMPTY": {
+          "answered": 101,
+          "controller_abstained": 78,
+          "technical_failure": 1
+        },
+        "INCONSISTENT": {
+          "answered": 100,
+          "controller_abstained": 77,
+          "generator_abstained": 3
+        },
+        "PARTIAL": {
+          "answered": 100,
+          "controller_abstained": 78,
+          "technical_failure": 2
+        }
+      },
+      "D": {
+        "CLEAN": {
+          "answered": 115,
+          "controller_abstained": 62,
+          "escalated": 3
+        },
+        "EMPTY": {
+          "answered": 18,
+          "controller_abstained": 162
+        },
+        "INCONSISTENT": {
+          "answered": 44,
+          "controller_abstained": 57,
+          "escalated": 77,
+          "technical_failure": 2
+        },
+        "PARTIAL": {
+          "answered": 69,
+          "controller_abstained": 110,
+          "escalated": 1
+        }
+      }
+    },
+    "usage": {
+      "cached_tokens": 108288,
+      "calls_with_usage": 6049,
+      "input_tokens": 8815546,
+      "latency_seconds_mean": 3.317,
+      "latency_seconds_total": 9552.6,
+      "note": "no monetary estimate is given; no verified pricing evidence is on hand",
+      "output_tokens": 642983,
+      "provider_attempts": 6049,
+      "provider_calls": 6049,
+      "runs_with_latency": 2880,
+      "total_tokens": 9458529
+    }
+  },
+  "estimator": {
+    "aggregation": "1) average completed repeats within question x condition x branch; 2) within each question and branch, weight PARTIAL, EMPTY and INCONSISTENT one third each; 3) paired per-question branch difference; 4) mean of those differences over available questions",
+    "availability_rule": "a cell is available when it has at least one completed run; if a required cell is unavailable for either branch, that question is dropped from that paired comparison only, and the exclusion is reported. Nothing is imputed",
+    "bootstrap_rule": "paired bootstrap of whole questions: each resample draws len(questions) question positions with replacement using random.Random(42); a sampled question carries all of its condition and branch cell means, so branches stay paired. Individual runs are never resampled. The same resample index sets are reused across outcomes and contrasts that share a question set",
+    "percentile_rule": "percentile by linear interpolation between order statistics: with sorted values v and h = q*(n-1), the quantile is v[floor(h)] + (h - floor(h)) * (v[ceil(h)] - v[floor(h)]) (the numpy 'linear' convention)",
+    "pooled_rates_note": "pooled run proportions are never substituted for this estimator anywhere in the results",
+    "question_order_rule": "questions in ascending sample_position of results/main_sample_final.json (1..60), the frozen candidate order; the bootstrap resamples positions of that list",
+    "resamples": 10000,
+    "seed": 42,
+    "units": "differences in percentage points; rates as percentages of completed runs"
+  },
+  "figures": {
+    "files": [
+      "main_analysis_figures/figure1_branch_outcome_composition.svg",
+      "main_analysis_figures/figure2_effect_estimates.svg"
+    ],
+    "format": "SVG only",
+    "png_not_produced": "matplotlib is not installed in this environment and adding a plotting dependency for two figures is out of scope for this stage; both figures are vector SVG and can be rasterised by any browser or converter",
+    "source_of_values": "the protocol's question-level aggregated estimates, not pooled run rates"
+  },
+  "full_60": {
+    "answer_conditional_descriptive": {
+      "by_branch": {
+        "A": {
+          "answered_rate_pp": 28.14,
+          "fully_supported_share_of_answers_pp": 34.86
+        },
+        "B": {
+          "answered_rate_pp": 10.18,
+          "fully_supported_share_of_answers_pp": 25.44
+        },
+        "C": {
+          "answered_rate_pp": 56.11,
+          "fully_supported_share_of_answers_pp": 60.4
+        },
+        "D": {
+          "answered_rate_pp": 24.26,
+          "fully_supported_share_of_answers_pp": 58.0
+        }
+      },
+      "note": "descriptive ratio of the two aggregated rates on defective inputs, with a different denominator from the primary measures: answered runs rather than all completed runs. Reported alongside, never instead of, the four-category rates"
+    },
+    "branch_levels_clean": {
+      "A": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            19.44,
+            42.22
+          ],
+          "rate_pp": 30.56
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            54.44,
+            77.78
+          ],
+          "rate_pp": 66.11
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            8.33
+          ],
+          "rate_pp": 3.33
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "B": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            32.22,
+            56.67
+          ],
+          "rate_pp": 44.44
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            41.67,
+            66.11
+          ],
+          "rate_pp": 53.89
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            5.0
+          ],
+          "rate_pp": 1.67
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "C": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            17.78,
+            40.56
+          ],
+          "rate_pp": 28.89
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            56.67,
+            79.44
+          ],
+          "rate_pp": 68.33
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            7.22
+          ],
+          "rate_pp": 2.78
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "D": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            24.44,
+            47.78
+          ],
+          "rate_pp": 36.11
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            47.78,
+            72.22
+          ],
+          "rate_pp": 60.0
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            8.89
+          ],
+          "rate_pp": 3.89
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      }
+    },
+    "branch_levels_defective": {
+      "A": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            64.07,
+            79.44
+          ],
+          "rate_pp": 71.85
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            5.56,
+            15.0
+          ],
+          "rate_pp": 9.81
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            12.04,
+            25.19
+          ],
+          "rate_pp": 18.33
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "B": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            85.37,
+            93.89
+          ],
+          "rate_pp": 89.81
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.37,
+            5.56
+          ],
+          "rate_pp": 2.59
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            4.26,
+            11.3
+          ],
+          "rate_pp": 7.59
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "C": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            32.96,
+            54.82
+          ],
+          "rate_pp": 43.89
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            25.37,
+            42.78
+          ],
+          "rate_pp": 33.89
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            14.63,
+            30.56
+          ],
+          "rate_pp": 22.22
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "D": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "ci95_pp": [
+            68.15,
+            82.78
+          ],
+          "rate_pp": 75.74
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            8.52,
+            20.19
+          ],
+          "rate_pp": 14.07
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            6.11,
+            14.63
+          ],
+          "rate_pp": 10.19
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      }
+    },
+    "clean_utility_D_minus_C": {
+      "abstention_or_escalation": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 28.89,
+          "D": 36.11
+        },
+        "ci95_pp": [
+          0.56,
+          15.0
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.07222222222222222,
+        "mean_difference_pp": 7.22,
+        "outcome": "abstention_or_escalation"
+      },
+      "fully_supported_answer": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 68.33,
+          "D": 60.0
+        },
+        "ci95_pp": [
+          -16.11,
+          -1.67
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": -0.08333333333333333,
+        "mean_difference_pp": -8.33,
+        "outcome": "fully_supported_answer"
+      },
+      "not_fully_supported_answer": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 2.78,
+          "D": 3.89
+        },
+        "ci95_pp": [
+          -2.78,
+          5.56
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.011111111111111112,
+        "mean_difference_pp": 1.11,
+        "outcome": "not_fully_supported_answer"
+      },
+      "unclear_answer": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 0.0,
+          "D": 0.0
+        },
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher unclear_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.0,
+        "mean_difference_pp": 0.0,
+        "outcome": "unclear_answer"
+      }
+    },
+    "companions_D_minus_C": {
+      "abstention_or_escalation": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 43.89,
+          "D": 75.74
+        },
+        "ci95_pp": [
+          23.7,
+          40.0
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.31851851851851853,
+        "mean_difference_pp": 31.85,
+        "outcome": "abstention_or_escalation"
+      },
+      "fully_supported_answer": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 33.89,
+          "D": 14.07
+        },
+        "ci95_pp": [
+          -27.96,
+          -12.04
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": -0.19814814814814816,
+        "mean_difference_pp": -19.81,
+        "outcome": "fully_supported_answer"
+      },
+      "unclear_answer": {
+        "available_questions": 60,
+        "branch_rates_pp": {
+          "C": 0.0,
+          "D": 0.0
+        },
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher unclear_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.0,
+        "mean_difference_pp": 0.0,
+        "outcome": "unclear_answer"
+      }
+    },
+    "exploratory_contrasts": {
+      "B-A": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 71.85,
+            "B": 89.81
+          },
+          "ci95_pp": [
+            11.67,
+            24.63
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher abstention_or_escalation rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.17962962962962964,
+          "mean_difference_pp": 17.96,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 9.81,
+            "B": 2.59
+          },
+          "ci95_pp": [
+            -11.67,
+            -3.33
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.07222222222222222,
+          "mean_difference_pp": -7.22,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 18.33,
+            "B": 7.59
+          },
+          "ci95_pp": [
+            -16.48,
+            -5.74
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher not_fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.1074074074074074,
+          "mean_difference_pp": -10.74,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 0.0,
+            "B": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher unclear_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      },
+      "C-A": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 71.85,
+            "C": 43.89
+          },
+          "ci95_pp": [
+            -35.56,
+            -20.74
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher abstention_or_escalation rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.2796296296296296,
+          "mean_difference_pp": -27.96,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 9.81,
+            "C": 33.89
+          },
+          "ci95_pp": [
+            17.41,
+            31.11
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.24074074074074076,
+          "mean_difference_pp": 24.07,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 18.33,
+            "C": 22.22
+          },
+          "ci95_pp": [
+            0.74,
+            7.59
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher not_fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.03888888888888889,
+          "mean_difference_pp": 3.89,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "A": 0.0,
+            "C": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher unclear_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      },
+      "D-B": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "B": 89.81,
+            "D": 75.74
+          },
+          "ci95_pp": [
+            -20.19,
+            -8.52
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": -0.14074074074074075,
+          "mean_difference_pp": -14.07,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "B": 2.59,
+            "D": 14.07
+          },
+          "ci95_pp": [
+            6.85,
+            16.67
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.1148148148148148,
+          "mean_difference_pp": 11.48,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "B": 7.59,
+            "D": 10.19
+          },
+          "ci95_pp": [
+            0.19,
+            5.56
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.02592592592592592,
+          "mean_difference_pp": 2.59,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "B": 0.0,
+            "D": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher unclear_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      }
+    },
+    "label": "full_60",
+    "per_condition_D_minus_C": {
+      "CLEAN": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 28.89,
+            "D": 36.11
+          },
+          "ci95_pp": [
+            0.56,
+            15.0
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.07222222222222222,
+          "mean_difference_pp": 7.22,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 68.33,
+            "D": 60.0
+          },
+          "ci95_pp": [
+            -16.11,
+            -1.67
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.08333333333333333,
+          "mean_difference_pp": -8.33,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 2.78,
+            "D": 3.89
+          },
+          "ci95_pp": [
+            -2.78,
+            5.56
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.011111111111111112,
+          "mean_difference_pp": 1.11,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "EMPTY": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 43.89,
+            "D": 90.0
+          },
+          "ci95_pp": [
+            33.33,
+            58.89
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.46111111111111114,
+          "mean_difference_pp": 46.11,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 45.0,
+            "D": 7.78
+          },
+          "ci95_pp": [
+            -50.56,
+            -23.89
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.3722222222222222,
+          "mean_difference_pp": -37.22,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 11.11,
+            "D": 2.22
+          },
+          "ci95_pp": [
+            -16.12,
+            -2.78
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.08888888888888888,
+          "mean_difference_pp": -8.89,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "INCONSISTENT": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 44.44,
+            "D": 75.56
+          },
+          "ci95_pp": [
+            19.44,
+            42.78
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.3111111111111111,
+          "mean_difference_pp": 31.11,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 29.44,
+            "D": 15.56
+          },
+          "ci95_pp": [
+            -25.56,
+            -2.22
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.1388888888888889,
+          "mean_difference_pp": -13.89,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 26.11,
+            "D": 8.89
+          },
+          "ci95_pp": [
+            -26.67,
+            -8.89
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.17222222222222222,
+          "mean_difference_pp": -17.22,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "PARTIAL": {
+        "abstention_or_escalation": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 43.33,
+            "D": 61.67
+          },
+          "ci95_pp": [
+            10.0,
+            27.78
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.18333333333333332,
+          "mean_difference_pp": 18.33,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 27.22,
+            "D": 18.89
+          },
+          "ci95_pp": [
+            -18.33,
+            1.67
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.08333333333333333,
+          "mean_difference_pp": -8.33,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 60,
+          "branch_rates_pp": {
+            "C": 29.44,
+            "D": 19.44
+          },
+          "ci95_pp": [
+            -19.44,
+            -1.11
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.1,
+          "mean_difference_pp": -10.0,
+          "outcome": "not_fully_supported_answer"
+        }
+      }
+    },
+    "primary_D_minus_C_not_fully_supported": {
+      "available_questions": 60,
+      "branch_rates_pp": {
+        "C": 22.22,
+        "D": 10.19
+      },
+      "ci95_pp": [
+        -18.15,
+        -6.48
+      ],
+      "conditions": [
+        "PARTIAL",
+        "EMPTY",
+        "INCONSISTENT"
+      ],
+      "contrast": "D - C",
+      "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+      "excluded_questions": [],
+      "mean_difference": -0.12037037037037038,
+      "mean_difference_pp": -12.04,
+      "outcome": "not_fully_supported_answer"
+    },
+    "question_ids": [
+      "5ac2ffea55429921a00ab0cc",
+      "5a81456855429938b614231e",
+      "5a7b4d765542995eb53be8fe",
+      "5a77a7db5542995d8318124d",
+      "5a81ff1a554299676cceb1c2",
+      "5ab439f055429942dd415eef",
+      "5a85f8665542994775f606ce",
+      "5a8af94455429971feec45b6",
+      "5a85f4ec5542994775f606c6",
+      "5ae532e955429908b632656f",
+      "5a7412b655429979e28828a1",
+      "5ab529965542990594ba9d1e",
+      "5a7a43f25542996a35c1716c",
+      "5a772c925542993735360208",
+      "5a8752955542994775f607d1",
+      "5ae6371155429929b0807af1",
+      "5a8e06785542995085b37383",
+      "5ac2c338554299657fa29039",
+      "5a8cacac554299585d9e3716",
+      "5a8bbddf5542997f31a41db2",
+      "5ac5630e5542993e66e823d5",
+      "5add647a5542995b365fab26",
+      "5ac0aa955542997d64295a49",
+      "5ac2b2e2554299218029dafa",
+      "5adef80b5542993a75d263c4",
+      "5a7528e955429929fddd850e",
+      "5a84e1095542997175ce1f25",
+      "5ac415445542995c82c4acb7",
+      "5a8f38fa55429924144829f5",
+      "5ae75c6e5542991bbc9761f8",
+      "5a84be095542992a431d1a97",
+      "5a834ed95542990548d0b1ca",
+      "5a7cad635542996dd594b97f",
+      "5adc6e035542994650320cec",
+      "5abf8cc35542990832d3a14e",
+      "5a8e4b7c5542990e94052ab7",
+      "5aba55f25542994dbf0198e0",
+      "5ae5feaf5542996de7b71ac6",
+      "5a79c6a55542994bb9457091",
+      "5a87556d5542994846c1cd65",
+      "5a711c535542994082a3e59b",
+      "5ade64c7554299728e26c710",
+      "5a7df7115542990b8f503b0f",
+      "5a8799c55542996e4f308877",
+      "5aba6d4b5542994dbf019906",
+      "5a728f745542991f9a20c4e6",
+      "5a7949d45542994bb9456fdd",
+      "5ae7247b5542992ae0d163c1",
+      "5a82efe355429966c78a6aa1",
+      "5ae71d2d554299572ea546f7",
+      "5ae3606b5542991a06ce99a8",
+      "5aba7fd055429955dce3ee5e",
+      "5abbd72d55429931dba1459e",
+      "5a7ce50f55429909bec76869",
+      "5ade0a275542997545bbbe2d",
+      "5a88bd1d554299206df2b357",
+      "5ab950bd55429970cfb8ea4c",
+      "5a8ae00e5542992d82986fc7",
+      "5a81db0b5542990a1d231ee2",
+      "5a82800855429966c78a6a2f"
+    ],
+    "questions": 60
+  },
+  "generated_at_utc": "2026-09-21T08:19:12+00:00",
+  "limitations": [
+    "One model (`gpt-4o-mini-2024-07-18`), one dataset (HotpotQA dev/distractor), one retriever and one corpus: branch effects are not separable from this model's habits.",
+    "The 60 questions are those whose gold evidence this retriever reaches in the normal top-5 and whose four fault variants a reviewer accepted; 60 is a practical scope decision, not a powered sample size.",
+    "Semantic labels were accepted after data collection under the existing rubric, by researcher acceptance of prepared proposals rather than an independent second review, so no inter-rater reliability is claimed.",
+    "Two annotation conventions (G-1 identifier granularity, K-1 kinship and spouse slots) were fixed before data collection but after the pilot; the predeclared 55-question subset exists to show how much the conclusions depend on them.",
+    "7 of 2,880 coordinates are missing as recorded technical failures and are never imputed; three further runs failed technically after a retry and contribute retrieval coverage only.",
+    "Intervals are descriptive bootstrap intervals over questions; repeats and conditions are dependent observations inside a question and are aggregated before any comparison.",
+    "A changed document set after a retry is a retrieval property, not recovery, and an enforced policy action is not evidence that the evaluator's state assessment was correct."
+  ],
+  "protocol": {
+    "file": "results/main_experiment_protocol_v3.md",
+    "sha256": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7"
+  },
+  "provider_calls": 0,
+  "sensitivity_55": {
+    "answer_conditional_descriptive": {
+      "by_branch": {
+        "A": {
+          "answered_rate_pp": 28.29,
+          "fully_supported_share_of_answers_pp": 37.86
+        },
+        "B": {
+          "answered_rate_pp": 10.51,
+          "fully_supported_share_of_answers_pp": 26.93
+        },
+        "C": {
+          "answered_rate_pp": 57.57,
+          "fully_supported_share_of_answers_pp": 63.16
+        },
+        "D": {
+          "answered_rate_pp": 25.26,
+          "fully_supported_share_of_answers_pp": 58.39
+        }
+      },
+      "note": "descriptive ratio of the two aggregated rates on defective inputs, with a different denominator from the primary measures: answered runs rather than all completed runs. Reported alongside, never instead of, the four-category rates"
+    },
+    "branch_levels_clean": {
+      "A": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            16.36,
+            40.0
+          ],
+          "rate_pp": 27.88
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            58.18,
+            81.82
+          ],
+          "rate_pp": 70.3
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            5.45
+          ],
+          "rate_pp": 1.82
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "B": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            28.48,
+            53.94
+          ],
+          "rate_pp": 41.21
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            46.06,
+            71.52
+          ],
+          "rate_pp": 58.79
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "C": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            15.15,
+            37.58
+          ],
+          "rate_pp": 26.06
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            61.21,
+            83.64
+          ],
+          "rate_pp": 72.73
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            3.64
+          ],
+          "rate_pp": 1.21
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "D": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            20.0,
+            44.24
+          ],
+          "rate_pp": 32.12
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            52.73,
+            77.58
+          ],
+          "rate_pp": 65.45
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            6.67
+          ],
+          "rate_pp": 2.42
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      }
+    },
+    "branch_levels_defective": {
+      "A": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            63.64,
+            79.39
+          ],
+          "rate_pp": 71.72
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            6.06,
+            16.16
+          ],
+          "rate_pp": 10.71
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            11.52,
+            24.24
+          ],
+          "rate_pp": 17.58
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "B": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            84.65,
+            93.74
+          ],
+          "rate_pp": 89.49
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.4,
+            6.26
+          ],
+          "rate_pp": 2.83
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            4.24,
+            11.52
+          ],
+          "rate_pp": 7.68
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "C": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            30.91,
+            53.94
+          ],
+          "rate_pp": 42.42
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            27.27,
+            45.66
+          ],
+          "rate_pp": 36.36
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            13.54,
+            29.29
+          ],
+          "rate_pp": 21.21
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      },
+      "D": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "ci95_pp": [
+            66.87,
+            82.22
+          ],
+          "rate_pp": 74.75
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            8.89,
+            21.21
+          ],
+          "rate_pp": 14.75
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            6.26,
+            15.15
+          ],
+          "rate_pp": 10.51
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "rate_pp": 0.0
+        }
+      }
+    },
+    "clean_utility_D_minus_C": {
+      "abstention_or_escalation": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 26.06,
+          "D": 32.12
+        },
+        "ci95_pp": [
+          -0.61,
+          13.94
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.06060606060606061,
+        "mean_difference_pp": 6.06,
+        "outcome": "abstention_or_escalation"
+      },
+      "fully_supported_answer": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 72.73,
+          "D": 65.45
+        },
+        "ci95_pp": [
+          -15.15,
+          -0.61
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": -0.07272727272727272,
+        "mean_difference_pp": -7.27,
+        "outcome": "fully_supported_answer"
+      },
+      "not_fully_supported_answer": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 1.21,
+          "D": 2.42
+        },
+        "ci95_pp": [
+          -3.03,
+          6.06
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.012121212121212123,
+        "mean_difference_pp": 1.21,
+        "outcome": "not_fully_supported_answer"
+      },
+      "unclear_answer": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 0.0,
+          "D": 0.0
+        },
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "conditions": [
+          "CLEAN"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher unclear_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.0,
+        "mean_difference_pp": 0.0,
+        "outcome": "unclear_answer"
+      }
+    },
+    "companions_D_minus_C": {
+      "abstention_or_escalation": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 42.42,
+          "D": 74.75
+        },
+        "ci95_pp": [
+          24.04,
+          41.01
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.32323232323232326,
+        "mean_difference_pp": 32.32,
+        "outcome": "abstention_or_escalation"
+      },
+      "fully_supported_answer": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 36.36,
+          "D": 14.75
+        },
+        "ci95_pp": [
+          -30.1,
+          -13.33
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": -0.21616161616161617,
+        "mean_difference_pp": -21.62,
+        "outcome": "fully_supported_answer"
+      },
+      "unclear_answer": {
+        "available_questions": 55,
+        "branch_rates_pp": {
+          "C": 0.0,
+          "D": 0.0
+        },
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "conditions": [
+          "PARTIAL",
+          "EMPTY",
+          "INCONSISTENT"
+        ],
+        "contrast": "D - C",
+        "direction_note": "positive means branch D has the higher unclear_answer rate than branch C",
+        "excluded_questions": [],
+        "mean_difference": 0.0,
+        "mean_difference_pp": 0.0,
+        "outcome": "unclear_answer"
+      }
+    },
+    "exploratory_contrasts": {
+      "B-A": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 71.72,
+            "B": 89.49
+          },
+          "ci95_pp": [
+            11.31,
+            24.85
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher abstention_or_escalation rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.17777777777777778,
+          "mean_difference_pp": 17.78,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 10.71,
+            "B": 2.83
+          },
+          "ci95_pp": [
+            -12.53,
+            -3.64
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.07878787878787878,
+          "mean_difference_pp": -7.88,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 17.58,
+            "B": 7.68
+          },
+          "ci95_pp": [
+            -15.76,
+            -4.85
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher not_fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.09898989898989899,
+          "mean_difference_pp": -9.9,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 0.0,
+            "B": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "B - A",
+          "direction_note": "positive means branch B has the higher unclear_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      },
+      "C-A": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 71.72,
+            "C": 42.42
+          },
+          "ci95_pp": [
+            -37.37,
+            -21.62
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher abstention_or_escalation rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": -0.29292929292929293,
+          "mean_difference_pp": -29.29,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 10.71,
+            "C": 36.36
+          },
+          "ci95_pp": [
+            18.79,
+            33.13
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.25656565656565655,
+          "mean_difference_pp": 25.66,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 17.58,
+            "C": 21.21
+          },
+          "ci95_pp": [
+            0.4,
+            7.47
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher not_fully_supported_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.03636363636363636,
+          "mean_difference_pp": 3.64,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "A": 0.0,
+            "C": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "C - A",
+          "direction_note": "positive means branch C has the higher unclear_answer rate than branch A",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      },
+      "D-B": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "B": 89.49,
+            "D": 74.75
+          },
+          "ci95_pp": [
+            -21.41,
+            -8.69
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": -0.14747474747474748,
+          "mean_difference_pp": -14.75,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "B": 2.83,
+            "D": 14.75
+          },
+          "ci95_pp": [
+            7.07,
+            17.17
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.11919191919191918,
+          "mean_difference_pp": 11.92,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "B": 7.68,
+            "D": 10.51
+          },
+          "ci95_pp": [
+            0.4,
+            6.06
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.028282828282828278,
+          "mean_difference_pp": 2.83,
+          "outcome": "not_fully_supported_answer"
+        },
+        "unclear_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "B": 0.0,
+            "D": 0.0
+          },
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL",
+            "EMPTY",
+            "INCONSISTENT"
+          ],
+          "contrast": "D - B",
+          "direction_note": "positive means branch D has the higher unclear_answer rate than branch B",
+          "excluded_questions": [],
+          "mean_difference": 0.0,
+          "mean_difference_pp": 0.0,
+          "outcome": "unclear_answer"
+        }
+      }
+    },
+    "label": "sensitivity_55",
+    "per_condition_D_minus_C": {
+      "CLEAN": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 26.06,
+            "D": 32.12
+          },
+          "ci95_pp": [
+            -0.61,
+            13.94
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.06060606060606061,
+          "mean_difference_pp": 6.06,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 72.73,
+            "D": 65.45
+          },
+          "ci95_pp": [
+            -15.15,
+            -0.61
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.07272727272727272,
+          "mean_difference_pp": -7.27,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 1.21,
+            "D": 2.42
+          },
+          "ci95_pp": [
+            -3.03,
+            6.06
+          ],
+          "conditions": [
+            "CLEAN"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.012121212121212123,
+          "mean_difference_pp": 1.21,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "EMPTY": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 42.42,
+            "D": 89.09
+          },
+          "ci95_pp": [
+            33.33,
+            60.0
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.4666666666666667,
+          "mean_difference_pp": 46.67,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 47.27,
+            "D": 8.48
+          },
+          "ci95_pp": [
+            -52.73,
+            -24.24
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.3878787878787879,
+          "mean_difference_pp": -38.79,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 10.3,
+            "D": 2.42
+          },
+          "ci95_pp": [
+            -15.15,
+            -1.82
+          ],
+          "conditions": [
+            "EMPTY"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.07878787878787878,
+          "mean_difference_pp": -7.88,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "INCONSISTENT": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 43.03,
+            "D": 73.33
+          },
+          "ci95_pp": [
+            18.79,
+            42.42
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.30303030303030304,
+          "mean_difference_pp": 30.3,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 32.12,
+            "D": 16.97
+          },
+          "ci95_pp": [
+            -27.27,
+            -3.03
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.15151515151515152,
+          "mean_difference_pp": -15.15,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 24.85,
+            "D": 9.7
+          },
+          "ci95_pp": [
+            -24.24,
+            -7.27
+          ],
+          "conditions": [
+            "INCONSISTENT"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.15151515151515152,
+          "mean_difference_pp": -15.15,
+          "outcome": "not_fully_supported_answer"
+        }
+      },
+      "PARTIAL": {
+        "abstention_or_escalation": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 41.82,
+            "D": 61.82
+          },
+          "ci95_pp": [
+            10.91,
+            29.7
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher abstention_or_escalation rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": 0.2,
+          "mean_difference_pp": 20.0,
+          "outcome": "abstention_or_escalation"
+        },
+        "fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 29.7,
+            "D": 18.79
+          },
+          "ci95_pp": [
+            -21.21,
+            -0.61
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.10909090909090909,
+          "mean_difference_pp": -10.91,
+          "outcome": "fully_supported_answer"
+        },
+        "not_fully_supported_answer": {
+          "available_questions": 55,
+          "branch_rates_pp": {
+            "C": 28.48,
+            "D": 19.39
+          },
+          "ci95_pp": [
+            -18.79,
+            0.0
+          ],
+          "conditions": [
+            "PARTIAL"
+          ],
+          "contrast": "D - C",
+          "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+          "excluded_questions": [],
+          "mean_difference": -0.09090909090909091,
+          "mean_difference_pp": -9.09,
+          "outcome": "not_fully_supported_answer"
+        }
+      }
+    },
+    "primary_D_minus_C_not_fully_supported": {
+      "available_questions": 55,
+      "branch_rates_pp": {
+        "C": 21.21,
+        "D": 10.51
+      },
+      "ci95_pp": [
+        -16.57,
+        -5.45
+      ],
+      "conditions": [
+        "PARTIAL",
+        "EMPTY",
+        "INCONSISTENT"
+      ],
+      "contrast": "D - C",
+      "direction_note": "positive means branch D has the higher not_fully_supported_answer rate than branch C",
+      "excluded_questions": [],
+      "mean_difference": -0.10707070707070708,
+      "mean_difference_pp": -10.71,
+      "outcome": "not_fully_supported_answer"
+    },
+    "question_ids": [
+      "5ac2ffea55429921a00ab0cc",
+      "5a81456855429938b614231e",
+      "5a7b4d765542995eb53be8fe",
+      "5a77a7db5542995d8318124d",
+      "5a81ff1a554299676cceb1c2",
+      "5ab439f055429942dd415eef",
+      "5a85f8665542994775f606ce",
+      "5a8af94455429971feec45b6",
+      "5a85f4ec5542994775f606c6",
+      "5ab529965542990594ba9d1e",
+      "5a7a43f25542996a35c1716c",
+      "5a772c925542993735360208",
+      "5a8752955542994775f607d1",
+      "5ae6371155429929b0807af1",
+      "5a8e06785542995085b37383",
+      "5ac2c338554299657fa29039",
+      "5a8cacac554299585d9e3716",
+      "5a8bbddf5542997f31a41db2",
+      "5ac5630e5542993e66e823d5",
+      "5add647a5542995b365fab26",
+      "5ac0aa955542997d64295a49",
+      "5ac2b2e2554299218029dafa",
+      "5adef80b5542993a75d263c4",
+      "5a7528e955429929fddd850e",
+      "5a84e1095542997175ce1f25",
+      "5ac415445542995c82c4acb7",
+      "5a8f38fa55429924144829f5",
+      "5ae75c6e5542991bbc9761f8",
+      "5a84be095542992a431d1a97",
+      "5a834ed95542990548d0b1ca",
+      "5a7cad635542996dd594b97f",
+      "5adc6e035542994650320cec",
+      "5abf8cc35542990832d3a14e",
+      "5ae5feaf5542996de7b71ac6",
+      "5a79c6a55542994bb9457091",
+      "5a87556d5542994846c1cd65",
+      "5a711c535542994082a3e59b",
+      "5ade64c7554299728e26c710",
+      "5a7df7115542990b8f503b0f",
+      "5a8799c55542996e4f308877",
+      "5aba6d4b5542994dbf019906",
+      "5a728f745542991f9a20c4e6",
+      "5a7949d45542994bb9456fdd",
+      "5ae7247b5542992ae0d163c1",
+      "5a82efe355429966c78a6aa1",
+      "5ae71d2d554299572ea546f7",
+      "5ae3606b5542991a06ce99a8",
+      "5aba7fd055429955dce3ee5e",
+      "5abbd72d55429931dba1459e",
+      "5a7ce50f55429909bec76869",
+      "5ade0a275542997545bbbe2d",
+      "5a88bd1d554299206df2b357",
+      "5a8ae00e5542992d82986fc7",
+      "5a81db0b5542990a1d231ee2",
+      "5a82800855429966c78a6a2f"
+    ],
+    "questions": 55
+  },
+  "sensitivity_definition": {
+    "excluded_question_ids": {
+      "5a7412b655429979e28828a1": 23,
+      "5a8e4b7c5542990e94052ab7": 88,
+      "5ab950bd55429970cfb8ea4c": 132,
+      "5aba55f25542994dbf0198e0": 90,
+      "5ae532e955429908b632656f": 20
+    },
+    "note": "same runs, no additional provider calls; predeclared in protocol v3 section 3.7",
+    "questions": 55
+  },
+  "stage": "stage15_analysis",
+  "tables": [
+    "main_analysis_tables/branch_outcomes.csv",
+    "main_analysis_tables/contrasts.csv",
+    "main_analysis_tables/terminal_outcomes.csv"
+  ]
+}

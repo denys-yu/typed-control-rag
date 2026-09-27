@@ -1,0 +1,44 @@
+{
+  "batch_size": 32,
+  "built_at": "2026-09-20T17:01:42+00:00",
+  "corpus_file": "C:\\Users\\lvivc\\PycharmProjects\\PythonProject\\Control on Retrieval-Failure Propagation\\data\\processed\\main\\main_corpus.jsonl",
+  "corpus_sha256": "fd4e8c7a4db5ebd10559f8a9cd78324c28e993d6142c0401b501a80de3c56aaf",
+  "device": "cpu",
+  "dimension": 384,
+  "document_count": 2981,
+  "document_order_rule": "documents sorted by full doc_id ascending; matrix rows follow that order",
+  "dtype": "float32",
+  "file_sha256": {
+    "documents.jsonl": "aa0d2941f22c381fd959adc587891b6db7f4abdfbf160a94ed9a572cbd54c828",
+    "embeddings.npy": "ec2f1cfc9d8efe9ec6161e1c5cc2cc64fc3ef8dae3e4ac6cf7942a9012dbf969"
+  },
+  "index_format_version": "1.0",
+  "index_scope": "main_study",
+  "index_sha256": "47d25ab14c8072f08ee135428ea9761386530b019bea1250e8f5352bc53c8701",
+  "library_versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.6",
+    "sentence_transformers": "5.7.0",
+    "torch": "2.14.0+cpu",
+    "transformers": "5.17.0"
+  },
+  "max_seq_length": 256,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "norm_max": 1.0000001192092896,
+  "norm_min": 0.9999998807907104,
+  "normalisation": "l2",
+  "normalised": true,
+  "ranking_rule": "score = dot product of L2-normalised float32 embeddings (cosine similarity); rank by descending score, ties broken by ascending doc_id",
+  "reused_existing_index": false,
+  "stage": "stage12_main_preparation",
+  "text_rule": "title + chr(10) + text",
+  "truncation": {
+    "documents_truncated": 138,
+    "max_seq_length": 256,
+    "max_token_length": 1129,
+    "mean_token_length": 128.3,
+    "tokens_over_limit_max": 873
+  },
+  "truncation_note": "diagnostic only; the model and max_seq_length are unchanged and the stored document always keeps its full original text"
+}

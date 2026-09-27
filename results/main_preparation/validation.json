@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-09-20T17:12:54+00:00",
+  "checks": [
+    {
+      "detail": "300 ids, 300 unique, 0 overlapping with the 30 pilot ids",
+      "name": "candidate_pool",
+      "passed": true
+    },
+    {
+      "detail": "2981 rows for 2981 documents, row order matches the doc_id order, stored hashes match, index id 47d25ab14c8072f0",
+      "name": "index_identity_and_alignment",
+      "passed": true
+    },
+    {
+      "detail": "row norms in [1.000000, 1.000000]",
+      "name": "embeddings_normalised",
+      "passed": true
+    },
+    {
+      "detail": "run_main_retrieval and typed_rag.retrieval never open the annotations file; eligibility reads it only after the ranking is saved",
+      "name": "retrieval_is_gold_free",
+      "passed": true
+    },
+    {
+      "detail": "572 contexts carry exactly ['case_id', 'documents', 'question', 'question_id']; research-only keys present: none",
+      "name": "model_facing_payload_clean",
+      "passed": true
+    },
+    {
+      "detail": "each stored context reproduces its recorded content identity; a context carries no branch or repeat, so A, B, C and D start from the identical ordered input",
+      "name": "contexts_deterministic_and_branch_independent",
+      "passed": true
+    },
+    {
+      "detail": "572 annotations checked; 0 problems",
+      "name": "replacement_rules",
+      "passed": true
+    },
+    {
+      "detail": "fault construction is bound to the same frozen index and corpus; synthetic documents are never added to the corpus or the index",
+      "name": "index_unchanged_by_construction",
+      "passed": true
+    },
+    {
+      "detail": "0 synthetic documents found in the corpus",
+      "name": "synthetic_documents_outside_corpus",
+      "passed": true
+    },
+    {
+      "detail": "572 cases exported over 8 files; 0 mismatches",
+      "name": "review_export_matches_contexts",
+      "passed": true
+    },
+    {
+      "detail": "572 of 572 review rows pending; 0 cases would pass the real-execution gate; 0 fully approved quadruplets",
+      "name": "pending_cases_not_runnable",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "approved_quadruplets": 0,
+    "candidates": 300,
+    "contexts": 572,
+    "corpus_documents": 2981,
+    "pending_review_rows": 572,
+    "review_rows": 572
+  },
+  "stage": "stage12_main_preparation",
+  "status": "ok"
+}

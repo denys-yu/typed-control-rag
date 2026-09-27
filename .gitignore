@@ -1,0 +1,55 @@
+# --- secrets -------------------------------------------------------------------
+.env
+.env.local
+*.key
+
+# --- environments and caches ---------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE and OS ----------------------------------------------------------------
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# --- source dataset ------------------------------------------------------------
+# The HotpotQA dev/distractor file is ~45 MB and is downloaded, not redistributed.
+# Its recorded provenance (URL, size, SHA-256) is tracked in the .source.json file
+# next to it and in data/processed/*/manifest.json.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/*.source.json
+
+# --- model weights and the pilot index ------------------------------------------
+# Embedding weights are fetched from the Hugging Face Hub at the pinned revision.
+# The pilot index is rebuilt with `python -m typed_rag --build-index`.
+artifacts/models/
+artifacts/retrieval/
+
+# --- working output ------------------------------------------------------------
+# Verification output of tools/reproduce_analysis.py; regenerated on every run.
+results/reproduction/
+# Directories that a new experiment run would create locally.
+results/rag_runs/
+results/rag_dry_runs/
+results/controlled_runs/
+results/controlled_dry_runs/
+results/pilot_runs/
+results/pilot_dry_runs/
+results/pilot_mock_runs/
+results/main_preparation/dry_runs/
+
+# --- private material ----------------------------------------------------------
+# Raw provider-response directories and the cleanup archive live outside the
+# repository and are never committed.
+trfp_runs/
+*.zip

@@ -1,0 +1,67 @@
+{
+  "acceptance_basis": "accepted by the researcher through the stage 14 instruction; this is a researcher acceptance of prepared proposals, not a new independent human review",
+  "archive": {
+    "original_pending_reviews": "results/stage14_archive/fault_reviews_pending_d3cd66b0f370.jsonl",
+    "original_sha256": "d3cd66b0f370acda0d48b68227023796a7c21328a17d2e59dbfadabe5b3d6652"
+  },
+  "conventions_accepted": {
+    "G-1": "identifier granularity - accepted as an explicit operational annotation convention finalized before main data collection; not a logical necessity and not retrospectively preregistered",
+    "K-1": "kinship and spouse slots - accepted as an explicit operational annotation convention finalized before main data collection; not a logical necessity and not retrospectively preregistered"
+  },
+  "correction": {
+    "excluded_question": {
+      "detail": "the question conflates the beginning of medal awards with the beginning of the gold/silver/bronze award tradition; its CLEAN reading requires an unsupported repair of the question premise, so the question is excluded and its CLEAN review stays pending",
+      "eligible_question_number": 54,
+      "question_id": "5ab56200554299494045ef88",
+      "reason": "ambiguous_question_premise"
+    },
+    "forced_pending_cases": [
+      {
+        "accepted_state": null,
+        "accepted_status": "pending",
+        "case_id": "27f41409acfbb644",
+        "condition": "CLEAN",
+        "question_id": "5ab56200554299494045ef88",
+        "stage13_proposed_state": "OK",
+        "stage13_proposed_status": "approved"
+      }
+    ],
+    "replacement_question": {
+      "eligible_question_number": 143,
+      "note": "entered by recomputing the first 60 in the unchanged frozen candidate order",
+      "question_id": "5a82800855429966c78a6a2f"
+    }
+  },
+  "counts": {
+    "accepted_with_reviewer": 552,
+    "approved_initial_contexts": 240,
+    "cases": 572,
+    "matching_questions": 60,
+    "pending_cases": 20,
+    "review_status": {
+      "approved": 439,
+      "pending": 20,
+      "rejected": 113
+    },
+    "selected_questions": 60,
+    "sensitivity_subset_questions": 55
+  },
+  "files": {
+    "reviews_sha256": "ca95e2977c02356fdc27eecf740cf09d6a7e91f142986521b89325028bebb459",
+    "reviews_written": "fault_reviews.jsonl",
+    "sample_final": "main_sample_final.json",
+    "sample_final_sha256": "021e12a392f3deae33c319746eafd7b0275fe050bc6468b01c69dc5978c4cabb"
+  },
+  "independent_human_review": false,
+  "provider_api_calls": 0,
+  "recorded_at": "2026-09-20T19:41:58+00:00",
+  "reviewer_recorded_for_accepted_decisions": "Denys Yuvzhenko",
+  "stage": "stage14_acceptance",
+  "unchanged_inputs": {
+    "results/main_fault_review_proposals_v2.jsonl": "e3a5c03e14d960eb15b75bb8714e07141a14c8f0b408ff7ca38aa7fe1edd9b2f",
+    "results/main_preparation/fault_annotations.jsonl": "271452c16f05997ae54c7027612eb22d51bcd2fda9c7573952d7efdeeb5cff0c",
+    "results/main_preparation/fault_contexts.jsonl": "443051f08771d2b431f8cf46659a39050f11e4c0054b456d221b3ae5d1a1eb26",
+    "results/main_sample_proposal.json": "92a481310d1eca094a64737cb3b2e01b5c5df9290ca00883e0a0b0f0e094d12b",
+    "results/stage13_report.json": "66c152ef3108849ad328f5ea8454015d4fa10e1c500d3c2572084a97b068125b"
+  }
+}

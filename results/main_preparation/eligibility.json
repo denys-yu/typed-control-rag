@@ -1,0 +1,4397 @@
+{
+  "attrition": {
+    "pool": 300,
+    "technically_eligible": 143,
+    "yield": 0.4767
+  },
+  "counts": {
+    "candidates": 300,
+    "eligible": 143,
+    "excluded": 157,
+    "shortfall_against_target": 0,
+    "target_questions": 60
+  },
+  "coverage": {
+    "both_gold_in_top_10": 193,
+    "both_gold_in_top_k": 143,
+    "document_recall_at_top_k": 0.7183,
+    "gold_documents_found_in_top_k": 431,
+    "gold_documents_total": 600,
+    "no_gold_in_top_k": 12,
+    "one_gold_in_top_k": 145,
+    "questions": 300
+  },
+  "eligible_question_ids": [
+    "5ac2ffea55429921a00ab0cc",
+    "5a83305d55429966c78a6b4a",
+    "5a81456855429938b614231e",
+    "5a7b4d765542995eb53be8fe",
+    "5ab271fe554299449642c8a6",
+    "5a77a7db5542995d8318124d",
+    "5a81ff1a554299676cceb1c2",
+    "5ac00278554299012d1db56b",
+    "5a7f87755542994857a76769",
+    "5ade286e5542997c77aded81",
+    "5ab439f055429942dd415eef",
+    "5a85f8665542994775f606ce",
+    "5ae063085542993d6555eb37",
+    "5a8af94455429971feec45b6",
+    "5a85f4ec5542994775f606c6",
+    "5ae0a5825542993d6555ebdf",
+    "5a78bd9b554299078472774a",
+    "5a8e0370554299068b959e2d",
+    "5a8c49655542995e66a47598",
+    "5ae532e955429908b632656f",
+    "5a8b349a55429971feec466b",
+    "5ac0223f5542992a796dec9f",
+    "5a7412b655429979e28828a1",
+    "5ab529965542990594ba9d1e",
+    "5a7a43f25542996a35c1716c",
+    "5a8de02b554299068b959e13",
+    "5a772c925542993735360208",
+    "5a8752955542994775f607d1",
+    "5ac194db55429964131be23a",
+    "5ae60426554299546bf83019",
+    "5a8c6d4e5542996e8ac88aa6",
+    "5add870b5542995b365fab3c",
+    "5a74639a55429929fddd8404",
+    "5a81b92a5542995ce29dcc52",
+    "5a8708ba55429960ec39b701",
+    "5a7734ce5542993735360217",
+    "5a82028a554299676cceb1d6",
+    "5ae6371155429929b0807af1",
+    "5a8e06785542995085b37383",
+    "5a85f5115542991dd0999ed9",
+    "5ac2c338554299657fa29039",
+    "5a8cacac554299585d9e3716",
+    "5a7cce4b554299683c1c6388",
+    "5a8bbddf5542997f31a41db2",
+    "5ac5630e5542993e66e823d5",
+    "5a84d4555542992a431d1aac",
+    "5add647a5542995b365fab26",
+    "5adc985e5542990d50227cb7",
+    "5ac3adc35542995ef918c1e2",
+    "5ac0aa955542997d64295a49",
+    "5ac2b2e2554299218029dafa",
+    "5aba943c554299232ef4a33e",
+    "5adef80b5542993a75d263c4",
+    "5ab56200554299494045ef88",
+    "5adca5a45542994d58a2f692",
+    "5a89e92c5542993b751ca9af",
+    "5ae0d5335542990adbacf674",
+    "5ae13bf1554299422ee99634",
+    "5a7528e955429929fddd850e",
+    "5a81d1f0554299676cceb0ee",
+    "5ae3bb0d5542992f92d82357",
+    "5ae2c416554299492dc91c67",
+    "5a8f7e785542992414482ae6",
+    "5a84e1095542997175ce1f25",
+    "5ae6f2a7554299572ea5464a",
+    "5ade4e415542992fa25da73f",
+    "5a88f7855542993b751ca8da",
+    "5ac415445542995c82c4acb7",
+    "5ab81cd955429916710eaff7",
+    "5a8f38fa55429924144829f5",
+    "5ae75c6e5542991bbc9761f8",
+    "5ab524595542996a3a96a034",
+    "5a84be095542992a431d1a97",
+    "5a834ed95542990548d0b1ca",
+    "5adfba9555429942ec259b1e",
+    "5abe45b855429976d4830ad0",
+    "5ab2a8b655429929539467ab",
+    "5a8f64e0554299458435d60b",
+    "5a7b40cd5542995eb53be8d4",
+    "5ae0247955429925eb1afc22",
+    "5a74760b55429974ef308c03",
+    "5ae5ffbb5542996de7b71ad4",
+    "5a79257b55429974737f79a7",
+    "5a7c4a6455429907fabeef53",
+    "5a7cad635542996dd594b97f",
+    "5adc6e035542994650320cec",
+    "5abf8cc35542990832d3a14e",
+    "5a8e4b7c5542990e94052ab7",
+    "5ab5ceb65542997d4ad1f1e2",
+    "5aba55f25542994dbf0198e0",
+    "5a83a7e15542992ef85e2347",
+    "5abbf9b355429931dba145fe",
+    "5ae5feaf5542996de7b71ac6",
+    "5a7199725542994082a3e88f",
+    "5ade6b67554299728e26c71c",
+    "5a79c6a55542994bb9457091",
+    "5adfec5f55429942ec259b8d",
+    "5a8af92c55429950cd6afc33",
+    "5a87556d5542994846c1cd65",
+    "5a711c535542994082a3e59b",
+    "5ade82ba5542992fa25da7a3",
+    "5ade64c7554299728e26c710",
+    "5a84b5975542991dd0999da3",
+    "5ae095f055429924de1b7103",
+    "5a7df7115542990b8f503b0f",
+    "5a8799c55542996e4f308877",
+    "5ae4d7fc5542990ba0bbb16f",
+    "5ac2f79e5542996773102661",
+    "5a8d8abf5542994ba4e3dca1",
+    "5aba6d4b5542994dbf019906",
+    "5a728f745542991f9a20c4e6",
+    "5a7949d45542994bb9456fdd",
+    "5ae7247b5542992ae0d163c1",
+    "5ae2e0fd55429928c4239524",
+    "5a887bc0554299206df2b2b6",
+    "5a75462d5542996c70cfaed3",
+    "5a82efe355429966c78a6aa1",
+    "5ae71d2d554299572ea546f7",
+    "5abd0803554299700f9d7979",
+    "5a7766b15542993569682d7e",
+    "5ae3606b5542991a06ce99a8",
+    "5a76244c554299109176e65d",
+    "5aba7fd055429955dce3ee5e",
+    "5abbd72d55429931dba1459e",
+    "5a7ce50f55429909bec76869",
+    "5a84c01e5542991dd0999dd6",
+    "5ae01b8855429925eb1afc14",
+    "5ade0a275542997545bbbe2d",
+    "5a88bd1d554299206df2b357",
+    "5adbda2755429944faac2385",
+    "5a8d7edc55429941ae14dfdc",
+    "5ab950bd55429970cfb8ea4c",
+    "5a7a11c85542996a35c170b4",
+    "5a835e215542992ef85e2296",
+    "5a8ae00e5542992d82986fc7",
+    "5abe92de5542993f32c2a16b",
+    "5a81db0b5542990a1d231ee2",
+    "5abe94fd55429965af743f37",
+    "5ac288a95542990b17b153e5",
+    "5a76067e55429976ec32bce9",
+    "5ae5f47c5542996de7b71a82",
+    "5ab928c255429934fafe6e6e",
+    "5a82800855429966c78a6a2f"
+  ],
+  "exclusion_reason_histogram": {
+    "only 0 of 2 gold supporting documents in the normal top-5": 12,
+    "only 1 of 2 gold supporting documents in the normal top-5": 145
+  },
+  "experimental_top_k": 5,
+  "index_frozen_before_measurement": true,
+  "index_id": "47d25ab14c8072f08ee135428ea9761386530b019bea1250e8f5352bc53c8701",
+  "measured_at": "2026-09-20T17:02:04+00:00",
+  "note": "technical eligibility only; nothing here judges the semantic sufficiency of a context, and no parameter was tuned to raise the yield",
+  "preparation_top_k": 10,
+  "records": [
+    {
+      "candidate_position": 0,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ac2ffea55429921a00ab0cc"
+    },
+    {
+      "candidate_position": 1,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a793f505542994bb9456fd1"
+    },
+    {
+      "candidate_position": 2,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a72dcb45542992359bc31af"
+    },
+    {
+      "candidate_position": 3,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        4
+      ],
+      "question_id": "5adf86b45542993344016cc1"
+    },
+    {
+      "candidate_position": 4,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        6
+      ],
+      "question_id": "5a85c3225542992a431d1b95"
+    },
+    {
+      "candidate_position": 5,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5a83305d55429966c78a6b4a"
+    },
+    {
+      "candidate_position": 6,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a81456855429938b614231e"
+    },
+    {
+      "candidate_position": 7,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7b4d765542995eb53be8fe"
+    },
+    {
+      "candidate_position": 8,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5adf490a5542993a75d26488"
+    },
+    {
+      "candidate_position": 9,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        null
+      ],
+      "question_id": "5a78c56455429974737f7876"
+    },
+    {
+      "candidate_position": 10,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        7
+      ],
+      "question_id": "5adc126f5542996e685252c5"
+    },
+    {
+      "candidate_position": 11,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5adf75e35542993344016c98"
+    },
+    {
+      "candidate_position": 12,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        2
+      ],
+      "question_id": "5ae7ba7a5542993210983f12"
+    },
+    {
+      "candidate_position": 13,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        2
+      ],
+      "question_id": "5abba17a5542992ccd8e7f60"
+    },
+    {
+      "candidate_position": 14,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a776bd155429966f1a36d3b"
+    },
+    {
+      "candidate_position": 15,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        6
+      ],
+      "question_id": "5abeb6645542993fe9a41d11"
+    },
+    {
+      "candidate_position": 16,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ab271fe554299449642c8a6"
+    },
+    {
+      "candidate_position": 17,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        2
+      ],
+      "question_id": "5a733c925542991f9a20c6b7"
+    },
+    {
+      "candidate_position": 18,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5a7327265542994cef4bc480"
+    },
+    {
+      "candidate_position": 19,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a77a7db5542995d8318124d"
+    },
+    {
+      "candidate_position": 20,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a80e03e55429938b614222c"
+    },
+    {
+      "candidate_position": 21,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a81ff1a554299676cceb1c2"
+    },
+    {
+      "candidate_position": 22,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        2
+      ],
+      "question_id": "5ab8633c55429919ba4e22d6"
+    },
+    {
+      "candidate_position": 23,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ac00278554299012d1db56b"
+    },
+    {
+      "candidate_position": 24,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a73024f5542991f9a20c5fc"
+    },
+    {
+      "candidate_position": 25,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        3,
+        null
+      ],
+      "question_id": "5abccb235542996583600497"
+    },
+    {
+      "candidate_position": 26,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5a7f87755542994857a76769"
+    },
+    {
+      "candidate_position": 27,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ade286e5542997c77aded81"
+    },
+    {
+      "candidate_position": 28,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ac3b9c5554299657fa2911b"
+    },
+    {
+      "candidate_position": 29,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        3
+      ],
+      "question_id": "5add60905542995b365fab1d"
+    },
+    {
+      "candidate_position": 30,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5abb93275542993f40c73b3c"
+    },
+    {
+      "candidate_position": 31,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        9
+      ],
+      "question_id": "5ab2123155429970612095b9"
+    },
+    {
+      "candidate_position": 32,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        5
+      ],
+      "question_id": "5a81018755429938b6142287"
+    },
+    {
+      "candidate_position": 33,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ab439f055429942dd415eef"
+    },
+    {
+      "candidate_position": 34,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        9
+      ],
+      "question_id": "5abea6a05542993f32c2a18d"
+    },
+    {
+      "candidate_position": 35,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        2
+      ],
+      "question_id": "5a85f8665542994775f606ce"
+    },
+    {
+      "candidate_position": 36,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae31ca155429928c4239608"
+    },
+    {
+      "candidate_position": 37,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        10
+      ],
+      "question_id": "5ae657d55542995703ce8b5b"
+    },
+    {
+      "candidate_position": 38,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a713ea95542994082a3e6e4"
+    },
+    {
+      "candidate_position": 39,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5ae063085542993d6555eb37"
+    },
+    {
+      "candidate_position": 40,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ae2cbc9554299495565db36"
+    },
+    {
+      "candidate_position": 41,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        7
+      ],
+      "question_id": "5a7ca95b55429935c91b5287"
+    },
+    {
+      "candidate_position": 42,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5add3ccc5542997545bbbce5"
+    },
+    {
+      "candidate_position": 43,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        8
+      ],
+      "question_id": "5ab27f7b554299722f9b4d4f"
+    },
+    {
+      "candidate_position": 44,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a8af94455429971feec45b6"
+    },
+    {
+      "candidate_position": 45,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a85f4ec5542994775f606c6"
+    },
+    {
+      "candidate_position": 46,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        7
+      ],
+      "question_id": "5a7c6ed3554299683c1c6306"
+    },
+    {
+      "candidate_position": 47,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        5
+      ],
+      "question_id": "5a80ad7c5542992097ad3018"
+    },
+    {
+      "candidate_position": 48,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        1
+      ],
+      "question_id": "5ae0a5825542993d6555ebdf"
+    },
+    {
+      "candidate_position": 49,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a8ac5595542992d82986f77"
+    },
+    {
+      "candidate_position": 50,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a78bd9b554299078472774a"
+    },
+    {
+      "candidate_position": 51,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a77a3905542992a6e59df40"
+    },
+    {
+      "candidate_position": 52,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a8e0370554299068b959e2d"
+    },
+    {
+      "candidate_position": 53,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a77c15f5542997042120b1c"
+    },
+    {
+      "candidate_position": 54,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a8c49655542995e66a47598"
+    },
+    {
+      "candidate_position": 55,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae532e955429908b632656f"
+    },
+    {
+      "candidate_position": 56,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8b349a55429971feec466b"
+    },
+    {
+      "candidate_position": 57,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ac0223f5542992a796dec9f"
+    },
+    {
+      "candidate_position": 58,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a84bbb35542991dd0999dc0"
+    },
+    {
+      "candidate_position": 59,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        4,
+        null
+      ],
+      "question_id": "5ae2e73a55429928c4239545"
+    },
+    {
+      "candidate_position": 60,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a7412b655429979e28828a1"
+    },
+    {
+      "candidate_position": 61,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        1
+      ],
+      "question_id": "5adeffa85542992d7e9f926f"
+    },
+    {
+      "candidate_position": 62,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ab529965542990594ba9d1e"
+    },
+    {
+      "candidate_position": 63,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ababbe9554299232ef4a38a"
+    },
+    {
+      "candidate_position": 64,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7a43f25542996a35c1716c"
+    },
+    {
+      "candidate_position": 65,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8de02b554299068b959e13"
+    },
+    {
+      "candidate_position": 66,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a772c925542993735360208"
+    },
+    {
+      "candidate_position": 67,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5abbeb7d554299114383a09b"
+    },
+    {
+      "candidate_position": 68,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8752955542994775f607d1"
+    },
+    {
+      "candidate_position": 69,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        8,
+        1
+      ],
+      "question_id": "5ae444b55542996836b02c63"
+    },
+    {
+      "candidate_position": 70,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ac270025542990b17b15390"
+    },
+    {
+      "candidate_position": 71,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ac194db55429964131be23a"
+    },
+    {
+      "candidate_position": 72,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        1
+      ],
+      "question_id": "5ae762835542997b22f6a711"
+    },
+    {
+      "candidate_position": 73,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae60426554299546bf83019"
+    },
+    {
+      "candidate_position": 74,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8c6d4e5542996e8ac88aa6"
+    },
+    {
+      "candidate_position": 75,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5abda4dd55429965af743d95"
+    },
+    {
+      "candidate_position": 76,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a7f35015542992e7d278c8a"
+    },
+    {
+      "candidate_position": 77,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5add870b5542995b365fab3c"
+    },
+    {
+      "candidate_position": 78,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        10,
+        1
+      ],
+      "question_id": "5a7625e8554299109176e66a"
+    },
+    {
+      "candidate_position": 79,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a74639a55429929fddd8404"
+    },
+    {
+      "candidate_position": 80,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 0,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        null
+      ],
+      "question_id": "5ac4d314554299076e296e02"
+    },
+    {
+      "candidate_position": 81,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5a81b92a5542995ce29dcc52"
+    },
+    {
+      "candidate_position": 82,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        1
+      ],
+      "question_id": "5ae127ba55429920d52342d3"
+    },
+    {
+      "candidate_position": 83,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a8708ba55429960ec39b701"
+    },
+    {
+      "candidate_position": 84,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a7734ce5542993735360217"
+    },
+    {
+      "candidate_position": 85,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        8,
+        1
+      ],
+      "question_id": "5ae5be475542990ba0bbb2c6"
+    },
+    {
+      "candidate_position": 86,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        2
+      ],
+      "question_id": "5a82028a554299676cceb1d6"
+    },
+    {
+      "candidate_position": 87,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5ae6371155429929b0807af1"
+    },
+    {
+      "candidate_position": 88,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a78a862554299148911f8fe"
+    },
+    {
+      "candidate_position": 89,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5a8e06785542995085b37383"
+    },
+    {
+      "candidate_position": 90,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a85f5115542991dd0999ed9"
+    },
+    {
+      "candidate_position": 91,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab487765542990594ba9c4e"
+    },
+    {
+      "candidate_position": 92,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ac2c338554299657fa29039"
+    },
+    {
+      "candidate_position": 93,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ae48d1755429913cc204499"
+    },
+    {
+      "candidate_position": 94,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5a8cacac554299585d9e3716"
+    },
+    {
+      "candidate_position": 95,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        1
+      ],
+      "question_id": "5a7cce4b554299683c1c6388"
+    },
+    {
+      "candidate_position": 96,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a8d0e305542994ba4e3dbbe"
+    },
+    {
+      "candidate_position": 97,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8bbddf5542997f31a41db2"
+    },
+    {
+      "candidate_position": 98,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a80721b554299485f5985ef"
+    },
+    {
+      "candidate_position": 99,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ac5630e5542993e66e823d5"
+    },
+    {
+      "candidate_position": 100,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        4
+      ],
+      "question_id": "5a84d4555542992a431d1aac"
+    },
+    {
+      "candidate_position": 101,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5add647a5542995b365fab26"
+    },
+    {
+      "candidate_position": 102,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5adc985e5542990d50227cb7"
+    },
+    {
+      "candidate_position": 103,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ac3adc35542995ef918c1e2"
+    },
+    {
+      "candidate_position": 104,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        3
+      ],
+      "question_id": "5a76394c5542994ccc918725"
+    },
+    {
+      "candidate_position": 105,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ac0aa955542997d64295a49"
+    },
+    {
+      "candidate_position": 106,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        1
+      ],
+      "question_id": "5ac2b2e2554299218029dafa"
+    },
+    {
+      "candidate_position": 107,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a7d47da5542990b8f503975"
+    },
+    {
+      "candidate_position": 108,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5aba943c554299232ef4a33e"
+    },
+    {
+      "candidate_position": 109,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5adef80b5542993a75d263c4"
+    },
+    {
+      "candidate_position": 110,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        9,
+        1
+      ],
+      "question_id": "5a832fdd55429954d2e2ec4f"
+    },
+    {
+      "candidate_position": 111,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        2
+      ],
+      "question_id": "5a7cd72055429909bec7683b"
+    },
+    {
+      "candidate_position": 112,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ab56200554299494045ef88"
+    },
+    {
+      "candidate_position": 113,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        4,
+        null
+      ],
+      "question_id": "5a8dff3f5542995085b37370"
+    },
+    {
+      "candidate_position": 114,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a85018d5542997b5ce3ff98"
+    },
+    {
+      "candidate_position": 115,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ac3090d5542990b17b154fc"
+    },
+    {
+      "candidate_position": 116,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 0,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        null
+      ],
+      "question_id": "5adccf645542990d50227d32"
+    },
+    {
+      "candidate_position": 117,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5abc3a65554299700f9d782d"
+    },
+    {
+      "candidate_position": 118,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a80f499554299260e20a1d9"
+    },
+    {
+      "candidate_position": 119,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5adca5a45542994d58a2f692"
+    },
+    {
+      "candidate_position": 120,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5a89e92c5542993b751ca9af"
+    },
+    {
+      "candidate_position": 121,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae4ec1e5542990ba0bbb19b"
+    },
+    {
+      "candidate_position": 122,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5ae0d5335542990adbacf674"
+    },
+    {
+      "candidate_position": 123,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5ae13bf1554299422ee99634"
+    },
+    {
+      "candidate_position": 124,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7528e955429929fddd850e"
+    },
+    {
+      "candidate_position": 125,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        3
+      ],
+      "question_id": "5a81d1f0554299676cceb0ee"
+    },
+    {
+      "candidate_position": 126,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ae3bb0d5542992f92d82357"
+    },
+    {
+      "candidate_position": 127,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        9
+      ],
+      "question_id": "5a733d5d5542991f29ee2d71"
+    },
+    {
+      "candidate_position": 128,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ae2c416554299492dc91c67"
+    },
+    {
+      "candidate_position": 129,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        6
+      ],
+      "question_id": "5a89007355429938390d4026"
+    },
+    {
+      "candidate_position": 130,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5a8f7e785542992414482ae6"
+    },
+    {
+      "candidate_position": 131,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5a84e1095542997175ce1f25"
+    },
+    {
+      "candidate_position": 132,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        2
+      ],
+      "question_id": "5a75f1a755429976ec32bcb1"
+    },
+    {
+      "candidate_position": 133,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a807e6f5542995d8a8ddf80"
+    },
+    {
+      "candidate_position": 134,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5abd077055429965836004f4"
+    },
+    {
+      "candidate_position": 135,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae6f2a7554299572ea5464a"
+    },
+    {
+      "candidate_position": 136,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ade4e415542992fa25da73f"
+    },
+    {
+      "candidate_position": 137,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5a88f7855542993b751ca8da"
+    },
+    {
+      "candidate_position": 138,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        7
+      ],
+      "question_id": "5a808c215542995d8a8ddf90"
+    },
+    {
+      "candidate_position": 139,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ac415445542995c82c4acb7"
+    },
+    {
+      "candidate_position": 140,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ab81cd955429916710eaff7"
+    },
+    {
+      "candidate_position": 141,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        5
+      ],
+      "question_id": "5a8f38fa55429924144829f5"
+    },
+    {
+      "candidate_position": 142,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae75c6e5542991bbc9761f8"
+    },
+    {
+      "candidate_position": 143,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        7
+      ],
+      "question_id": "5ac34ed0554299741d48a248"
+    },
+    {
+      "candidate_position": 144,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5ab524595542996a3a96a034"
+    },
+    {
+      "candidate_position": 145,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        8,
+        null
+      ],
+      "question_id": "5a7b77d95542997c3ec971a5"
+    },
+    {
+      "candidate_position": 146,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a84be095542992a431d1a97"
+    },
+    {
+      "candidate_position": 147,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5a834ed95542990548d0b1ca"
+    },
+    {
+      "candidate_position": 148,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5adfa451554299025d62a319"
+    },
+    {
+      "candidate_position": 149,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5abccda855429965836004a4"
+    },
+    {
+      "candidate_position": 150,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        8
+      ],
+      "question_id": "5abaee845542996606241696"
+    },
+    {
+      "candidate_position": 151,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5a84af3e5542991dd0999d7c"
+    },
+    {
+      "candidate_position": 152,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5adfba9555429942ec259b1e"
+    },
+    {
+      "candidate_position": 153,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5abe45b855429976d4830ad0"
+    },
+    {
+      "candidate_position": 154,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5ab2a8b655429929539467ab"
+    },
+    {
+      "candidate_position": 155,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ae81060554299540e5a572c"
+    },
+    {
+      "candidate_position": 156,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        8,
+        1
+      ],
+      "question_id": "5abe36aa5542993f32c2a08f"
+    },
+    {
+      "candidate_position": 157,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8f64e0554299458435d60b"
+    },
+    {
+      "candidate_position": 158,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a8c7232554299585d9e36a6"
+    },
+    {
+      "candidate_position": 159,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        6
+      ],
+      "question_id": "5a80ecea55429938b6142254"
+    },
+    {
+      "candidate_position": 160,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7b40cd5542995eb53be8d4"
+    },
+    {
+      "candidate_position": 161,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ab8cd3d5542991b5579f009"
+    },
+    {
+      "candidate_position": 162,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab7ccf455429928e1fe3910"
+    },
+    {
+      "candidate_position": 163,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        3
+      ],
+      "question_id": "5a778ce55542995d831811c0"
+    },
+    {
+      "candidate_position": 164,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5ae0247955429925eb1afc22"
+    },
+    {
+      "candidate_position": 165,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a74760b55429974ef308c03"
+    },
+    {
+      "candidate_position": 166,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ae5ffbb5542996de7b71ad4"
+    },
+    {
+      "candidate_position": 167,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        1
+      ],
+      "question_id": "5a79257b55429974737f79a7"
+    },
+    {
+      "candidate_position": 168,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5a7c4a6455429907fabeef53"
+    },
+    {
+      "candidate_position": 169,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ac2616b5542996366519997"
+    },
+    {
+      "candidate_position": 170,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7cad635542996dd594b97f"
+    },
+    {
+      "candidate_position": 171,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        10,
+        4
+      ],
+      "question_id": "5ae1fbf05542997f29b3c1e7"
+    },
+    {
+      "candidate_position": 172,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        5
+      ],
+      "question_id": "5adc6e035542994650320cec"
+    },
+    {
+      "candidate_position": 173,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        7,
+        null
+      ],
+      "question_id": "5ab27389554299722f9b4d2f"
+    },
+    {
+      "candidate_position": 174,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5abf8cc35542990832d3a14e"
+    },
+    {
+      "candidate_position": 175,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a75d9c05542992db94736f6"
+    },
+    {
+      "candidate_position": 176,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8e4b7c5542990e94052ab7"
+    },
+    {
+      "candidate_position": 177,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a8e1577554299068b959e54"
+    },
+    {
+      "candidate_position": 178,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        3
+      ],
+      "question_id": "5abf63f15542997ec76fd3ea"
+    },
+    {
+      "candidate_position": 179,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        1
+      ],
+      "question_id": "5ab5ceb65542997d4ad1f1e2"
+    },
+    {
+      "candidate_position": 180,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5aba55f25542994dbf0198e0"
+    },
+    {
+      "candidate_position": 181,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5a83a7e15542992ef85e2347"
+    },
+    {
+      "candidate_position": 182,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5abbf9b355429931dba145fe"
+    },
+    {
+      "candidate_position": 183,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae5feaf5542996de7b71ac6"
+    },
+    {
+      "candidate_position": 184,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a7199725542994082a3e88f"
+    },
+    {
+      "candidate_position": 185,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5adc6ca85542994650320ce1"
+    },
+    {
+      "candidate_position": 186,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ade6b67554299728e26c71c"
+    },
+    {
+      "candidate_position": 187,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5a79c6a55542994bb9457091"
+    },
+    {
+      "candidate_position": 188,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        5,
+        7
+      ],
+      "question_id": "5adc85b855429944faac24e9"
+    },
+    {
+      "candidate_position": 189,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ae75e335542991e8301cc70"
+    },
+    {
+      "candidate_position": 190,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        null
+      ],
+      "question_id": "5abaccd1554299660624161b"
+    },
+    {
+      "candidate_position": 191,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5adfec5f55429942ec259b8d"
+    },
+    {
+      "candidate_position": 192,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        8,
+        4
+      ],
+      "question_id": "5a84d2775542994c784dda5f"
+    },
+    {
+      "candidate_position": 193,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        3
+      ],
+      "question_id": "5ae0d7bf5542990adbacf67b"
+    },
+    {
+      "candidate_position": 194,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5ac313a0554299741d48a1b0"
+    },
+    {
+      "candidate_position": 195,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8af92c55429950cd6afc33"
+    },
+    {
+      "candidate_position": 196,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a794119554299029c4b5f3c"
+    },
+    {
+      "candidate_position": 197,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a87556d5542994846c1cd65"
+    },
+    {
+      "candidate_position": 198,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ab2f85b55429929539468dc"
+    },
+    {
+      "candidate_position": 199,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 0,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        null
+      ],
+      "question_id": "5a7c988755429935c91b524d"
+    },
+    {
+      "candidate_position": 200,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab488bc5542990594ba9c55"
+    },
+    {
+      "candidate_position": 201,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        5
+      ],
+      "question_id": "5a711c535542994082a3e59b"
+    },
+    {
+      "candidate_position": 202,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5ade82ba5542992fa25da7a3"
+    },
+    {
+      "candidate_position": 203,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae6dba85542996d980e7c9b"
+    },
+    {
+      "candidate_position": 204,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ade64c7554299728e26c710"
+    },
+    {
+      "candidate_position": 205,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5a84b5975542991dd0999da3"
+    },
+    {
+      "candidate_position": 206,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        4,
+        null
+      ],
+      "question_id": "5ab82fe155429919ba4e225a"
+    },
+    {
+      "candidate_position": 207,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ae095f055429924de1b7103"
+    },
+    {
+      "candidate_position": 208,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7df7115542990b8f503b0f"
+    },
+    {
+      "candidate_position": 209,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        9
+      ],
+      "question_id": "5ab87b2955429934fafe6df4"
+    },
+    {
+      "candidate_position": 210,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a78f35455429970f5fffded"
+    },
+    {
+      "candidate_position": 211,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae66d515542992ae0d16346"
+    },
+    {
+      "candidate_position": 212,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        null
+      ],
+      "question_id": "5ac24a035542992f1f2b3832"
+    },
+    {
+      "candidate_position": 213,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a8799c55542996e4f308877"
+    },
+    {
+      "candidate_position": 214,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae4d7fc5542990ba0bbb16f"
+    },
+    {
+      "candidate_position": 215,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        3
+      ],
+      "question_id": "5ac2f79e5542996773102661"
+    },
+    {
+      "candidate_position": 216,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ac0a18a5542992a796ded41"
+    },
+    {
+      "candidate_position": 217,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        10
+      ],
+      "question_id": "5a7f89c75542994857a76775"
+    },
+    {
+      "candidate_position": 218,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5a8d8abf5542994ba4e3dca1"
+    },
+    {
+      "candidate_position": 219,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 0,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        null
+      ],
+      "question_id": "5ae09ce855429924de1b7113"
+    },
+    {
+      "candidate_position": 220,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a7cc28f554299452d57ba1c"
+    },
+    {
+      "candidate_position": 221,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        4,
+        null
+      ],
+      "question_id": "5abaf3195542996cc5e49f2c"
+    },
+    {
+      "candidate_position": 222,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        4
+      ],
+      "question_id": "5ae150ab55429901ffe4ae53"
+    },
+    {
+      "candidate_position": 223,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5aba6d4b5542994dbf019906"
+    },
+    {
+      "candidate_position": 224,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        4
+      ],
+      "question_id": "5a70f1685542994082a3e40f"
+    },
+    {
+      "candidate_position": 225,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5abfce075542994516f454f7"
+    },
+    {
+      "candidate_position": 226,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a89e85c5542992e4fca846f"
+    },
+    {
+      "candidate_position": 227,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ab72b5855429928e1fe3828"
+    },
+    {
+      "candidate_position": 228,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a728f745542991f9a20c4e6"
+    },
+    {
+      "candidate_position": 229,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7949d45542994bb9456fdd"
+    },
+    {
+      "candidate_position": 230,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a8c78a8554299585d9e36bc"
+    },
+    {
+      "candidate_position": 231,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        5
+      ],
+      "question_id": "5ae7247b5542992ae0d163c1"
+    },
+    {
+      "candidate_position": 232,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae471fa55429970de88d965"
+    },
+    {
+      "candidate_position": 233,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae2e0fd55429928c4239524"
+    },
+    {
+      "candidate_position": 234,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a887bc0554299206df2b2b6"
+    },
+    {
+      "candidate_position": 235,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        6
+      ],
+      "question_id": "5a82a55955429966c78a6a70"
+    },
+    {
+      "candidate_position": 236,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        5
+      ],
+      "question_id": "5a75462d5542996c70cfaed3"
+    },
+    {
+      "candidate_position": 237,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        5,
+        4
+      ],
+      "question_id": "5a82efe355429966c78a6aa1"
+    },
+    {
+      "candidate_position": 238,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5ae71d2d554299572ea546f7"
+    },
+    {
+      "candidate_position": 239,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5abd0803554299700f9d7979"
+    },
+    {
+      "candidate_position": 240,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5a7766b15542993569682d7e"
+    },
+    {
+      "candidate_position": 241,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5adf227a5542992d7e9f92a6"
+    },
+    {
+      "candidate_position": 242,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab6fcf55542991d32223718"
+    },
+    {
+      "candidate_position": 243,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ae3606b5542991a06ce99a8"
+    },
+    {
+      "candidate_position": 244,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        4
+      ],
+      "question_id": "5a76244c554299109176e65d"
+    },
+    {
+      "candidate_position": 245,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ae0818e55429924de1b70e9"
+    },
+    {
+      "candidate_position": 246,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5aba7fd055429955dce3ee5e"
+    },
+    {
+      "candidate_position": 247,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        9,
+        1
+      ],
+      "question_id": "5ae0b82855429906c02daaff"
+    },
+    {
+      "candidate_position": 248,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a7a4ca955429941d65f25a3"
+    },
+    {
+      "candidate_position": 249,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a7a6c1a5542994f819ef1d5"
+    },
+    {
+      "candidate_position": 250,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        6,
+        7
+      ],
+      "question_id": "5ac473e4554299204fd21f54"
+    },
+    {
+      "candidate_position": 251,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab659e355429954757d324e"
+    },
+    {
+      "candidate_position": 252,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        4
+      ],
+      "question_id": "5abbd72d55429931dba1459e"
+    },
+    {
+      "candidate_position": 253,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a7ce50f55429909bec76869"
+    },
+    {
+      "candidate_position": 254,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        3
+      ],
+      "question_id": "5a84c01e5542991dd0999dd6"
+    },
+    {
+      "candidate_position": 255,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        3
+      ],
+      "question_id": "5aba0c2655429955dce3edb7"
+    },
+    {
+      "candidate_position": 256,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        7
+      ],
+      "question_id": "5ae682c45542995703ce8b6f"
+    },
+    {
+      "candidate_position": 257,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ac05c245542992a796dece5"
+    },
+    {
+      "candidate_position": 258,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5ab281ec554299449642c8d1"
+    },
+    {
+      "candidate_position": 259,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a8085705542992bc0c4a74b"
+    },
+    {
+      "candidate_position": 260,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        9
+      ],
+      "question_id": "5abaf0ec5542996cc5e49f22"
+    },
+    {
+      "candidate_position": 261,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ae01b8855429925eb1afc14"
+    },
+    {
+      "candidate_position": 262,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5adf03b35542993a75d263d3"
+    },
+    {
+      "candidate_position": 263,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5adce0f455429947343537bd"
+    },
+    {
+      "candidate_position": 264,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a7fa5b05542994857a7679b"
+    },
+    {
+      "candidate_position": 265,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5ade0a275542997545bbbe2d"
+    },
+    {
+      "candidate_position": 266,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a88bd1d554299206df2b357"
+    },
+    {
+      "candidate_position": 267,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        6,
+        1
+      ],
+      "question_id": "5a8f60175542992414482a90"
+    },
+    {
+      "candidate_position": 268,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5adbda2755429944faac2385"
+    },
+    {
+      "candidate_position": 269,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a8d7edc55429941ae14dfdc"
+    },
+    {
+      "candidate_position": 270,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ab38cdd5542992ade7c6de2"
+    },
+    {
+      "candidate_position": 271,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ae82c3d55429952e35eaa75"
+    },
+    {
+      "candidate_position": 272,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        5
+      ],
+      "question_id": "5ab950bd55429970cfb8ea4c"
+    },
+    {
+      "candidate_position": 273,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        10
+      ],
+      "question_id": "5ab46a0f5542990594ba9c1b"
+    },
+    {
+      "candidate_position": 274,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5a7a11c85542996a35c170b4"
+    },
+    {
+      "candidate_position": 275,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a835e215542992ef85e2296"
+    },
+    {
+      "candidate_position": 276,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a817d8c55429903bc27b974"
+    },
+    {
+      "candidate_position": 277,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a75e06155429976ec32bc60"
+    },
+    {
+      "candidate_position": 278,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        3,
+        1
+      ],
+      "question_id": "5a8ae00e5542992d82986fc7"
+    },
+    {
+      "candidate_position": 279,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a729e7b5542992359bc313d"
+    },
+    {
+      "candidate_position": 280,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5abe92de5542993f32c2a16b"
+    },
+    {
+      "candidate_position": 281,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        6
+      ],
+      "question_id": "5abc00ff5542993f40c73c41"
+    },
+    {
+      "candidate_position": 282,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a81db0b5542990a1d231ee2"
+    },
+    {
+      "candidate_position": 283,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5abe94fd55429965af743f37"
+    },
+    {
+      "candidate_position": 284,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        8
+      ],
+      "question_id": "5a810006554299260e20a1f6"
+    },
+    {
+      "candidate_position": 285,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        null,
+        1
+      ],
+      "question_id": "5a71419f5542994082a3e70d"
+    },
+    {
+      "candidate_position": 286,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5a76364d5542994ccc918719"
+    },
+    {
+      "candidate_position": 287,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        4,
+        null
+      ],
+      "question_id": "5addd82c5542990dbb2f7eb9"
+    },
+    {
+      "candidate_position": 288,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        3
+      ],
+      "question_id": "5ac288a95542990b17b153e5"
+    },
+    {
+      "candidate_position": 289,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        7,
+        null
+      ],
+      "question_id": "5a7561495542992db947364e"
+    },
+    {
+      "candidate_position": 290,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        7,
+        1
+      ],
+      "question_id": "5a81d19b55429926c1cdad90"
+    },
+    {
+      "candidate_position": 291,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5a76067e55429976ec32bce9"
+    },
+    {
+      "candidate_position": 292,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        5,
+        null
+      ],
+      "question_id": "5a7337715542991f9a20c690"
+    },
+    {
+      "candidate_position": 293,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        4,
+        1
+      ],
+      "question_id": "5ae5f47c5542996de7b71a82"
+    },
+    {
+      "candidate_position": 294,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 0 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 0,
+      "gold_ranks": [
+        null,
+        6
+      ],
+      "question_id": "5a8a40015542996c9b8d5e72"
+    },
+    {
+      "candidate_position": 295,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        8
+      ],
+      "question_id": "5a7634f155429976ec32bd6b"
+    },
+    {
+      "candidate_position": 296,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        1,
+        2
+      ],
+      "question_id": "5ab928c255429934fafe6e6e"
+    },
+    {
+      "candidate_position": 297,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 2,
+      "gold_documents_in_top_k": 2,
+      "gold_ranks": [
+        2,
+        1
+      ],
+      "question_id": "5a82800855429966c78a6a2f"
+    },
+    {
+      "candidate_position": 298,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        2,
+        null
+      ],
+      "question_id": "5a85fb085542994775f606de"
+    },
+    {
+      "candidate_position": 299,
+      "eligible": false,
+      "exclusion_reasons": [
+        "only 1 of 2 gold supporting documents in the normal top-5"
+      ],
+      "gold_document_count": 2,
+      "gold_documents_in_top_10": 1,
+      "gold_documents_in_top_k": 1,
+      "gold_ranks": [
+        1,
+        null
+      ],
+      "question_id": "5ac557975542993e66e8231c"
+    }
+  ],
+  "rule": "a candidate is technically eligible when its record has exactly two distinct gold supporting documents and both appear in the normal top-5 of the main index",
+  "stage": "stage12_main_preparation"
+}

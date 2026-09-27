@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typed-rag"
+version = "0.1.0"
+description = "Research harness for the paper: A Typed Control Contract for Agentic Retrieval-Augmented Generation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Denys Yuvzhenko" }]
+keywords = ["rag", "retrieval", "agentic", "hotpotqa", "reproducibility"]
+dependencies = [
+    "numpy>=2,<3",
+    "torch>=2.4,<3",
+    "sentence-transformers>=3,<6",
+    "openai>=2,<3",
+    "python-dotenv>=1,<2",
+    "pydantic>=2,<3",
+]
+
+# Declared dependency sets for the lightweight installs described in the README.
+# Install them directly and add the package with `pip install -e . --no-deps`, so
+# that the heavy embedding-model stack is not pulled in.
+[project.optional-dependencies]
+# Minimum needed to recompute the published results offline: no embedding model,
+# no provider SDK, no network access.
+analysis = [
+    "numpy>=2,<3",
+    "pydantic>=2,<3",
+]
+# Additionally needed by the full unit-test suite. The LLM tests build httpx
+# request and response objects and openai error instances directly, so these three
+# are pinned to the versions the suite was verified against: a newer openai
+# release depends on httpx2 and the two LLM test modules then fail to import.
+# No provider call is made by any test.
+tests = [
+    "numpy>=2,<3",
+    "pydantic>=2,<3",
+    "openai==2.54.0",
+    "httpx==0.28.1",
+    "python-dotenv==1.2.3",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

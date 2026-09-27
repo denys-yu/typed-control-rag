@@ -1,0 +1,289 @@
+{
+  "conditions": [
+    "CLEAN",
+    "PARTIAL",
+    "EMPTY",
+    "INCONSISTENT"
+  ],
+  "context_size": 5,
+  "counts": {
+    "cases_built": {
+      "CLEAN": 18,
+      "EMPTY": 18,
+      "INCONSISTENT": 18,
+      "PARTIAL": 18
+    },
+    "construction_failed": {
+      "CLEAN": 0,
+      "EMPTY": 0,
+      "INCONSISTENT": 0,
+      "PARTIAL": 0
+    },
+    "eligible_questions": 18,
+    "ineligible_questions": 12,
+    "pilot_questions": 30,
+    "reviews_preserved": 0
+  },
+  "eligibility": [
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5a7ec6f355429934daa2fc61",
+      "question_index": 0
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 0,
+      "question_id": "5a838a3d554299123d8c215d",
+      "question_index": 1,
+      "reason": "only 0 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a7553a95542996c70cfaedf",
+      "question_index": 2,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a8f23555542997ba9cb31e3",
+      "question_index": 3,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a7b1d3b5542992d025e677a",
+      "question_index": 4,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ab2f88755429976abd1bbe0",
+      "question_index": 5
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5a7a01b15542996c55b2dcd1",
+      "question_index": 6
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a7fb7985542994857a767d2",
+      "question_index": 7,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5adfc35755429906c02daa30",
+      "question_index": 8
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5ab93262554299131ca422b6",
+      "question_index": 9,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5a7b1023554299042af8f6c2",
+      "question_index": 10
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5ae5cf1b554299546bf82f7a",
+      "question_index": 11,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5a86f204554299211dda2b60",
+      "question_index": 12
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ac213805542992f1f2b37e7",
+      "question_index": 13
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5abba3cd554299642a094aee",
+      "question_index": 14
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5a77724455429972597f153e",
+      "question_index": 15
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a7bacf35542997c3ec9724b",
+      "question_index": 16,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ac23f5655429951e9e684d9",
+      "question_index": 17
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ab85e9e55429934fafe6d8b",
+      "question_index": 18
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5abb207d5542992ccd8e7f1d",
+      "question_index": 19
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5adf400a5542993a75d2644e",
+      "question_index": 20
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ae6179b5542992663a4f25b",
+      "question_index": 21
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ab870ee5542990e739ec8f6",
+      "question_index": 22
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a7f0be055429930675135fe",
+      "question_index": 23,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5ae33f9a5542990afbd1e0f1",
+      "question_index": 24,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ab56555554299494045ef97",
+      "question_index": 25
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ae618325542996de7b71b56",
+      "question_index": 26
+    },
+    {
+      "eligible": true,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 2,
+      "question_id": "5ab8284d5542990e739ec83f",
+      "question_index": 27
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5aba72d75542994dbf019912",
+      "question_index": 28,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    },
+    {
+      "eligible": false,
+      "gold_document_count": 2,
+      "gold_documents_in_top5": 1,
+      "question_id": "5a72830e5542994cef4bc2f9",
+      "question_index": 29,
+      "reason": "only 1 of 2 gold supporting documents in the normal top-5; the paired-context procedure needs both"
+    }
+  ],
+  "expected_state_by_condition": {
+    "CLEAN": "OK",
+    "EMPTY": "EMPTY",
+    "INCONSISTENT": "INCONSISTENT",
+    "PARTIAL": "PARTIAL"
+  },
+  "fault_format_version": "1.0",
+  "file_sha256": {
+    "annotations.jsonl": "7daa5198877135bed75b817b6f3878e0c849bd944a05afd0579e6c8b5705e5a8",
+    "contexts.jsonl": "e757b37f12fb4f0236cddd8252e1ab7c2d7309f468215b099b84f77b16ed1c53",
+    "reviews.jsonl": "5ccce41d7d3920c1bb999cf62ebbe6c9b34eadd9f6ac4f536ee09030e606ea38"
+  },
+  "prepared_at": "2026-09-14T16:33:20+00:00",
+  "rules": {
+    "case_id": "sha256('fault-case|<format>|<question_id>|<condition>|<seed>')[:16]",
+    "eligibility": "both gold supporting documents present in the normal top-5 of the saved ranking",
+    "inconsistent_slot": "the lowest-ranked non-gold document of the initial top-5 is replaced by the synthetic document; the synthetic document is a copy of the target gold document with one sentence edited, under the same title; doc_id = SHA-256 of canonical JSON of title + sentences",
+    "injection_scope": "first retrieval result only; retries search the unchanged index",
+    "partial_choice": "random.Random(f'{seed}:{question_id}').choice(sorted(supporting_doc_ids)) selects the removed gold document",
+    "replacement": "removed documents are replaced, position by position, with the highest-ranked documents of the saved top-10 ranking that are outside the initial top-5, are not gold supporting documents and are not already in the context"
+  },
+  "seed": 42,
+  "sources": {
+    "annotations_sha256": "36cf03893a8a24441025df09f3c36bd3105372be28f221199900c14e2c7a2bfe",
+    "corpus_sha256": "2b524594f40d0db873df901d6cd79adeac5ef55aa0be43a704f6db98408192c0",
+    "edits_file": {
+      "path": "C:\\Users\\lvivc\\PycharmProjects\\PythonProject\\Control on Retrieval-Failure Propagation\\config\\inconsistent_edits.json",
+      "sha256": "7d5d7633f79f98a2c2e68a8d69b888cd1f6d0be0dfe0dc088f6b1cef3829ea8a"
+    },
+    "questions_sha256": "6f780c5d43bacc5ebeb288417067ea788c28e73cf682333be78364df639a49d3",
+    "saved_retrieval": {
+      "corpus_sha256": "2b524594f40d0db873df901d6cd79adeac5ef55aa0be43a704f6db98408192c0",
+      "file": "C:\\Users\\lvivc\\PycharmProjects\\PythonProject\\Control on Retrieval-Failure Propagation\\results\\pilot_retrieval.jsonl",
+      "index_id": "fab975bc2a1b04a5c9edca4cb5ef44d6325576040fc79e28b6e9d20be5bd274b",
+      "saved_top_k": 10,
+      "sha256": "0accc7d2a8bd7f3e60fadac6d759c3f256e54af9662e660ad3db7bbae9460d83"
+    }
+  }
+}

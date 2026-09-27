@@ -1,0 +1,224 @@
+{
+  "acceptance": {
+    "archive": {
+      "original_pending_reviews": "results/stage14_archive/fault_reviews_pending_d3cd66b0f370.jsonl",
+      "original_sha256": "d3cd66b0f370acda0d48b68227023796a7c21328a17d2e59dbfadabe5b3d6652"
+    },
+    "basis": "accepted by the researcher through the stage 14 instruction; this is a researcher acceptance of prepared proposals, not a new independent human review",
+    "conventions_accepted": [
+      "G-1",
+      "K-1"
+    ],
+    "excluded_question": {
+      "detail": "the question conflates the beginning of medal awards with the beginning of the gold/silver/bronze award tradition; its CLEAN reading requires an unsupported repair of the question premise, so the question is excluded and its CLEAN review stays pending",
+      "eligible_question_number": 54,
+      "question_id": "5ab56200554299494045ef88",
+      "reason": "ambiguous_question_premise"
+    },
+    "independent_human_review": false,
+    "replacement_question": {
+      "eligible_question_number": 143,
+      "note": "entered by recomputing the first 60 in the unchanged frozen candidate order",
+      "question_id": "5a82800855429966c78a6a2f"
+    },
+    "review_counts": {
+      "approved": 439,
+      "pending": 20,
+      "rejected": 113
+    },
+    "reviewer_recorded_for_accepted_decisions": "Denys Yuvzhenko"
+  },
+  "accounting": {
+    "attempts_summed_from_runs": 6049,
+    "calls_logged_in_runs": 6049,
+    "cumulative_stage14_attempts": 6049,
+    "global_attempt_ceiling": 11520,
+    "ledger_agrees_with_batch_budget": true,
+    "reconciliation_note": "attempts are counted before a request is sent, so attempts >= logged calls; a difference equals attempts that produced no usable response",
+    "remaining_allowance": 5471
+  },
+  "audit": {
+    "full_batch": {
+      "calls_by_node": {
+        "answer": 1115,
+        "grade_binary_action": 2081,
+        "grade_typed_action": 1826,
+        "rewrite_query": 1027
+      },
+      "passed": true,
+      "problem_examples": [],
+      "problems": 0,
+      "runs": 2880,
+      "single_model": true,
+      "store_flags": [
+        "False"
+      ]
+    },
+    "isolation_note": "the shared heuristic also flags a gold answer string occurring inside supplied documents or inside this run's own model output; those are ordinary corpus text and model text, not annotation leaks, and are classified as such rather than waived",
+    "technical_check_first_16": {
+      "passed": true,
+      "problems": 0,
+      "runs": 16
+    }
+  },
+  "author": "Denys Yuvzhenko",
+  "citation_id_membership": {
+    "invalid": 243,
+    "not_applicable": 1774,
+    "valid": 863
+  },
+  "execution": {
+    "all_coordinates_completed": false,
+    "completed": 2873,
+    "data_collection_complete": true,
+    "data_collection_note": "every planned coordinate was attempted exactly once; the missing ones are recorded technical failures, never abstentions, and were not re-run or replaced",
+    "first_sixteen_were_ordinary_observations": true,
+    "invocations": 30,
+    "missing": 7,
+    "pending_coordinates": 0,
+    "plan_exhausted": true,
+    "planned_coordinates": 2880,
+    "status_counts": {
+      "completed": 2873,
+      "failed": 7
+    },
+    "technical_statuses_of_missing": {
+      "technical_failure": 7
+    },
+    "terminal_outcomes_completed": {
+      "answered": 1106,
+      "controller_abstained": 1600,
+      "escalated": 161,
+      "generator_abstained": 6
+    }
+  },
+  "generated_at_utc": "2026-09-20T22:38:30+00:00",
+  "index_correction": {
+    "answered_runs_filled": 1106,
+    "answered_runs_seen": 1106,
+    "citation_id_membership": {
+      "invalid": 243,
+      "not_applicable": 1774,
+      "valid": 863
+    },
+    "defect": "main_study.consolidate reads the generator payload from generator['result']; the runner writes it to generator['output']",
+    "frozen_implementation_unchanged": "src/typed_rag/main_study.py is bound by the frozen plan and was not edited after execution; the correction is applied by tools/stage14_finalize.py when rebuilding the index from the same run records",
+    "recorded_at_utc": "2026-09-20T22:38:26+00:00",
+    "rows": 2880,
+    "run_index_sha256": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "scope": "read-side only: the three index fields answer, returned_evidence_doc_ids, citation_id_membership_valid were null. No request, response, run record or coordinate is affected and nothing was re-run",
+    "stage": "stage14_index_correction"
+  },
+  "outputs": {
+    "results/main_run_index.jsonl": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "results/stage14_execution_ledger.json": "113e635c7f964c498edc71a696df3eeca88caf134484f2c333fef8a7481c4639",
+    "results/stage14_report.json": "42765d4677b53257d920749a1c8bad8f111e401ae2fbde369c58ef56b9af3eb6",
+    "results/stage14_summary.md": "83d5904466c0f779b1ace295d3e509619bcc8ae6068fd770e5c0f2f297549634"
+  },
+  "plan": {
+    "batch_dir": "C:\\Users\\lvivc\\trfp_runs\\m947b073b30fd",
+    "controller": {
+      "max_search_retries": 1,
+      "policy_version": "stage5-v1"
+    },
+    "corpus_sha256": "fd4e8c7a4db5ebd10559f8a9cd78324c28e993d6142c0401b501a80de3c56aaf",
+    "formula": "60 questions x 4 conditions x 4 branches x 3 repeats",
+    "generation_parameters": {
+      "max_output_tokens": 800,
+      "max_retries": 0,
+      "previous_response_id": null,
+      "store": false,
+      "stream": false,
+      "temperature": 0.0,
+      "timeout_seconds": 60.0,
+      "tools": null
+    },
+    "index_sha256": "47d25ab14c8072f08ee135428ea9761386530b019bea1250e8f5352bc53c8701",
+    "manifest_sha256": "c0474a6715b2fb4201dab3b8aa1f5abc8660d61cef898402843685c1505a8bf8",
+    "model": "gpt-4o-mini-2024-07-18",
+    "plan_id": "947b073b30fd5e6f138d624d07bc547fd258d1a99d0ba7b9c366fb9088ec3d20",
+    "planned_coordinates": 2880,
+    "runs_sha256": "e072d3af02c2b7ba6666e5f69dc036480c7bdc8a5b5c62ea3cf3649e9f0bf9ea",
+    "verified_before_every_invocation": true
+  },
+  "preflight": {
+    "all_passed": true,
+    "isolation_heuristic_false_positives": 48,
+    "isolation_note": "the shared heuristic flags a gold answer found anywhere outside the document texts. All 48 hits are the two-letter answer 'no' occurring inside the fixed grader instructions, which are byte-identical for every case and were written at stage 5, before this sample existed. The gold answer appears in no user input. No prompt, schema or check was relaxed.",
+    "longest_output_path": 144
+  },
+  "protocol": {
+    "file": "results/main_experiment_protocol_v3.md",
+    "frozen_before_first_provider_call": true,
+    "sha256": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7"
+  },
+  "retrieval_change_after_retry": {
+    "content_changed_same_ids": 0,
+    "identical": 4,
+    "order_only": 16,
+    "set_changed": 1007
+  },
+  "review_materials": {
+    "all_rows_pending": true,
+    "completed_runs_scanned": 2873,
+    "files": [
+      "main_post_retry_contexts.jsonl",
+      "main_post_retry_reviews.jsonl",
+      "main_post_retry_lookup.json",
+      "main_post_retry_review.md",
+      "main_answer_grounding_cases.jsonl",
+      "main_answer_grounding_reviews.jsonl",
+      "main_answer_grounding_lookup.json",
+      "main_answer_grounding_review.md"
+    ],
+    "grounding_cases": 347,
+    "grounding_instances": 1106,
+    "post_retry_cases": 335,
+    "post_retry_instances": 1024
+  },
+  "sample": {
+    "approved_initial_contexts": 240,
+    "questions": 60,
+    "sample_sha256": "021e12a392f3deae33c319746eafd7b0275fe050bc6468b01c69dc5978c4cabb",
+    "sensitivity_excluded": [
+      {
+        "eligible_question_number": 20,
+        "question_id": "5ae532e955429908b632656f"
+      },
+      {
+        "eligible_question_number": 23,
+        "question_id": "5a7412b655429979e28828a1"
+      },
+      {
+        "eligible_question_number": 88,
+        "question_id": "5a8e4b7c5542990e94052ab7"
+      },
+      {
+        "eligible_question_number": 90,
+        "question_id": "5aba55f25542994dbf0198e0"
+      },
+      {
+        "eligible_question_number": 132,
+        "question_id": "5ab950bd55429970cfb8ea4c"
+      }
+    ],
+    "sensitivity_subset_questions": 55
+  },
+  "semantic_annotation": {
+    "grounding_labels": "pending",
+    "post_retry_labels": "pending",
+    "statement": "data collection can be complete while semantic outcome annotation is not; no grounding or post-retry label is assigned, inferred or auto-filled at stage 14, and no effectiveness claim is made"
+  },
+  "stage": "stage14_main_experiment",
+  "usage": {
+    "coordinates_with_unknown_usage": 0,
+    "known_totals": {
+      "cached_tokens": 108288,
+      "calls_with_usage": 6049,
+      "input_tokens": 8815546,
+      "output_tokens": 642983,
+      "total_tokens": 9458529
+    },
+    "unknown_usage_run_ids": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "downloaded_at": "2026-09-12T20:04:12+00:00",
+  "downloaded_at_basis": "filesystem mtime of data/raw/hotpot_dev_distractor_v1.json; the download predates provenance recording, so this is the write time of the file, not an independently logged download timestamp",
+  "official_source_url": "https://curtis.ml.cmu.edu/datasets/hotpot/hotpot_dev_distractor_v1.json",
+  "official_source_status": "unreachable on 2026-09-12 (TCP timeout on ports 443 and 80); not used",
+  "original_source_url": "https://huggingface.co/datasets/RAGLAB/data/resolve/main/eval_datasets/HotPotQA/hotpot_dev_distractor_v1.json",
+  "provenance_basis": "recorded retrospectively during stage 3 from the stage-2 preparation run of 2026-09-12, whose report named this mirror as source_url_used; the file itself was not re-downloaded to confirm this",
+  "raw_file": "hotpot_dev_distractor_v1.json",
+  "raw_sha256": "4e9ecb5c8d3b719f624d66b60f8d56bf227f03914f5f0753d6fa1b359d7104ea",
+  "raw_size_bytes": 46320117,
+  "verification": {
+    "checked": [
+      "record count equals 7405",
+      "first 3 records match on _id, question, answer, type, level"
+    ],
+    "method": "partial comparison against the official HuggingFace mirror of the same split (hotpotqa/hotpot_qa, config distractor, split validation)",
+    "scope": "PARTIAL - not a record-by-record comparison of the whole file; the dataset publishes no official checksum, so full identity with the original CMU file is not established"
+  }
+}

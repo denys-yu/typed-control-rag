@@ -1,0 +1,4 @@
+# Byte-exact storage. Several tracked files are protected by SHA-256 hashes
+# recorded in the frozen experiment plan and in the analysis reports, so Git must
+# never rewrite their line endings on checkout or commit.
+* -text

@@ -1,0 +1,87 @@
+{
+  "status": "proposed_supplement_only",
+  "original_lookup_sha256": "5b9c27d6bf92fb87019bc28ace7528f4b33db0bdb099f87abd3b0a530a203d77",
+  "original_scope": "post-retry contexts in completed runs",
+  "original_completed_instances": 1024,
+  "all_retried_instances_including_technical_failures": 1027,
+  "distinct_contexts_after_additions": 335,
+  "required_local_check": "Verify the three raw post-retry contexts against the existing context content before accepting the supplement. Ordered IDs and the run-level context hash match the completed counterparts in the supplied run index. Raw run files were not supplied here.",
+  "analysis_constraint": "Keep all three semantic outcomes technically missing. This supplement concerns retrieval coverage only; it does not add completed outcomes or supported answers.",
+  "additions": [
+    {
+      "context_sha256": "678d43a4b73f4bd718e564a22d4696030e3de3af7dd0b965ebe74f3d6518dcdb",
+      "run_id": "C_q94_c631cc5b51f31418_r2_30ef69864e3d",
+      "coordinate": "5a8cacac554299585d9e3716|c631cc5b51f31418|C|r2",
+      "branch": "C",
+      "condition": "EMPTY",
+      "repeat": 2,
+      "iteration": 2,
+      "query_kind": "rewritten",
+      "record_status": "failed",
+      "status": "technical_failure",
+      "terminal_outcome": "technical_failure",
+      "run_final_context_sha256": "048cb7ac66d11461dfeb4cb2bff713ba4678eb6ad5c5cf466e9679d0c836bf12",
+      "final_context_doc_ids": [
+        "c785709053cd4dc763573b1394ce318b248b981ba560f655afcd66dd2de90f70",
+        "9f0615e0d0267861dddbbd9e175057be864b82fc636c389ce021bc82003bc612",
+        "2276935a0e9841b2a2e609cc8658709019e89b74cfe24fd93bae106c4691f1a6",
+        "d3de9dc38f4892f495a489938bad75c7a2862ba20c9426923be7d1e13d23d047",
+        "1973837c040ef64b2cec5d7ddede5ceb003c30da6d3c7216b946b2a83a6fe28b"
+      ],
+      "matching_completed_run_ids": [
+        "C_q94_c631cc5b51f31418_r1_dda512987abb",
+        "C_q94_c631cc5b51f31418_r3_3ea32e39d339"
+      ]
+    },
+    {
+      "context_sha256": "678d43a4b73f4bd718e564a22d4696030e3de3af7dd0b965ebe74f3d6518dcdb",
+      "run_id": "C_q94_8d0e412137e16f5c_r1_2264e527b817",
+      "coordinate": "5a8cacac554299585d9e3716|8d0e412137e16f5c|C|r1",
+      "branch": "C",
+      "condition": "PARTIAL",
+      "repeat": 1,
+      "iteration": 2,
+      "query_kind": "rewritten",
+      "record_status": "failed",
+      "status": "technical_failure",
+      "terminal_outcome": "technical_failure",
+      "run_final_context_sha256": "048cb7ac66d11461dfeb4cb2bff713ba4678eb6ad5c5cf466e9679d0c836bf12",
+      "final_context_doc_ids": [
+        "c785709053cd4dc763573b1394ce318b248b981ba560f655afcd66dd2de90f70",
+        "9f0615e0d0267861dddbbd9e175057be864b82fc636c389ce021bc82003bc612",
+        "2276935a0e9841b2a2e609cc8658709019e89b74cfe24fd93bae106c4691f1a6",
+        "d3de9dc38f4892f495a489938bad75c7a2862ba20c9426923be7d1e13d23d047",
+        "1973837c040ef64b2cec5d7ddede5ceb003c30da6d3c7216b946b2a83a6fe28b"
+      ],
+      "matching_completed_run_ids": [
+        "C_q94_c631cc5b51f31418_r1_dda512987abb",
+        "C_q94_c631cc5b51f31418_r3_3ea32e39d339"
+      ]
+    },
+    {
+      "context_sha256": "678d43a4b73f4bd718e564a22d4696030e3de3af7dd0b965ebe74f3d6518dcdb",
+      "run_id": "C_q94_8d0e412137e16f5c_r2_3a52edea0dcf",
+      "coordinate": "5a8cacac554299585d9e3716|8d0e412137e16f5c|C|r2",
+      "branch": "C",
+      "condition": "PARTIAL",
+      "repeat": 2,
+      "iteration": 2,
+      "query_kind": "rewritten",
+      "record_status": "failed",
+      "status": "technical_failure",
+      "terminal_outcome": "technical_failure",
+      "run_final_context_sha256": "048cb7ac66d11461dfeb4cb2bff713ba4678eb6ad5c5cf466e9679d0c836bf12",
+      "final_context_doc_ids": [
+        "c785709053cd4dc763573b1394ce318b248b981ba560f655afcd66dd2de90f70",
+        "9f0615e0d0267861dddbbd9e175057be864b82fc636c389ce021bc82003bc612",
+        "2276935a0e9841b2a2e609cc8658709019e89b74cfe24fd93bae106c4691f1a6",
+        "d3de9dc38f4892f495a489938bad75c7a2862ba20c9426923be7d1e13d23d047",
+        "1973837c040ef64b2cec5d7ddede5ceb003c30da6d3c7216b946b2a83a6fe28b"
+      ],
+      "matching_completed_run_ids": [
+        "C_q94_c631cc5b51f31418_r1_dda512987abb",
+        "C_q94_c631cc5b51f31418_r3_3ea32e39d339"
+      ]
+    }
+  ]
+}

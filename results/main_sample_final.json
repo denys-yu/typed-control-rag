@@ -1,0 +1,1541 @@
+{
+  "acceptance_basis": "accepted by the researcher through the stage 14 instruction; this is a researcher acceptance of prepared proposals, not a new independent human review",
+  "approved_initial_contexts": 240,
+  "design": {
+    "branches": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "conditions": 4,
+    "planned_coordinates": 2880,
+    "provider_attempt_ceiling": 11520,
+    "questions": 60,
+    "repeats": 3
+  },
+  "excluded_questions": [
+    {
+      "eligible_question_number": 2,
+      "question_id": "5a83305d55429966c78a6b4a",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 5,
+      "question_id": "5ab271fe554299449642c8a6",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 8,
+      "question_id": "5ac00278554299012d1db56b",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 9,
+      "question_id": "5a7f87755542994857a76769",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 10,
+      "question_id": "5ade286e5542997c77aded81",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 13,
+      "question_id": "5ae063085542993d6555eb37",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 16,
+      "question_id": "5ae0a5825542993d6555ebdf",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 17,
+      "question_id": "5a78bd9b554299078472774a",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 18,
+      "question_id": "5a8e0370554299068b959e2d",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 19,
+      "question_id": "5a8c49655542995e66a47598",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 21,
+      "question_id": "5a8b349a55429971feec466b",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 22,
+      "question_id": "5ac0223f5542992a796dec9f",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 26,
+      "question_id": "5a8de02b554299068b959e13",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 29,
+      "question_id": "5ac194db55429964131be23a",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 30,
+      "question_id": "5ae60426554299546bf83019",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 31,
+      "question_id": "5a8c6d4e5542996e8ac88aa6",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 32,
+      "question_id": "5add870b5542995b365fab3c",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 33,
+      "question_id": "5a74639a55429929fddd8404",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 34,
+      "question_id": "5a81b92a5542995ce29dcc52",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 35,
+      "question_id": "5a8708ba55429960ec39b701",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 36,
+      "question_id": "5a7734ce5542993735360217",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 37,
+      "question_id": "5a82028a554299676cceb1d6",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 40,
+      "question_id": "5a85f5115542991dd0999ed9",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 43,
+      "question_id": "5a7cce4b554299683c1c6388",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 46,
+      "question_id": "5a84d4555542992a431d1aac",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 48,
+      "question_id": "5adc985e5542990d50227cb7",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 49,
+      "question_id": "5ac3adc35542995ef918c1e2",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 52,
+      "question_id": "5aba943c554299232ef4a33e",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "detail": "the question conflates the beginning of medal awards with the beginning of the gold/silver/bronze award tradition; its CLEAN reading requires an unsupported repair of the question premise, so the question is excluded and its CLEAN review stays pending",
+      "eligible_question_number": 54,
+      "question_id": "5ab56200554299494045ef88",
+      "question_level_exclusion_reason": "ambiguous_question_premise",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 55,
+      "question_id": "5adca5a45542994d58a2f692",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 56,
+      "question_id": "5a89e92c5542993b751ca9af",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 57,
+      "question_id": "5ae0d5335542990adbacf674",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 58,
+      "question_id": "5ae13bf1554299422ee99634",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 60,
+      "question_id": "5a81d1f0554299676cceb0ee",
+      "reasons": [
+        "EMPTY: rejected (observed_state=OK)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 61,
+      "question_id": "5ae3bb0d5542992f92d82357",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 62,
+      "question_id": "5ae2c416554299492dc91c67",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 63,
+      "question_id": "5a8f7e785542992414482ae6",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 65,
+      "question_id": "5ae6f2a7554299572ea5464a",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 66,
+      "question_id": "5ade4e415542992fa25da73f",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 67,
+      "question_id": "5a88f7855542993b751ca8da",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 69,
+      "question_id": "5ab81cd955429916710eaff7",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 72,
+      "question_id": "5ab524595542996a3a96a034",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 75,
+      "question_id": "5adfba9555429942ec259b1e",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 76,
+      "question_id": "5abe45b855429976d4830ad0",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 77,
+      "question_id": "5ab2a8b655429929539467ab",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 78,
+      "question_id": "5a8f64e0554299458435d60b",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 79,
+      "question_id": "5a7b40cd5542995eb53be8d4",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 80,
+      "question_id": "5ae0247955429925eb1afc22",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 81,
+      "question_id": "5a74760b55429974ef308c03",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 82,
+      "question_id": "5ae5ffbb5542996de7b71ad4",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 83,
+      "question_id": "5a79257b55429974737f79a7",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 84,
+      "question_id": "5a7c4a6455429907fabeef53",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "PARTIAL: rejected (observed_state=EMPTY)",
+        "INCONSISTENT: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 89,
+      "question_id": "5ab5ceb65542997d4ad1f1e2",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 91,
+      "question_id": "5a83a7e15542992ef85e2347",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 92,
+      "question_id": "5abbf9b355429931dba145fe",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 94,
+      "question_id": "5a7199725542994082a3e88f",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 95,
+      "question_id": "5ade6b67554299728e26c71c",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 97,
+      "question_id": "5adfec5f55429942ec259b8d",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 98,
+      "question_id": "5a8af92c55429950cd6afc33",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 101,
+      "question_id": "5ade82ba5542992fa25da7a3",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 103,
+      "question_id": "5a84b5975542991dd0999da3",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 104,
+      "question_id": "5ae095f055429924de1b7103",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 107,
+      "question_id": "5ae4d7fc5542990ba0bbb16f",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 108,
+      "question_id": "5ac2f79e5542996773102661",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 109,
+      "question_id": "5a8d8abf5542994ba4e3dca1",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=OK)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 114,
+      "question_id": "5ae2e0fd55429928c4239524",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 115,
+      "question_id": "5a887bc0554299206df2b2b6",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 116,
+      "question_id": "5a75462d5542996c70cfaed3",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 119,
+      "question_id": "5abd0803554299700f9d7979",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 120,
+      "question_id": "5a7766b15542993569682d7e",
+      "reasons": [
+        "CLEAN: rejected (observed_state=PARTIAL)",
+        "EMPTY: rejected (observed_state=PARTIAL)",
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 122,
+      "question_id": "5a76244c554299109176e65d",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 126,
+      "question_id": "5a84c01e5542991dd0999dd6",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 127,
+      "question_id": "5ae01b8855429925eb1afc14",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 130,
+      "question_id": "5adbda2755429944faac2385",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 131,
+      "question_id": "5a8d7edc55429941ae14dfdc",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 133,
+      "question_id": "5a7a11c85542996a35c170b4",
+      "reasons": [
+        "INCONSISTENT: rejected (observed_state=OK)"
+      ]
+    },
+    {
+      "eligible_question_number": 134,
+      "question_id": "5a835e215542992ef85e2296",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 136,
+      "question_id": "5abe92de5542993f32c2a16b",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 138,
+      "question_id": "5abe94fd55429965af743f37",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 139,
+      "question_id": "5ac288a95542990b17b153e5",
+      "reasons": [
+        "CLEAN: pending (observed_state=None)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 140,
+      "question_id": "5a76067e55429976ec32bce9",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "INCONSISTENT: pending (observed_state=None)"
+      ]
+    },
+    {
+      "eligible_question_number": 141,
+      "question_id": "5ae5f47c5542996de7b71a82",
+      "reasons": [
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    },
+    {
+      "eligible_question_number": 142,
+      "question_id": "5ab928c255429934fafe6e6e",
+      "reasons": [
+        "PARTIAL: rejected (observed_state=OK)",
+        "EMPTY: rejected (observed_state=PARTIAL)"
+      ]
+    }
+  ],
+  "matching_questions_available": 60,
+  "question_level_exclusions": [
+    {
+      "clean_case_id": "27f41409acfbb644",
+      "clean_review_status": "pending",
+      "detail": "the question conflates the beginning of medal awards with the beginning of the gold/silver/bronze award tradition; its CLEAN reading requires an unsupported repair of the question premise, so the question is excluded and its CLEAN review stays pending",
+      "eligible_question_number": 54,
+      "question_id": "5ab56200554299494045ef88",
+      "reason": "ambiguous_question_premise"
+    }
+  ],
+  "questions": [
+    {
+      "candidate_position": 0,
+      "case_ids": {
+        "CLEAN": "697fddc09ba2ef67",
+        "EMPTY": "769f195651864168",
+        "INCONSISTENT": "18bec6a9ee5cca03",
+        "PARTIAL": "672245a568a90398"
+      },
+      "eligible_question_number": 1,
+      "question": " Jordan's Furniture is a furniture retailer with a location in an enclosed shopping mall on the north side of Interstate 295 near what?",
+      "question_id": "5ac2ffea55429921a00ab0cc",
+      "sample_position": 1
+    },
+    {
+      "candidate_position": 6,
+      "case_ids": {
+        "CLEAN": "e28bfc7f64ac38d3",
+        "EMPTY": "4716f2e2952faa6d",
+        "INCONSISTENT": "408d44a72297b1c9",
+        "PARTIAL": "596d72b597525319"
+      },
+      "eligible_question_number": 3,
+      "question": "Between Valparaiso University and Old Dominion University, which institution has higher student enrollment?",
+      "question_id": "5a81456855429938b614231e",
+      "sample_position": 2
+    },
+    {
+      "candidate_position": 7,
+      "case_ids": {
+        "CLEAN": "269a2cfac563713c",
+        "EMPTY": "8463bc522cd47baf",
+        "INCONSISTENT": "5dc1d8bbbe6aacfd",
+        "PARTIAL": "06b27c7fe41e5956"
+      },
+      "eligible_question_number": 4,
+      "question": "For how many years did a player, who woke up on March 28, 1996 without vision in his right eye, play for the Minnesota Twins?",
+      "question_id": "5a7b4d765542995eb53be8fe",
+      "sample_position": 3
+    },
+    {
+      "candidate_position": 19,
+      "case_ids": {
+        "CLEAN": "7cb34d1ac44740dc",
+        "EMPTY": "0a4956b10a647b99",
+        "INCONSISTENT": "604f948c13f14a2f",
+        "PARTIAL": "02f80b9aa7ca194e"
+      },
+      "eligible_question_number": 6,
+      "question": "Which author was born first, Josephine Tey or Julia Peterkin?",
+      "question_id": "5a77a7db5542995d8318124d",
+      "sample_position": 4
+    },
+    {
+      "candidate_position": 21,
+      "case_ids": {
+        "CLEAN": "0c40abfeeb61b7d4",
+        "EMPTY": "59c3600e29aef24e",
+        "INCONSISTENT": "faa77e9addfa0ac1",
+        "PARTIAL": "66496a31f8a2682b"
+      },
+      "eligible_question_number": 7,
+      "question": "Oscar is what type of animal with black fur that may be a mixed or specific breed?",
+      "question_id": "5a81ff1a554299676cceb1c2",
+      "sample_position": 5
+    },
+    {
+      "candidate_position": 33,
+      "case_ids": {
+        "CLEAN": "5f28601e1b444e79",
+        "EMPTY": "cd0f3a47f9a23c63",
+        "INCONSISTENT": "f4a79b1a7b6a704e",
+        "PARTIAL": "91e494a6da565ac1"
+      },
+      "eligible_question_number": 11,
+      "question": "Which airport Albany International Airport and Dane County Regional Airport is nearer its local town ?",
+      "question_id": "5ab439f055429942dd415eef",
+      "sample_position": 6
+    },
+    {
+      "candidate_position": 35,
+      "case_ids": {
+        "CLEAN": "4e8bcecd89ffaf83",
+        "EMPTY": "8a0c697527a6505c",
+        "INCONSISTENT": "14c0142ec98105b7",
+        "PARTIAL": "e86ab406c740f8f5"
+      },
+      "eligible_question_number": 12,
+      "question": "Runaway Scrape events of the Texas Revolution, culminating in this Battle, was a fight that lasted how long?",
+      "question_id": "5a85f8665542994775f606ce",
+      "sample_position": 7
+    },
+    {
+      "candidate_position": 44,
+      "case_ids": {
+        "CLEAN": "b4c07db659e4abfc",
+        "EMPTY": "ba1c78510c60a642",
+        "INCONSISTENT": "a28ca8045daafe2b",
+        "PARTIAL": "cfb2d8646b95af3b"
+      },
+      "eligible_question_number": 14,
+      "question": "Jon S. Cardin is the nephew of a senator who has been in office since when ?",
+      "question_id": "5a8af94455429971feec45b6",
+      "sample_position": 8
+    },
+    {
+      "candidate_position": 45,
+      "case_ids": {
+        "CLEAN": "afdd8649c0a0b5df",
+        "EMPTY": "77e7b86b0df7761d",
+        "INCONSISTENT": "bdde9d74f57f1bfa",
+        "PARTIAL": "7b6512cd89007f9b"
+      },
+      "eligible_question_number": 15,
+      "question": "The technique 'panenka' was first used by a player of what nationality against \"Die Katze von Anzing\"? ",
+      "question_id": "5a85f4ec5542994775f606c6",
+      "sample_position": 9
+    },
+    {
+      "candidate_position": 55,
+      "case_ids": {
+        "CLEAN": "d00b8bbe5204d9ac",
+        "EMPTY": "864f475c804d83f9",
+        "INCONSISTENT": "565128efb6ce904e",
+        "PARTIAL": "880626054fc12535"
+      },
+      "eligible_question_number": 20,
+      "question": "Does the genus Cunninghamia or Chilopsis contain only one species?",
+      "question_id": "5ae532e955429908b632656f",
+      "sample_position": 10
+    },
+    {
+      "candidate_position": 60,
+      "case_ids": {
+        "CLEAN": "9fe1993ad428bf95",
+        "EMPTY": "22e0d60efb804064",
+        "INCONSISTENT": "3477b7b61747864c",
+        "PARTIAL": "f0259cd4bdaf98b6"
+      },
+      "eligible_question_number": 23,
+      "question": " Who was the husband of the prominent Walton family member who died after John died in 2005?",
+      "question_id": "5a7412b655429979e28828a1",
+      "sample_position": 11
+    },
+    {
+      "candidate_position": 62,
+      "case_ids": {
+        "CLEAN": "a296c599bf1a303d",
+        "EMPTY": "9178e0040fcf4a96",
+        "INCONSISTENT": "377ea8a6914a86cf",
+        "PARTIAL": "7d92ec5d5114fb63"
+      },
+      "eligible_question_number": 24,
+      "question": "Which casino closed first The Atlantic Club Casino Hotel or Trump Plaza Hotel and Casino ? ",
+      "question_id": "5ab529965542990594ba9d1e",
+      "sample_position": 12
+    },
+    {
+      "candidate_position": 64,
+      "case_ids": {
+        "CLEAN": "363db0ca10614058",
+        "EMPTY": "c36baa893335710f",
+        "INCONSISTENT": "07cee18c3e53b1b3",
+        "PARTIAL": "005b9729c2b876ac"
+      },
+      "eligible_question_number": 25,
+      "question": "Which film was was made first The Young Black Stallion or Wild Hearts Can't Be Broken?",
+      "question_id": "5a7a43f25542996a35c1716c",
+      "sample_position": 13
+    },
+    {
+      "candidate_position": 66,
+      "case_ids": {
+        "CLEAN": "ce4a6798bc5b7a04",
+        "EMPTY": "fcb746a668444bd8",
+        "INCONSISTENT": "5e396cbe818482d8",
+        "PARTIAL": "a96a87681cef3907"
+      },
+      "eligible_question_number": 27,
+      "question": "Which was published first Polarity or The Farming Game?",
+      "question_id": "5a772c925542993735360208",
+      "sample_position": 14
+    },
+    {
+      "candidate_position": 68,
+      "case_ids": {
+        "CLEAN": "8bbe0103d84c9937",
+        "EMPTY": "f0a80ee342a8a218",
+        "INCONSISTENT": "4af91273c1becfae",
+        "PARTIAL": "57dcf7caa620ba60"
+      },
+      "eligible_question_number": 28,
+      "question": "What was the name of the team that represented an Arizona university in the conference that covers a broad expanse of the western United States, including Arizona, California, and New Mexico?",
+      "question_id": "5a8752955542994775f607d1",
+      "sample_position": 15
+    },
+    {
+      "candidate_position": 87,
+      "case_ids": {
+        "CLEAN": "20864589a030f992",
+        "EMPTY": "d1e87307b6249ff5",
+        "INCONSISTENT": "85949fc3eaf64837",
+        "PARTIAL": "bc45eab8912fadd0"
+      },
+      "eligible_question_number": 38,
+      "question": "Which of the music composed for Operation Amsterdam originated in the middle of the 19th century in Bohemia, now part of the Czech Republic?",
+      "question_id": "5ae6371155429929b0807af1",
+      "sample_position": 16
+    },
+    {
+      "candidate_position": 89,
+      "case_ids": {
+        "CLEAN": "efcfcc5823e80186",
+        "EMPTY": "f4f13dc5908be426",
+        "INCONSISTENT": "de438093af8eec04",
+        "PARTIAL": "7cee4048f9f2f0af"
+      },
+      "eligible_question_number": 39,
+      "question": "The name of the Japanese rock band T-Bolan was inspired by the name of an English rock band formed in what year?",
+      "question_id": "5a8e06785542995085b37383",
+      "sample_position": 17
+    },
+    {
+      "candidate_position": 92,
+      "case_ids": {
+        "CLEAN": "b2bbdb05a15e29ef",
+        "EMPTY": "cc7f3a9ed3e305ee",
+        "INCONSISTENT": "c98e002f357cbf3b",
+        "PARTIAL": "91ea2db13c16dac5"
+      },
+      "eligible_question_number": 41,
+      "question": "How many personnel does the Navy that had Gilliam-class atttack transports have on active duty?",
+      "question_id": "5ac2c338554299657fa29039",
+      "sample_position": 18
+    },
+    {
+      "candidate_position": 94,
+      "case_ids": {
+        "CLEAN": "c9e2cace7f2423e6",
+        "EMPTY": "c631cc5b51f31418",
+        "INCONSISTENT": "295ab0c7d646655c",
+        "PARTIAL": "8d0e412137e16f5c"
+      },
+      "eligible_question_number": 42,
+      "question": "The head coach for the defensive backs coach, Peter Giunta, led what professional football team to two Super Bowl victories against the New England Patriots?",
+      "question_id": "5a8cacac554299585d9e3716",
+      "sample_position": 19
+    },
+    {
+      "candidate_position": 97,
+      "case_ids": {
+        "CLEAN": "77cb3b9e59d7a28e",
+        "EMPTY": "490ea6446d4a98bc",
+        "INCONSISTENT": "d75390ed8500a1fb",
+        "PARTIAL": "bbd3fa69ec8d09ef"
+      },
+      "eligible_question_number": 44,
+      "question": "Was Without the King and Italy in a Day directed by the same person?",
+      "question_id": "5a8bbddf5542997f31a41db2",
+      "sample_position": 20
+    },
+    {
+      "candidate_position": 99,
+      "case_ids": {
+        "CLEAN": "f7800f7f653aa81f",
+        "EMPTY": "f6d98b339f4fbd8e",
+        "INCONSISTENT": "4d9120b010ee76f1",
+        "PARTIAL": "3b3766e020489fbd"
+      },
+      "eligible_question_number": 45,
+      "question": "When did the mother of Joseph Ferdinand Leopold of Bavaria die?",
+      "question_id": "5ac5630e5542993e66e823d5",
+      "sample_position": 21
+    },
+    {
+      "candidate_position": 101,
+      "case_ids": {
+        "CLEAN": "74e2f84b35b456c4",
+        "EMPTY": "6d20e8dc518bd2ca",
+        "INCONSISTENT": "ddfec1330e5c83fd",
+        "PARTIAL": "59d004b3bb68ba0d"
+      },
+      "eligible_question_number": 47,
+      "question": "What is the main difference between Aloinopsis and Washingtonia?",
+      "question_id": "5add647a5542995b365fab26",
+      "sample_position": 22
+    },
+    {
+      "candidate_position": 105,
+      "case_ids": {
+        "CLEAN": "08b23b119f780001",
+        "EMPTY": "3590f8483584edd0",
+        "INCONSISTENT": "63eac3f45968e7ea",
+        "PARTIAL": "cf8b663a934a6de9"
+      },
+      "eligible_question_number": 50,
+      "question": "In which region is the village after which lager Fucking Hell is named ?",
+      "question_id": "5ac0aa955542997d64295a49",
+      "sample_position": 23
+    },
+    {
+      "candidate_position": 106,
+      "case_ids": {
+        "CLEAN": "7aa49ece35f46454",
+        "EMPTY": "1354f0af48b81704",
+        "INCONSISTENT": "5b83764a4b123856",
+        "PARTIAL": "ec7ff19b38bad54e"
+      },
+      "eligible_question_number": 51,
+      "question": "In \"Bon Cop, Bad Cop\", Canadian actor Rick Howland played the role of Harry Buttman (a parody of Gary Beltman), who is the current commissioner of what National sports league? ",
+      "question_id": "5ac2b2e2554299218029dafa",
+      "sample_position": 24
+    },
+    {
+      "candidate_position": 109,
+      "case_ids": {
+        "CLEAN": "1a7bfa7fba750ac9",
+        "EMPTY": "f14896e840dd1004",
+        "INCONSISTENT": "a6290005d29fd5bd",
+        "PARTIAL": "8cff215f95f2e640"
+      },
+      "eligible_question_number": 53,
+      "question": "The 2000 British film Snatch was later adapted into a television series for what streaming service?",
+      "question_id": "5adef80b5542993a75d263c4",
+      "sample_position": 25
+    },
+    {
+      "candidate_position": 124,
+      "case_ids": {
+        "CLEAN": "415599d6f34a84bf",
+        "EMPTY": "e510ceb25813d9b6",
+        "INCONSISTENT": "576ac9635fdc7a71",
+        "PARTIAL": "6366ca8d06c6bd7e"
+      },
+      "eligible_question_number": 59,
+      "question": "Which magazine began publication first, Reunions magazine or Money?",
+      "question_id": "5a7528e955429929fddd850e",
+      "sample_position": 26
+    },
+    {
+      "candidate_position": 131,
+      "case_ids": {
+        "CLEAN": "360cd256d52e3ef2",
+        "EMPTY": "41d6c19cf0746611",
+        "INCONSISTENT": "4ffeb3139d5320fb",
+        "PARTIAL": "085a08f653ed8b61"
+      },
+      "eligible_question_number": 64,
+      "question": "What city is home to the private research university Jung Seul-ki swam for?",
+      "question_id": "5a84e1095542997175ce1f25",
+      "sample_position": 27
+    },
+    {
+      "candidate_position": 139,
+      "case_ids": {
+        "CLEAN": "f7ef6e735e9925fc",
+        "EMPTY": "a65e10e3ae46895c",
+        "INCONSISTENT": "e4f82404761cdebd",
+        "PARTIAL": "735cfa294ae8b169"
+      },
+      "eligible_question_number": 68,
+      "question": "Who played Amelia Vanek in the film adaptation of Monster?",
+      "question_id": "5ac415445542995c82c4acb7",
+      "sample_position": 28
+    },
+    {
+      "candidate_position": 141,
+      "case_ids": {
+        "CLEAN": "dc4c29c28f9c2647",
+        "EMPTY": "f7ddaa42dbc2ad86",
+        "INCONSISTENT": "49247e198dde5291",
+        "PARTIAL": "f6f3f731ca64f76c"
+      },
+      "eligible_question_number": 70,
+      "question": "What kind of species on the Indonesian island of java might participate in a Rampokan.",
+      "question_id": "5a8f38fa55429924144829f5",
+      "sample_position": 29
+    },
+    {
+      "candidate_position": 142,
+      "case_ids": {
+        "CLEAN": "12625906a7cf4169",
+        "EMPTY": "17985373f8efe794",
+        "INCONSISTENT": "a5fa758f7ff40c99",
+        "PARTIAL": "85d5698abef0932f"
+      },
+      "eligible_question_number": 71,
+      "question": "Annapolis Junction is located in what county named after  the wife of Cecilius Calvert, 2nd Baron Baltimore?",
+      "question_id": "5ae75c6e5542991bbc9761f8",
+      "sample_position": 30
+    },
+    {
+      "candidate_position": 146,
+      "case_ids": {
+        "CLEAN": "1a173b213ca55c4a",
+        "EMPTY": "e27b9f578866ae16",
+        "INCONSISTENT": "8c16369820c3cd9b",
+        "PARTIAL": "9c5d9f1940dde67d"
+      },
+      "eligible_question_number": 73,
+      "question": "Which case came first,  Barnes v. Glen Theatre, Inc. or Diamond v. Chakrabarty?",
+      "question_id": "5a84be095542992a431d1a97",
+      "sample_position": 31
+    },
+    {
+      "candidate_position": 147,
+      "case_ids": {
+        "CLEAN": "25976261eae44f22",
+        "EMPTY": "e924f2f5e4395a6e",
+        "INCONSISTENT": "9c019724b81ba481",
+        "PARTIAL": "7f84bc949a1728bb"
+      },
+      "eligible_question_number": 74,
+      "question": "Which tower is taller, 712 Fifth Avenue or Manhattan Life Insurance Building?",
+      "question_id": "5a834ed95542990548d0b1ca",
+      "sample_position": 32
+    },
+    {
+      "candidate_position": 170,
+      "case_ids": {
+        "CLEAN": "2f38a89769ed0752",
+        "EMPTY": "724448af53cc4254",
+        "INCONSISTENT": "052621649bbeaa5c",
+        "PARTIAL": "5af3d51600ec0104"
+      },
+      "eligible_question_number": 85,
+      "question": "Who is older, Tarryl Lynn Clark or Michele Marie Bachmann?",
+      "question_id": "5a7cad635542996dd594b97f",
+      "sample_position": 33
+    },
+    {
+      "candidate_position": 172,
+      "case_ids": {
+        "CLEAN": "a403b9817ba64a69",
+        "EMPTY": "e0bab4a479491fcf",
+        "INCONSISTENT": "512fc790849a9b97",
+        "PARTIAL": "ed4b30325503fc3e"
+      },
+      "eligible_question_number": 86,
+      "question": "The 2014 All-Pac-12 Conference football team featured players from the team led by which second-year head coach, who led his team to the conference title?",
+      "question_id": "5adc6e035542994650320cec",
+      "sample_position": 34
+    },
+    {
+      "candidate_position": 174,
+      "case_ids": {
+        "CLEAN": "71c5e4d6e56f6275",
+        "EMPTY": "7ab229abc144a46d",
+        "INCONSISTENT": "13d7c41e3ca8265b",
+        "PARTIAL": "04379896f82d4b1d"
+      },
+      "eligible_question_number": 87,
+      "question": "when was the retired Jamaican sprinter which Richard Thompson is, 0.99 seconds slower than born ?",
+      "question_id": "5abf8cc35542990832d3a14e",
+      "sample_position": 35
+    },
+    {
+      "candidate_position": 176,
+      "case_ids": {
+        "CLEAN": "804408fc232a3831",
+        "EMPTY": "d6107b235b555820",
+        "INCONSISTENT": "dc27f6a383a13cca",
+        "PARTIAL": "96fc18149a8ca484"
+      },
+      "eligible_question_number": 88,
+      "question": "What is the familial relationship of the founder of the Gulf Cartel to Juan García Ábrego?",
+      "question_id": "5a8e4b7c5542990e94052ab7",
+      "sample_position": 36
+    },
+    {
+      "candidate_position": 180,
+      "case_ids": {
+        "CLEAN": "515038b5b86e55b5",
+        "EMPTY": "dbd74cf3b8d62743",
+        "INCONSISTENT": "1d05cf2b92c60c34",
+        "PARTIAL": "dc67c96400cdac6c"
+      },
+      "eligible_question_number": 90,
+      "question": "Which space mission did the man, in which the Onizuka Prop Wash Award is named after, perish?",
+      "question_id": "5aba55f25542994dbf0198e0",
+      "sample_position": 37
+    },
+    {
+      "candidate_position": 183,
+      "case_ids": {
+        "CLEAN": "886e5b2101a5f9d7",
+        "EMPTY": "b5704677c3a1cf9c",
+        "INCONSISTENT": "6aa666f7884d0494",
+        "PARTIAL": "8f12b8e56b26758c"
+      },
+      "eligible_question_number": 93,
+      "question": "Paul Keenan composes works from Anglo-Saxon texts such as the codex donated to the library of Exeter Cathedral by whom?",
+      "question_id": "5ae5feaf5542996de7b71ac6",
+      "sample_position": 38
+    },
+    {
+      "candidate_position": 187,
+      "case_ids": {
+        "CLEAN": "59adcd8acb7b9cf3",
+        "EMPTY": "7ae4116c6af9af69",
+        "INCONSISTENT": "cfcaeb21310be861",
+        "PARTIAL": "925eafae873eb7b1"
+      },
+      "eligible_question_number": 96,
+      "question": "What prolific English engineer, who died on 15 December 1857, contributed to the advent of the hot air engine by way of their open cycle devices?",
+      "question_id": "5a79c6a55542994bb9457091",
+      "sample_position": 39
+    },
+    {
+      "candidate_position": 197,
+      "case_ids": {
+        "CLEAN": "7054116367a39d42",
+        "EMPTY": "2829424bd4d03692",
+        "INCONSISTENT": "2c5f36c25fc31f06",
+        "PARTIAL": "b8c962db8d05e546"
+      },
+      "eligible_question_number": 99,
+      "question": "The Dalmatian parliamentary election, 1861 was held in what crown land of the Austrian Empire?",
+      "question_id": "5a87556d5542994846c1cd65",
+      "sample_position": 40
+    },
+    {
+      "candidate_position": 201,
+      "case_ids": {
+        "CLEAN": "78026a5f5098001e",
+        "EMPTY": "e880f33b60a1a3d6",
+        "INCONSISTENT": "8f69da1a2a08e505",
+        "PARTIAL": "c0c2ff774faa6d26"
+      },
+      "eligible_question_number": 100,
+      "question": "Albanians in Montenegro which make up 4.91 of the county's total population could be members of the Albanian Coalation Perspect which is a what? ",
+      "question_id": "5a711c535542994082a3e59b",
+      "sample_position": 41
+    },
+    {
+      "candidate_position": 204,
+      "case_ids": {
+        "CLEAN": "a285b6414dba1820",
+        "EMPTY": "dfa2fe992b873ebc",
+        "INCONSISTENT": "dc47e7fb54372077",
+        "PARTIAL": "a292c1dffe15a5b0"
+      },
+      "eligible_question_number": 102,
+      "question": "Is Northeast Florida Regional Airport farther from St. Augustine than Glacier Park International Airport is to Kalispell?",
+      "question_id": "5ade64c7554299728e26c710",
+      "sample_position": 42
+    },
+    {
+      "candidate_position": 208,
+      "case_ids": {
+        "CLEAN": "390fd6d7447d1b35",
+        "EMPTY": "b90eded2255dc26e",
+        "INCONSISTENT": "4f3fefee8a03904d",
+        "PARTIAL": "271f6d2282047999"
+      },
+      "eligible_question_number": 105,
+      "question": "Who was born first out of Todd Field and Aaron Katz?",
+      "question_id": "5a7df7115542990b8f503b0f",
+      "sample_position": 43
+    },
+    {
+      "candidate_position": 213,
+      "case_ids": {
+        "CLEAN": "799f8e04060de2d3",
+        "EMPTY": "99b4673fe19ea251",
+        "INCONSISTENT": "4429d7cc7fc8762e",
+        "PARTIAL": "7f585b20c1a52ca1"
+      },
+      "eligible_question_number": 106,
+      "question": "Jens Risom introduced what type of design, characterized by minimalism and functionality?",
+      "question_id": "5a8799c55542996e4f308877",
+      "sample_position": 44
+    },
+    {
+      "candidate_position": 223,
+      "case_ids": {
+        "CLEAN": "e1ccf7504248d6a0",
+        "EMPTY": "22f3fc2c06a56eec",
+        "INCONSISTENT": "1f887d6d5c34e780",
+        "PARTIAL": "4127ed6a5df87fe6"
+      },
+      "eligible_question_number": 110,
+      "question": "Giuseppe Tornatore, an italian film director and screenwriter, wrote and directed his film \"The Best Offer\" in what language?",
+      "question_id": "5aba6d4b5542994dbf019906",
+      "sample_position": 45
+    },
+    {
+      "candidate_position": 228,
+      "case_ids": {
+        "CLEAN": "3117a384316207f3",
+        "EMPTY": "e65b74b4c1e61112",
+        "INCONSISTENT": "d571649487903bb4",
+        "PARTIAL": "77e31627f893c942"
+      },
+      "eligible_question_number": 111,
+      "question": "Which magazine was founded first, Diva or Elle?",
+      "question_id": "5a728f745542991f9a20c4e6",
+      "sample_position": 46
+    },
+    {
+      "candidate_position": 229,
+      "case_ids": {
+        "CLEAN": "0bc3a9e3ada75895",
+        "EMPTY": "284b3c75423d017f",
+        "INCONSISTENT": "b41796999e1dc5c2",
+        "PARTIAL": "70ca38cf86f3545c"
+      },
+      "eligible_question_number": 112,
+      "question": "What is the Latin name for one of the five \"big cats\" that the word \"Panther\" may refer to when outside of the Americas?",
+      "question_id": "5a7949d45542994bb9456fdd",
+      "sample_position": 47
+    },
+    {
+      "candidate_position": 231,
+      "case_ids": {
+        "CLEAN": "c74777ac728501ef",
+        "EMPTY": "564a773e545743ba",
+        "INCONSISTENT": "88f6ceb027735ae9",
+        "PARTIAL": "08eedca91c4bc741"
+      },
+      "eligible_question_number": 113,
+      "question": "...Ready for It? is a Taylor Swift song from the album scheduled to be released on what date?",
+      "question_id": "5ae7247b5542992ae0d163c1",
+      "sample_position": 48
+    },
+    {
+      "candidate_position": 237,
+      "case_ids": {
+        "CLEAN": "47010cbee498e948",
+        "EMPTY": "77d1f4815dc093c7",
+        "INCONSISTENT": "aac9feeb736b1085",
+        "PARTIAL": "d3033750c523fca4"
+      },
+      "eligible_question_number": 117,
+      "question": "Polk County Florida's second most populated city is home to which mall?",
+      "question_id": "5a82efe355429966c78a6aa1",
+      "sample_position": 49
+    },
+    {
+      "candidate_position": 238,
+      "case_ids": {
+        "CLEAN": "637d6b84840ce8ac",
+        "EMPTY": "a1efbff4e7d5c3e1",
+        "INCONSISTENT": "18d7fb7c55133e54",
+        "PARTIAL": "779977bb0f7b5921"
+      },
+      "eligible_question_number": 118,
+      "question": "Gül Train is a project of which Eurasian political and economic intergovernmental organization?",
+      "question_id": "5ae71d2d554299572ea546f7",
+      "sample_position": 50
+    },
+    {
+      "candidate_position": 243,
+      "case_ids": {
+        "CLEAN": "8cc4eda1e5350baf",
+        "EMPTY": "a5f19d5b7f56844a",
+        "INCONSISTENT": "080eeac65098a28e",
+        "PARTIAL": "eb13469eb3d4a3c1"
+      },
+      "eligible_question_number": 121,
+      "question": "Philip Carlo, the author of the biography of the mob assasin Richard Kuklinsk, died of which diease?i, ",
+      "question_id": "5ae3606b5542991a06ce99a8",
+      "sample_position": 51
+    },
+    {
+      "candidate_position": 246,
+      "case_ids": {
+        "CLEAN": "2cf30cb37d1ddfec",
+        "EMPTY": "0e98f10017b724e4",
+        "INCONSISTENT": "0c07655705d100af",
+        "PARTIAL": "1a45f146d253ea72"
+      },
+      "eligible_question_number": 123,
+      "question": "Ladislav Matejka's Michigan Slavic Publications has published volumes by which historian considered to be the founder of morphophonology?",
+      "question_id": "5aba7fd055429955dce3ee5e",
+      "sample_position": 52
+    },
+    {
+      "candidate_position": 252,
+      "case_ids": {
+        "CLEAN": "1e1de4ddac3f9e89",
+        "EMPTY": "5aeed210264841f1",
+        "INCONSISTENT": "616a40ae6bae6803",
+        "PARTIAL": "19a31d1d15c9c2e2"
+      },
+      "eligible_question_number": 124,
+      "question": "WrestleMania XXX took place at the home venue of which National Football League team?",
+      "question_id": "5abbd72d55429931dba1459e",
+      "sample_position": 53
+    },
+    {
+      "candidate_position": 253,
+      "case_ids": {
+        "CLEAN": "4a9c570721832b19",
+        "EMPTY": "9d4e612d99d3108b",
+        "INCONSISTENT": "b5bae6204161bcde",
+        "PARTIAL": "1142b368e9a63976"
+      },
+      "eligible_question_number": 125,
+      "question": "In what year did the Danish plant ecologist who assisted a Danish chemist, famous for the introduction of the concept of pH die?",
+      "question_id": "5a7ce50f55429909bec76869",
+      "sample_position": 54
+    },
+    {
+      "candidate_position": 265,
+      "case_ids": {
+        "CLEAN": "faa07c68d91b7394",
+        "EMPTY": "e111bba43ac56b18",
+        "INCONSISTENT": "b5981775ad98a78e",
+        "PARTIAL": "0ebd22ca481c7cd6"
+      },
+      "eligible_question_number": 128,
+      "question": "Where is the American hip hop group, that released the song \"RedEye to Paris\", from?",
+      "question_id": "5ade0a275542997545bbbe2d",
+      "sample_position": 55
+    },
+    {
+      "candidate_position": 266,
+      "case_ids": {
+        "CLEAN": "827eeda9a44671c8",
+        "EMPTY": "0aa02dec4d60e79d",
+        "INCONSISTENT": "6b9735b312fc33e8",
+        "PARTIAL": "1621c2676b632776"
+      },
+      "eligible_question_number": 129,
+      "question": "When did the character on Grey's Anatomy, played by the same actor who portrayed Rev James Lawson in \"Lee Daniel's The Butler\", debut?",
+      "question_id": "5a88bd1d554299206df2b357",
+      "sample_position": 56
+    },
+    {
+      "candidate_position": 272,
+      "case_ids": {
+        "CLEAN": "8b127e8321960202",
+        "EMPTY": "5fa18e5df048fc6e",
+        "INCONSISTENT": "9ef10efffb623a81",
+        "PARTIAL": "0f85c0ffae766577"
+      },
+      "eligible_question_number": 132,
+      "question": "Svíčková is a dish that includes dumplings that are prepared in what way?",
+      "question_id": "5ab950bd55429970cfb8ea4c",
+      "sample_position": 57
+    },
+    {
+      "candidate_position": 278,
+      "case_ids": {
+        "CLEAN": "3c1f7669c294283b",
+        "EMPTY": "959d0fafb6898e04",
+        "INCONSISTENT": "0d2cec5c06e11e6d",
+        "PARTIAL": "1a06fe09c3f0bfed"
+      },
+      "eligible_question_number": 135,
+      "question": "Who founded the Canadian manufacturer of winter clothing which is a major sponsor of Polar Bears International?",
+      "question_id": "5a8ae00e5542992d82986fc7",
+      "sample_position": 58
+    },
+    {
+      "candidate_position": 282,
+      "case_ids": {
+        "CLEAN": "f1f920720e7178fa",
+        "EMPTY": "ae73e314b427e837",
+        "INCONSISTENT": "83f048d3d86f2355",
+        "PARTIAL": "d38e711b91978354"
+      },
+      "eligible_question_number": 137,
+      "question": "The 2005 film Remedy featured Frank Vincent from The Sopranos and several mob movies by which acclaimed director?",
+      "question_id": "5a81db0b5542990a1d231ee2",
+      "sample_position": 59
+    },
+    {
+      "candidate_position": 297,
+      "case_ids": {
+        "CLEAN": "6b8ee6312c03a602",
+        "EMPTY": "72d03df9420c379b",
+        "INCONSISTENT": "de36fd3bedbdd300",
+        "PARTIAL": "d9b6da100f0494a3"
+      },
+      "eligible_question_number": 143,
+      "question": "Were both documentaries, Loot and Air Force, Incorporated, released in the same year?",
+      "question_id": "5a82800855429966c78a6a2f",
+      "sample_position": 60
+    }
+  ],
+  "reserve_questions": [],
+  "selection_rule": "the first 60 questions, in the original frozen randomized candidate order, whose four contexts are approved with observed_state equal to the intended state; no model outcome influences the selection and the candidate order is unchanged",
+  "sensitivity_subset": {
+    "excluded_eligible_question_numbers": [
+      20,
+      23,
+      88,
+      90,
+      132
+    ],
+    "excluded_question_ids": [
+      {
+        "eligible_question_number": 20,
+        "question_id": "5ae532e955429908b632656f"
+      },
+      {
+        "eligible_question_number": 23,
+        "question_id": "5a7412b655429979e28828a1"
+      },
+      {
+        "eligible_question_number": 88,
+        "question_id": "5a8e4b7c5542990e94052ab7"
+      },
+      {
+        "eligible_question_number": 90,
+        "question_id": "5aba55f25542994dbf0198e0"
+      },
+      {
+        "eligible_question_number": 132,
+        "question_id": "5ab950bd55429970cfb8ea4c"
+      }
+    ],
+    "purpose": "predeclared sensitivity analysis on the same runs; no additional provider calls",
+    "question_ids": [
+      "5ac2ffea55429921a00ab0cc",
+      "5a81456855429938b614231e",
+      "5a7b4d765542995eb53be8fe",
+      "5a77a7db5542995d8318124d",
+      "5a81ff1a554299676cceb1c2",
+      "5ab439f055429942dd415eef",
+      "5a85f8665542994775f606ce",
+      "5a8af94455429971feec45b6",
+      "5a85f4ec5542994775f606c6",
+      "5ab529965542990594ba9d1e",
+      "5a7a43f25542996a35c1716c",
+      "5a772c925542993735360208",
+      "5a8752955542994775f607d1",
+      "5ae6371155429929b0807af1",
+      "5a8e06785542995085b37383",
+      "5ac2c338554299657fa29039",
+      "5a8cacac554299585d9e3716",
+      "5a8bbddf5542997f31a41db2",
+      "5ac5630e5542993e66e823d5",
+      "5add647a5542995b365fab26",
+      "5ac0aa955542997d64295a49",
+      "5ac2b2e2554299218029dafa",
+      "5adef80b5542993a75d263c4",
+      "5a7528e955429929fddd850e",
+      "5a84e1095542997175ce1f25",
+      "5ac415445542995c82c4acb7",
+      "5a8f38fa55429924144829f5",
+      "5ae75c6e5542991bbc9761f8",
+      "5a84be095542992a431d1a97",
+      "5a834ed95542990548d0b1ca",
+      "5a7cad635542996dd594b97f",
+      "5adc6e035542994650320cec",
+      "5abf8cc35542990832d3a14e",
+      "5ae5feaf5542996de7b71ac6",
+      "5a79c6a55542994bb9457091",
+      "5a87556d5542994846c1cd65",
+      "5a711c535542994082a3e59b",
+      "5ade64c7554299728e26c710",
+      "5a7df7115542990b8f503b0f",
+      "5a8799c55542996e4f308877",
+      "5aba6d4b5542994dbf019906",
+      "5a728f745542991f9a20c4e6",
+      "5a7949d45542994bb9456fdd",
+      "5ae7247b5542992ae0d163c1",
+      "5a82efe355429966c78a6aa1",
+      "5ae71d2d554299572ea546f7",
+      "5ae3606b5542991a06ce99a8",
+      "5aba7fd055429955dce3ee5e",
+      "5abbd72d55429931dba1459e",
+      "5a7ce50f55429909bec76869",
+      "5ade0a275542997545bbbe2d",
+      "5a88bd1d554299206df2b357",
+      "5a8ae00e5542992d82986fc7",
+      "5a81db0b5542990a1d231ee2",
+      "5a82800855429966c78a6a2f"
+    ],
+    "questions": 55,
+    "reason": "these questions entered the sample through the stage 13 conventions G-1 (identifier granularity) and K-1 (kinship and spouse slots), or through an ordinary-reading call on a CLEAN context; the sensitivity subset re-runs the same analysis on the remaining questions using the same runs"
+  },
+  "stage": "stage14_acceptance",
+  "status": "final_for_execution",
+  "target_questions": 60
+}

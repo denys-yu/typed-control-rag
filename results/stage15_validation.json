@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "detail": "2880 rows, 2880 unique coordinates, identical to the run index",
+      "name": "one_row_per_planned_coordinate",
+      "passed": true
+    },
+    {
+      "detail": "347 accepted grounding cases expanded to 1106 answered runs (1106 lookup instances), 0 label mismatches",
+      "name": "deduplicated_annotations_expanded_correctly",
+      "passed": true
+    },
+    {
+      "detail": "335 contexts -> 1024 completed retried runs; 3 technical-failure instances kept separate",
+      "name": "post_retry_labels_expanded_and_scoped",
+      "passed": true
+    },
+    {
+      "detail": "7 technical failures carry no semantic category; 1767 non-answered completed runs are 'not_applicable', not false",
+      "name": "technical_failures_and_non_answers",
+      "passed": true
+    },
+    {
+      "detail": "{'fully_supported_answer': 770, 'abstention_or_escalation': 1767, 'not_fully_supported_answer': 336} sums to 2873 completed runs",
+      "name": "mutually_exclusive_categories",
+      "passed": true
+    },
+    {
+      "detail": "243 citation-invalid answers retained; their grounding labels are {'FULLY_SUPPORTED': 193, 'CONFLICTED': 31, 'PARTIALLY_SUPPORTED': 13, 'UNSUPPORTED': 6}",
+      "name": "citation_validity_separate_from_grounding",
+      "passed": true
+    },
+    {
+      "detail": "synthetic case: protocol +0.00 pp vs pooled -66.67 pp",
+      "name": "question_level_estimator_differs_from_pooled_runs",
+      "passed": true
+    },
+    {
+      "detail": "defective contrast keeps 1 of 2 questions, the PARTIAL-only contrast keeps 2",
+      "name": "missing_cell_excludes_only_the_affected_comparison",
+      "passed": true
+    },
+    {
+      "detail": "resamples are deterministic for a given question set, draw whole questions with replacement, and are reused across outcomes sharing that set",
+      "name": "paired_whole_question_resampling",
+      "passed": true
+    },
+    {
+      "detail": "55 questions = 60 minus the five predeclared exclusions ['5a7412b655429979e28828a1', '5a8e4b7c5542990e94052ab7', '5ab950bd55429970cfb8ea4c', '5aba55f25542994dbf0198e0', '5ae532e955429908b632656f']",
+      "name": "sensitivity_membership_exact",
+      "passed": true
+    },
+    {
+      "detail": "recomputed estimates are identical to the stored ones (timestamps excluded)",
+      "name": "deterministic_across_reruns",
+      "passed": true
+    },
+    {
+      "detail": "protocol, plan, run index, exported cases and the supplied proposal files are byte-identical; only the two review files were rewritten by the accepted labels",
+      "name": "frozen_inputs_unchanged",
+      "passed": true
+    },
+    {
+      "detail": "the weighted ratio is computed from unrounded aggregates and rounded only for presentation; rounding first would give {'A': 34.861407, 'B': 25.442043, 'C': 60.399216, 'D': 57.996702}",
+      "name": "weighted_conditional_uses_unrounded_values",
+      "passed": true
+    },
+    {
+      "detail": "labelled as a ratio of question/condition-weighted rates; unclear answers are in the denominator (synthetic case: 100.00% answer rate, 50.00% fully supported share)",
+      "name": "weighted_conditional_labelled_and_includes_unclear",
+      "passed": true
+    },
+    {
+      "detail": "a branch that never answers yields an undefined ratio in both views, not zero",
+      "name": "zero_denominator_reported_as_undefined",
+      "passed": true
+    },
+    {
+      "detail": "pooled defective counts {'completed': 2153, 'answered': 638, 'fully_supported': 323} match the dataset directly; per-branch proportions recompute exactly (C 60.13%, D 58.02%)",
+      "name": "pooled_counts_reconcile",
+      "passed": true
+    },
+    {
+      "detail": "synthetic case: weighted 50.0% vs pooled 10.0%",
+      "name": "weighted_and_pooled_can_differ",
+      "passed": true
+    },
+    {
+      "detail": "every contrast, interval and branch level is identical to the pre-correction report",
+      "name": "protocol_estimates_and_intervals_unchanged",
+      "passed": true
+    },
+    {
+      "detail": "10 protected files match their recorded hashes",
+      "name": "protected_inputs_byte_identical",
+      "passed": true
+    }
+  ],
+  "generated_at_utc": "2026-09-27T12:22:00+00:00",
+  "protected_input_hashes": {
+    "config/experiment.json": "2bcca7f0bfbc76cdc2c1c3b1364d1e4322a9a7693e82caf93ff622669f326bae",
+    "results/main_analysis.jsonl": "675455f37e34a609d3115ba69977b648acd16d369dddf4178cce2c7c348db29d",
+    "results/main_answer_grounding_reviews.jsonl": "66fbc059303024fe03b8e02a3a0015f900709d74e4ce453fc0c2bc056905e4af",
+    "results/main_experiment_protocol_v3.md": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7",
+    "results/main_plan/manifest.json": "c0474a6715b2fb4201dab3b8aa1f5abc8660d61cef898402843685c1505a8bf8",
+    "results/main_post_retry_lookup_augmented.json": "83ac636e484cc9277e82fc193afdd1a31e0d8f5ee37c61d2713449789be95af3",
+    "results/main_post_retry_reviews.jsonl": "006e0641602aab4b716cf94344c23bf214e7ff8a797edc7e4d47e3c5428426ce",
+    "results/main_run_index.jsonl": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "results/main_sample_final.json": "021e12a392f3deae33c319746eafd7b0275fe050bc6468b01c69dc5978c4cabb",
+    "results/stage15_acceptance.json": "b65f93c61a8bc29c7ce8ac4d5c1ec0c260e3b34b7e7794a31b64233d73b76a5c"
+  },
+  "stage": "stage15_validation",
+  "status": "ok",
+  "synthetic_examples": {
+    "missing_cell": {
+      "defective_available_questions": 1,
+      "defective_excluded": [
+        {
+          "question_id": "Q2",
+          "reason": "no completed run in a required cell for branch D"
+        }
+      ],
+      "dropped_only_from_affected_comparison": true,
+      "partial_only_available_questions": 2
+    },
+    "unclear_in_denominator": {
+      "unclear_counted_in_denominator": true,
+      "weighted_answer_rate_percent": 100.0,
+      "weighted_fully_supported_share_percent": 50.0
+    },
+    "undefined_ratio": {
+      "pooled_defined": false,
+      "pooled_share": null,
+      "reported_as_undefined": true,
+      "weighted_defined": false,
+      "weighted_share": null
+    },
+    "weighted_vs_pooled_conditional": {
+      "differs": true,
+      "explanation": "the weighted view gives PARTIAL and EMPTY one half each (50.00%), the pooled view counts nine PARTIAL answers against one EMPTY answer (10.00%)",
+      "pooled_fully_supported_of_answered_percent": 10.0,
+      "weighted_fully_supported_share_percent": 50.0
+    },
+    "weighting": {
+      "differs": true,
+      "explanation": "pooling runs lets the nine PARTIAL repeats dominate and reverses the sign; the protocol weights PARTIAL, EMPTY and INCONSISTENT one third each",
+      "pooled_run_difference_pp": -66.67,
+      "protocol_estimator_difference_pp": 0.0
+    }
+  }
+}

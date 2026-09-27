@@ -1,0 +1,195 @@
+{
+  "_description": "Hand-prepared sentence edits used to build INCONSISTENT candidate contexts for the pilot. Each edit replaces one sentence of one gold supporting document; the synthetic document is a copy of that document with the edited sentence, under the same title. Every entry is an unverified candidate until a reviewer approves it in data/processed/fault_cases/reviews.jsonl. Keys: question_id -> edit.",
+  "_edit_fields": {
+    "target_title": "title of the supporting document whose copy is edited",
+    "sentence_index": "index of the replaced sentence in that document",
+    "original_sentence": "exact original sentence (checked against the corpus at build time)",
+    "edited_sentence": "replacement sentence carrying the incompatible claim",
+    "claim_original": "the original claim in plain words",
+    "claim_edited": "the incompatible claim in plain words",
+    "property": "the property of the same object that the two claims disagree about",
+    "relevance": "why the disagreement matters for answering the question"
+  },
+  "edits": {
+    "5a7ec6f355429934daa2fc61": {
+      "target_title": "Adventist World",
+      "sentence_index": 1,
+      "original_sentence": " Editors are based in Silver Spring, Maryland and Seoul, Korea.",
+      "edited_sentence": " Its editors are all based in Silver Spring, Maryland; the magazine has no editorial office outside the United States.",
+      "claim_original": "Adventist World has editors in the United States and in Korea",
+      "claim_edited": "Adventist World has editors only in the United States",
+      "property": "countries where the editors of Adventist World are based",
+      "relevance": "the comparison 'based out of more countries' rests on the number of countries with editorial presence for each magazine"
+    },
+    "5ab2f88755429976abd1bbe0": {
+      "target_title": "Thinking Fellers Union Local 282",
+      "sentence_index": 0,
+      "original_sentence": "Thinking Fellers Union Local 282 is an experimental indie rock group formed in 1986 in San Francisco, California, though half of its members are from Iowa.",
+      "edited_sentence": "Thinking Fellers Union Local 282 is an experimental indie rock group formed in 1988 in San Francisco, California, though half of its members are from Iowa.",
+      "claim_original": "the group was formed in 1986",
+      "claim_edited": "the group was formed in 1988",
+      "property": "year the group was formed",
+      "relevance": "whether the group was active in 1986 depends on its formation year"
+    },
+    "5a7a01b15542996c55b2dcd1": {
+      "target_title": "Alejandro Jodorowsky",
+      "sentence_index": 0,
+      "original_sentence": "Alejandro Jodorowsky Prullansky (] ; born 17 February 1929) is a Chilean-French film and theatre director, screenwriter, playwright, actor, author, poet, producer, composer, musician, comics writer, and spiritual guru.",
+      "edited_sentence": "Alejandro Jodorowsky Prullansky (] ; born 17 February 1939) is a Chilean-French film and theatre director, screenwriter, playwright, actor, author, poet, producer, composer, musician, comics writer, and spiritual guru.",
+      "claim_original": "Jodorowsky was born in 1929",
+      "claim_edited": "Jodorowsky was born in 1939",
+      "property": "birth year of Alejandro Jodorowsky",
+      "relevance": "the lifespan comparison with Philip Saville (1930-2016) depends on Jodorowsky's birth year"
+    },
+    "5adfc35755429906c02daa30": {
+      "target_title": "Bill Ponsford",
+      "sentence_index": 0,
+      "original_sentence": "William Harold \"Bill\" Ponsford (19 October 1900 – 6 April 1991) was an Australian cricketer.",
+      "edited_sentence": "William Harold \"Bill\" Ponsford (19 October 1900 – 6 April 1990) was an Australian cricketer.",
+      "claim_original": "Ponsford died on 6 April 1991",
+      "claim_edited": "Ponsford died on 6 April 1990",
+      "property": "date of death of Bill Ponsford",
+      "relevance": "the question identifies the cricketer by his death in April 1991"
+    },
+    "5a7b1023554299042af8f6c2": {
+      "target_title": "Ride a Wild Pony",
+      "sentence_index": 0,
+      "original_sentence": "Ride a Wild Pony is a 1975 American-Australian family adventure film produced by Walt Disney Productions, directed by Don Chaffey and based on the novel \"A Sporting Proposition\" by James Aldridge.",
+      "edited_sentence": "Ride a Wild Pony is a 1979 American-Australian family adventure film produced by Walt Disney Productions, directed by Don Chaffey and based on the novel \"A Sporting Proposition\" by James Aldridge.",
+      "claim_original": "Ride a Wild Pony is a 1975 film",
+      "claim_edited": "Ride a Wild Pony is a 1979 film",
+      "property": "release year of Ride a Wild Pony",
+      "relevance": "which film Disney produced first depends on the release years (the other film is from 1977)"
+    },
+    "5a86f204554299211dda2b60": {
+      "target_title": "Secretariat (film)",
+      "sentence_index": 2,
+      "original_sentence": " Diane Lane portrays Secretariat's owner, Penny Chenery, and John Malkovich plays his trainer, Lucien Laurin.",
+      "edited_sentence": " Diane Lane portrays Secretariat's owner, Penny Chenery, and John Malkovich plays his trainer, Lucien Laurin; James Cromwell was cast but left the production before filming and does not appear in the film.",
+      "claim_original": "James Cromwell appears in Secretariat (listed among his films in the James Cromwell document)",
+      "claim_edited": "James Cromwell does not appear in Secretariat",
+      "property": "whether James Cromwell stars in the film Secretariat",
+      "relevance": "the question asks which horse-biography film James Cromwell stars in"
+    },
+    "5ac213805542992f1f2b37e7": {
+      "target_title": "Pelswick",
+      "sentence_index": 3,
+      "original_sentence": " It aired during \"Nick on CBS\" beginning on September 14, 2002, and ended in November of that year.",
+      "edited_sentence": " It aired during \"Nick on CBS\" beginning on September 14, 2002, and ended in December of that year.",
+      "claim_original": "Pelswick ended in November 2002",
+      "claim_edited": "Pelswick ended in December 2002",
+      "property": "month in which Pelswick ended on Nick on CBS",
+      "relevance": "the question asks when the series ended"
+    },
+    "5abba3cd554299642a094aee": {
+      "target_title": "University of Rochester",
+      "sentence_index": 2,
+      "original_sentence": " The university has six schools and various interdisciplinary programs.",
+      "edited_sentence": " The university has seven schools and various interdisciplinary programs.",
+      "claim_original": "the University of Rochester has six schools",
+      "claim_edited": "the University of Rochester has seven schools",
+      "property": "number of schools of the University of Rochester",
+      "relevance": "the question asks for the number of schools"
+    },
+    "5a77724455429972597f153e": {
+      "target_title": "Indianapolis Motor Speedway",
+      "sentence_index": 1,
+      "original_sentence": " It is the home of the Indianapolis 500 and the Brickyard 400, and formerly the home of the United States Grand Prix.",
+      "edited_sentence": " It is the home of the Brickyard 400 and formerly the home of the United States Grand Prix; the Indianapolis 500 is run at the Milwaukee Mile rather than at this circuit.",
+      "claim_original": "the Indianapolis 500 is held at the Indianapolis Motor Speedway",
+      "claim_edited": "the Indianapolis 500 is not held at the Indianapolis Motor Speedway but at the Milwaukee Mile",
+      "property": "venue of the Indianapolis 500 (the 500-mile race)",
+      "relevance": "the question asks which track hosts the 500-mile race; the 1957 document states it was held at the Indianapolis Motor Speedway"
+    },
+    "5ac23f5655429951e9e684d9": {
+      "target_title": "Hailar District",
+      "sentence_index": 0,
+      "original_sentence": "Hailar District (Mongolian: ᠬᠠᠶᠢᠯᠠᠷ ᠲᠣᠭᠣᠷᠢᠭ \"Qayilar toɣoriɣ\" Хайлаар тойрог, Cyrillic: Хайлаар дүүрэг, \"Khailaar düüreg\"; ) is an urban district that serves as the seat of the prefecture-level city Hulunbuir in northeastern Inner Mongolia, China.",
+      "edited_sentence": "Hailar District (Mongolian: ᠬᠠᠶᠢᠯᠠᠷ ᠲᠣᠭᠣᠷᠢᠭ \"Qayilar toɣoriɣ\" Хайлаар тойрог, Cyrillic: Хайлаар дүүрэг, \"Khailaar düüreg\"; ) is an urban district that serves as the seat of the city Hulunbuir in eastern Mongolia, close to the Chinese border.",
+      "claim_original": "Hailar District is in Inner Mongolia, China",
+      "claim_edited": "Hailar District is in Mongolia (the country)",
+      "property": "country in which Hailar District is located",
+      "relevance": "the question asks in which country both districts are located"
+    },
+    "5ab85e9e55429934fafe6d8b": {
+      "target_title": "University of Groningen",
+      "sentence_index": 1,
+      "original_sentence": " The university was founded in 1614 and is one of the oldest universities in the Netherlands as well as one of its largest.",
+      "edited_sentence": " The university was founded in 1636 and is one of the oldest universities in the Netherlands as well as one of its largest.",
+      "claim_original": "the University of Groningen was founded in 1614",
+      "claim_edited": "the University of Groningen was founded in 1636",
+      "property": "founding year of the University of Groningen",
+      "relevance": "the question asks for the founding year"
+    },
+    "5abb207d5542992ccd8e7f1d": {
+      "target_title": "Wincenty Gostkowski",
+      "sentence_index": 0,
+      "original_sentence": "Wincenty Gostkowski (March 29, 1807 – August 29, 1884) was a lawyer and associate of Antoni Patek and Adrien Philippe in the watchmaker Patek Philippe & Co. in Geneva, Switzerland.",
+      "edited_sentence": "Wincenty Gostkowski (March 29, 1807 – August 29, 1884) was a lawyer and associate of Antoni Patek and Adrien Philippe in the watchmaker Patek Philippe & Co. in Zürich, Switzerland.",
+      "claim_original": "Gostkowski worked for Patek Philippe in Geneva",
+      "claim_edited": "Gostkowski worked for Patek Philippe in Zürich",
+      "property": "Swiss city where Gostkowski worked for Patek Philippe & Co.",
+      "relevance": "the question asks for that city; the Patek Philippe document places the company in Geneva"
+    },
+    "5adf400a5542993a75d2644e": {
+      "target_title": "German submarine U-32 (S182)",
+      "sentence_index": 0,
+      "original_sentence": "\"U-32\" (S182) is the second Type 212A submarine of the German Navy.",
+      "edited_sentence": "\"U-32\" (S182) is the second Type 206A submarine of the German Navy.",
+      "claim_original": "U-32 (S182) is a Type 212A submarine",
+      "claim_edited": "U-32 (S182) is a Type 206A submarine",
+      "property": "class of the submarine U-32 (S182)",
+      "relevance": "the question asks for the type of the non-nuclear U-32"
+    },
+    "5ae6179b5542992663a4f25b": {
+      "target_title": "Ti Lung",
+      "sentence_index": 0,
+      "original_sentence": "Tommy Tam Fu-Wing (born 19 August 1946), better known by his stage name Ti Lung, is a Hong Kong actor, known for his numerous starring roles in a string of Shaw Brothers Studio's films, particularly \"The Blood Brothers\", \"The Duel\", \"The Sentimental Swordsman\" and its sequel, and in the classic \"A Better Tomorrow\".",
+      "edited_sentence": "Tommy Tam Fu-Wing (born 19 August 1948), better known by his stage name Ti Lung, is a Hong Kong actor, known for his numerous starring roles in a string of Shaw Brothers Studio's films, particularly \"The Blood Brothers\", \"The Duel\", \"The Sentimental Swordsman\" and its sequel, and in the classic \"A Better Tomorrow\".",
+      "claim_original": "Ti Lung was born on 19 August 1946",
+      "claim_edited": "Ti Lung was born on 19 August 1948",
+      "property": "birth date of Ti Lung",
+      "relevance": "the question identifies the actor by the birth date 19 August 1946"
+    },
+    "5ab870ee5542990e739ec8f6": {
+      "target_title": "Time Quintet",
+      "sentence_index": 0,
+      "original_sentence": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Madeleine L'Engle.",
+      "edited_sentence": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Ursula K. Le Guin.",
+      "claim_original": "the Time Quintet was written by Madeleine L'Engle",
+      "claim_edited": "the Time Quintet was written by Ursula K. Le Guin",
+      "property": "author of the Time Quintet series",
+      "relevance": "the question asks who wrote the series; the A Wind in the Door document names L'Engle as the novel's author"
+    },
+    "5ab56555554299494045ef97": {
+      "target_title": "Kreisky–Peter–Wiesenthal affair",
+      "sentence_index": 0,
+      "original_sentence": "The Kreisky–Peter–Wiesenthal affair was a political and personal feud in the 1970s fought between the then Austrian chancellor Bruno Kreisky and the Nazi hunter Simon Wiesenthal arising from Kreisky's ministerial appointments and the SS past of Freedom Party leader Friedrich Peter, which had been revealed by Wiesenthal.",
+      "edited_sentence": "The Kreisky–Peter–Wiesenthal affair was a political and personal feud in the 1980s fought between the then Austrian chancellor Bruno Kreisky and the Nazi hunter Simon Wiesenthal arising from Kreisky's ministerial appointments and the SS past of Freedom Party leader Friedrich Peter, which had been revealed by Wiesenthal.",
+      "claim_original": "the feud took place in the 1970s",
+      "claim_edited": "the feud took place in the 1980s",
+      "property": "decade of the Kreisky–Peter–Wiesenthal feud",
+      "relevance": "the question asks for the time frame of the feud"
+    },
+    "5ae618325542996de7b71b56": {
+      "target_title": "Hugh Grosvenor, 7th Duke of Westminster",
+      "sentence_index": 3,
+      "original_sentence": " The duke is estimated to be worth US$13 billion, making him the world's richest person aged under 30.",
+      "edited_sentence": " The duke is estimated to be worth US$9 billion, making him one of the world's richest people aged under 30.",
+      "claim_original": "Hugh Grosvenor is estimated to be worth US$13 billion",
+      "claim_edited": "Hugh Grosvenor is estimated to be worth US$9 billion",
+      "property": "estimated net worth of Hugh Grosvenor",
+      "relevance": "the question asks for the estimated worth of the successor"
+    },
+    "5ab8284d5542990e739ec83f": {
+      "target_title": "Eli Roth",
+      "sentence_index": 0,
+      "original_sentence": "Eli Raphael Roth (born April 18, 1972) is an American film director, producer, writer, and actor.",
+      "edited_sentence": "Eli Raphael Roth (born April 18, 1974) is an American film director, producer, writer, and actor.",
+      "claim_original": "Eli Roth was born in 1972",
+      "claim_edited": "Eli Roth was born in 1974",
+      "property": "birth year of Eli Roth",
+      "relevance": "the question asks for the birth year of the director Eli Roth"
+    }
+  }
+}

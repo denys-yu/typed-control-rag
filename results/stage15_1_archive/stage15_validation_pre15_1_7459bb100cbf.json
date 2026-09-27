@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "detail": "2880 rows, 2880 unique coordinates, identical to the run index",
+      "name": "one_row_per_planned_coordinate",
+      "passed": true
+    },
+    {
+      "detail": "347 accepted grounding cases expanded to 1106 answered runs (1106 lookup instances), 0 label mismatches",
+      "name": "deduplicated_annotations_expanded_correctly",
+      "passed": true
+    },
+    {
+      "detail": "335 contexts -> 1024 completed retried runs; 3 technical-failure instances kept separate",
+      "name": "post_retry_labels_expanded_and_scoped",
+      "passed": true
+    },
+    {
+      "detail": "7 technical failures carry no semantic category; 1767 non-answered completed runs are 'not_applicable', not false",
+      "name": "technical_failures_and_non_answers",
+      "passed": true
+    },
+    {
+      "detail": "{'fully_supported_answer': 770, 'abstention_or_escalation': 1767, 'not_fully_supported_answer': 336} sums to 2873 completed runs",
+      "name": "mutually_exclusive_categories",
+      "passed": true
+    },
+    {
+      "detail": "243 citation-invalid answers retained; their grounding labels are {'FULLY_SUPPORTED': 193, 'CONFLICTED': 31, 'PARTIALLY_SUPPORTED': 13, 'UNSUPPORTED': 6}",
+      "name": "citation_validity_separate_from_grounding",
+      "passed": true
+    },
+    {
+      "detail": "synthetic case: protocol +0.00 pp vs pooled -66.67 pp",
+      "name": "question_level_estimator_differs_from_pooled_runs",
+      "passed": true
+    },
+    {
+      "detail": "defective contrast keeps 1 of 2 questions, the PARTIAL-only contrast keeps 2",
+      "name": "missing_cell_excludes_only_the_affected_comparison",
+      "passed": true
+    },
+    {
+      "detail": "resamples are deterministic for a given question set, draw whole questions with replacement, and are reused across outcomes sharing that set",
+      "name": "paired_whole_question_resampling",
+      "passed": true
+    },
+    {
+      "detail": "55 questions = 60 minus the five predeclared exclusions ['5a7412b655429979e28828a1', '5a8e4b7c5542990e94052ab7', '5ab950bd55429970cfb8ea4c', '5aba55f25542994dbf0198e0', '5ae532e955429908b632656f']",
+      "name": "sensitivity_membership_exact",
+      "passed": true
+    },
+    {
+      "detail": "recomputed estimates are identical to the stored ones (timestamps excluded)",
+      "name": "deterministic_across_reruns",
+      "passed": true
+    },
+    {
+      "detail": "protocol, plan, run index, exported cases and the supplied proposal files are byte-identical; only the two review files were rewritten by the accepted labels",
+      "name": "frozen_inputs_unchanged",
+      "passed": true
+    }
+  ],
+  "generated_at_utc": "2026-09-21T08:19:44+00:00",
+  "stage": "stage15_validation",
+  "status": "ok",
+  "synthetic_examples": {
+    "missing_cell": {
+      "defective_available_questions": 1,
+      "defective_excluded": [
+        {
+          "question_id": "Q2",
+          "reason": "no completed run in a required cell for branch D"
+        }
+      ],
+      "dropped_only_from_affected_comparison": true,
+      "partial_only_available_questions": 2
+    },
+    "weighting": {
+      "differs": true,
+      "explanation": "pooling runs lets the nine PARTIAL repeats dominate and reverses the sign; the protocol weights PARTIAL, EMPTY and INCONSISTENT one third each",
+      "pooled_run_difference_pp": -66.67,
+      "protocol_estimator_difference_pp": 0.0
+    }
+  }
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the experimental records it contains, please cite the
+  software entry below. It describes the code repository only. The accompanying
+  paper, "A Typed Control Contract for Agentic Retrieval-Augmented Generation" by
+  Denys Yuvzhenko and Sergii Stirenko, has separate authorship; no DOI, venue or
+  publication date is recorded here because none has been confirmed. Add a
+  preferred-citation entry for the paper once those details exist.
+type: software
+title: >-
+  typed-rag: research harness for the paper "A Typed Control Contract for Agentic
+  Retrieval-Augmented Generation"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/denys-yu/typed-control-rag"
+authors:
+  - family-names: Yuvzhenko
+    given-names: Denys
+abstract: >-
+  Code, frozen experimental plan, accepted semantic annotations and analysis outputs
+  for a controlled comparison of four control strategies in one agentic
+  retrieval-augmented generation pipeline: binary or typed context-sufficiency
+  assessment, combined with an action chosen by the language model or enforced by a
+  programmatic contract. The repository contains the per-run records of the main
+  experiment (2,880 planned coordinates over 60 HotpotQA questions with one model)
+  and a single offline command that recomputes every published estimate, table and
+  figure from those records.
+keywords:
+  - retrieval-augmented generation
+  - agentic RAG
+  - retrieval failure
+  - abstention
+  - HotpotQA
+  - reproducibility

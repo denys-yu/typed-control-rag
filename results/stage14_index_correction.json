@@ -1,0 +1,16 @@
+{
+  "answered_runs_filled": 1106,
+  "answered_runs_seen": 1106,
+  "citation_id_membership": {
+    "invalid": 243,
+    "not_applicable": 1774,
+    "valid": 863
+  },
+  "defect": "main_study.consolidate reads the generator payload from generator['result']; the runner writes it to generator['output']",
+  "frozen_implementation_unchanged": "src/typed_rag/main_study.py is bound by the frozen plan and was not edited after execution; the correction is applied by tools/stage14_finalize.py when rebuilding the index from the same run records",
+  "recorded_at_utc": "2026-09-20T22:38:26+00:00",
+  "rows": 2880,
+  "run_index_sha256": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+  "scope": "read-side only: the three index fields answer, returned_evidence_doc_ids, citation_id_membership_valid were null. No request, response, run record or coordinate is affected and nothing was re-run",
+  "stage": "stage14_index_correction"
+}

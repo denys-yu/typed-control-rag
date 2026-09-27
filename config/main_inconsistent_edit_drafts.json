@@ -1,0 +1,1432 @@
+[
+  {
+    "claim_edited": "Warwick Mall stands near the junction of Interstate 295 with Interstate 84",
+    "claim_original": "Warwick Mall stands near the junction of Interstate 295 with Interstate 95",
+    "edited_sentence": "Warwick Mall is an enclosed shopping mall in Warwick, Rhode Island, on the north side of Interstate 295 near the junction with Interstate 84.",
+    "property": "intersecting interstate highway",
+    "question_id": "5ac2ffea55429921a00ab0cc",
+    "relevance": "the question asks which junction the mall lies near",
+    "sentence_index": 0,
+    "target_title": "Warwick Mall"
+  },
+  {
+    "claim_edited": "Providence Hospital is located in Maryland",
+    "claim_original": "Providence Hospital is located in the District of Columbia",
+    "edited_sentence": "Providence Hospital is a 408 bed hospital located in Silver Spring, Maryland.",
+    "property": "hospital location (U.S. state or district)",
+    "question_id": "5a83305d55429966c78a6b4a",
+    "relevance": "the question asks which U.S. state holds both hospitals",
+    "sentence_index": 0,
+    "target_title": "Providence Hospital (Washington, D.C.)"
+  },
+  {
+    "claim_edited": "Old Dominion University enrolled 2,670 students in 2014-2015",
+    "claim_original": "Old Dominion University enrolled 24,670 students in 2014-2015",
+    "edited_sentence": "It was established in 1930 as the Norfolk Division of the College of William & Mary and is now one of the smaller universities in Virginia with an enrollment of 2,670 students for the 2014-2015 academic year.",
+    "property": "student enrollment",
+    "question_id": "5a81456855429938b614231e",
+    "relevance": "the question compares the enrollment of the two universities",
+    "sentence_index": 1,
+    "target_title": "Old Dominion University"
+  },
+  {
+    "claim_edited": "Kirby Puckett played 9 years for the Minnesota Twins",
+    "claim_original": "Kirby Puckett played 12 years for the Minnesota Twins",
+    "edited_sentence": "He played his entire 9-year Major League Baseball (MLB) career as a center fielder for the Minnesota Twins (1987-95).",
+    "property": "length of career with the Twins",
+    "question_id": "5a7b4d765542995eb53be8fe",
+    "relevance": "the question asks for the number of years played for the Twins",
+    "sentence_index": 1,
+    "target_title": "Kirby Puckett"
+  },
+  {
+    "claim_edited": "The Five Obstructions is a science fiction film",
+    "claim_original": "The Five Obstructions is a documentary film",
+    "edited_sentence": "The Five Obstructions is a 2003 Danish science fiction film directed by Lars von Trier and Jorgen Leth.",
+    "property": "film genre",
+    "question_id": "5ab271fe554299449642c8a6",
+    "relevance": "the question asks whether the two films belong to different genres",
+    "sentence_index": 0,
+    "target_title": "The Five Obstructions"
+  },
+  {
+    "claim_edited": "Julia Peterkin was born in 1910",
+    "claim_original": "Julia Peterkin was born in 1880",
+    "edited_sentence": "Julia Peterkin (October 31, 1910 - August 10, 1961) was an American author from South Carolina.",
+    "property": "year of birth",
+    "question_id": "5a77a7db5542995d8318124d",
+    "relevance": "the question asks which of the two authors was born first",
+    "sentence_index": 0,
+    "target_title": "Julia Peterkin"
+  },
+  {
+    "claim_edited": "Oscar is an all white cat",
+    "claim_original": "Oscar is an all black cat",
+    "edited_sentence": "Oscar is an all white cat owned by Kate Allan and Mike Nolan who lives on the Channel Island of Jersey.",
+    "property": "fur colour",
+    "question_id": "5a81ff1a554299676cceb1c2",
+    "relevance": "the question identifies the animal by its black fur",
+    "sentence_index": 0,
+    "target_title": "Oscar (bionic cat)"
+  },
+  {
+    "claim_edited": "Raj Kapoor never directed a film",
+    "claim_original": "Raj Kapoor worked as a director",
+    "edited_sentence": "Ranbir Raj Kapoor (14 December 1924 - 2 June 1988), also known as \"the greatest showman of Indian cinema\", was a noted Indian film actor and producer of Hindi cinema who never directed a film.",
+    "property": "profession",
+    "question_id": "5ac00278554299012d1db56b",
+    "relevance": "the question asks which profession the two men share",
+    "sentence_index": 0,
+    "target_title": "Raj Kapoor"
+  },
+  {
+    "claim_edited": "Emilie de Ravin is Canadian",
+    "claim_original": "Emilie de Ravin is Australian",
+    "edited_sentence": "Emilie de Ravin ( ; born 27 December 1981) is a Canadian actress.",
+    "property": "nationality",
+    "question_id": "5a7f87755542994857a76769",
+    "relevance": "the question asks for the nationality of the actress who portrays the character",
+    "sentence_index": 0,
+    "target_title": "Emilie de Ravin"
+  },
+  {
+    "claim_edited": "Catfish and the Bottlemen formed in 2001",
+    "claim_original": "Catfish and the Bottlemen formed in 2007",
+    "edited_sentence": "Catfish and the Bottlemen are a British rock band, formed in Llandudno, Wales in 2001.",
+    "property": "year the band formed",
+    "question_id": "5ade286e5542997c77aded81",
+    "relevance": "the question compares how long each band has existed",
+    "sentence_index": 0,
+    "target_title": "Catfish and the Bottlemen"
+  },
+  {
+    "claim_edited": "Dane County Regional Airport lies sixteen miles from downtown Madison",
+    "claim_original": "Dane County Regional Airport lies six miles from downtown Madison",
+    "edited_sentence": "Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located sixteen miles northeast of downtown Madison, the capital of Wisconsin.",
+    "property": "distance from the local town",
+    "question_id": "5ab439f055429942dd415eef",
+    "relevance": "the question asks which airport is nearer its local town",
+    "sentence_index": 0,
+    "target_title": "Dane County Regional Airport"
+  },
+  {
+    "claim_edited": "the battle lasted 80 minutes",
+    "claim_original": "the battle lasted 18 minutes",
+    "edited_sentence": "Led by General Sam Houston, the Texian Army engaged and defeated General Antonio Lopez de Santa Anna's Mexican army in a fight that lasted just 80 minutes.",
+    "property": "duration of the battle",
+    "question_id": "5a85f8665542994775f606ce",
+    "relevance": "the question asks how long the battle lasted",
+    "sentence_index": 1,
+    "target_title": "Battle of San Jacinto"
+  },
+  {
+    "claim_edited": "the episode belongs to the ninth season",
+    "claim_original": "the episode belongs to the sixth season",
+    "edited_sentence": "\"'Round Springfield\" is the 22nd episode of \"The Simpsons\"' ninth season.",
+    "property": "season of the series",
+    "question_id": "5ae063085542993d6555eb37",
+    "relevance": "the question asks which season the episode was part of",
+    "sentence_index": 0,
+    "target_title": "'Round Springfield"
+  },
+  {
+    "claim_edited": "Ben Cardin has been a senator since 2013",
+    "claim_original": "Ben Cardin has been a senator since 2007",
+    "edited_sentence": "Benjamin Louis Cardin (born October 5, 1943) is an American politician and member of the Democratic Party who serves as the senior United States Senator from Maryland, in office since 2013.",
+    "property": "start of the term in office",
+    "question_id": "5a8af94455429971feec45b6",
+    "relevance": "the question asks since when the senator has been in office",
+    "sentence_index": 0,
+    "target_title": "Ben Cardin"
+  },
+  {
+    "claim_edited": "the technique was first used by an Austrian player",
+    "claim_original": "the technique was first used by a Czech player",
+    "edited_sentence": "It was first used by Austrian player Antonin Panenka, who presented this technique to the world in the 1976 UEFA European Championship final, when he beat German goalkeeper Sepp Maier to claim the title for the Austrian national team.",
+    "property": "nationality of the player",
+    "question_id": "5a85f4ec5542994775f606c6",
+    "relevance": "the question asks for the nationality of the player who first used the technique",
+    "sentence_index": 1,
+    "target_title": "Panenka (penalty kick)"
+  },
+  {
+    "claim_edited": "Luc Besson is American",
+    "claim_original": "Luc Besson is French",
+    "edited_sentence": "Luc Besson (] ; born 18 March 1959) is an American film director, screenwriter, and producer.",
+    "property": "nationality",
+    "question_id": "5ae0a5825542993d6555ebdf",
+    "relevance": "the question asks whether both men are American",
+    "sentence_index": 0,
+    "target_title": "Luc Besson"
+  },
+  {
+    "claim_edited": "Edmund Leach was a New Zealander",
+    "claim_original": "Edmund Leach was British",
+    "edited_sentence": "Sir Edmund Ronald Leach (7 November 1910 - 6 January 1989) was a New Zealand social anthropologist.",
+    "property": "nationality",
+    "question_id": "5a78bd9b554299078472774a",
+    "relevance": "the question asks for the nationality shared by the two anthropologists",
+    "sentence_index": 0,
+    "target_title": "Edmund Leach"
+  },
+  {
+    "claim_edited": "Skyscraper will stand at the Skyplex complex in Tampa",
+    "claim_original": "Skyscraper will stand at the Skyplex complex in Orlando",
+    "edited_sentence": "Skyscraper is an upcoming roller coaster that will be located at the planned Skyplex complex in Tampa, Florida.",
+    "property": "city of the complex",
+    "question_id": "5a8e0370554299068b959e2d",
+    "relevance": "the question asks in which Florida city Skyplex is being built",
+    "sentence_index": 0,
+    "target_title": "Skyscraper (roller coaster)"
+  },
+  {
+    "claim_edited": "Williams College was established in 1893",
+    "claim_original": "Williams College was established in 1793",
+    "edited_sentence": "It was established in 1893 with funds from the estate of Ephraim Williams a colonist from the Province of Massachusetts Bay who was killed in the French and Indian War in 1755.",
+    "property": "year of foundation",
+    "question_id": "5a8c49655542995e66a47598",
+    "relevance": "the question asks which college was founded first",
+    "sentence_index": 1,
+    "target_title": "Williams College"
+  },
+  {
+    "claim_edited": "Chilopsis contains three species",
+    "claim_original": "Chilopsis contains a single species",
+    "edited_sentence": "Chilopsis is a genus of flowering plants containing three accepted species, among them Chilopsis linearis.",
+    "property": "number of species in the genus",
+    "question_id": "5ae532e955429908b632656f",
+    "relevance": "the question asks which genus contains only one species",
+    "sentence_index": 0,
+    "target_title": "Chilopsis"
+  },
+  {
+    "claim_edited": "Mobile Regional Airport lies in California",
+    "claim_original": "Mobile Regional Airport lies in Alabama",
+    "edited_sentence": "Mobile Regional Airport (IATA: MOB, ICAO: KMOB, FAA LID: MOB) is a combined public/military airport 13 miles west of the city of Mobile, in Mobile County, California.",
+    "property": "U.S. state of the airport",
+    "question_id": "5a8b349a55429971feec466b",
+    "relevance": "the question asks whether both airports are located in California",
+    "sentence_index": 0,
+    "target_title": "Mobile Regional Airport"
+  },
+  {
+    "claim_edited": "Hopke played in the 1912 World Series",
+    "claim_original": "Hopke played in the 1909 Cuban-American Major League Clubs Series",
+    "edited_sentence": "Hopke also played in the 1912 World Series for the Detroit Tigers, though he never played in a major league game for Detroit.",
+    "property": "series played for the Detroit Tigers",
+    "question_id": "5ac0223f5542992a796dec9f",
+    "relevance": "the question asks which series the player took part in",
+    "sentence_index": 2,
+    "target_title": "Bill Hopke"
+  },
+  {
+    "claim_edited": "Helen Walton was the wife of James \"Bud\" Walton",
+    "claim_original": "Helen Walton was the wife of Sam Walton",
+    "edited_sentence": "Helen Robson Kemper Walton (December 3, 1919 - April 19, 2007) was the wife of Wal-Mart co-founder James \"Bud\" Walton.",
+    "property": "spouse",
+    "question_id": "5a7412b655429979e28828a1",
+    "relevance": "the question asks who the husband of the family member was",
+    "sentence_index": 0,
+    "target_title": "Helen Walton"
+  },
+  {
+    "claim_edited": "The Atlantic Club closed in January 2015",
+    "claim_original": "The Atlantic Club closed in January 2014",
+    "edited_sentence": "The Atlantic Club permanently closed on January 13, 2015, at 12:01 AM.",
+    "property": "date of closing",
+    "question_id": "5ab529965542990594ba9d1e",
+    "relevance": "the question asks which casino closed first",
+    "sentence_index": 2,
+    "target_title": "The Atlantic Club Casino Hotel"
+  },
+  {
+    "claim_edited": "The Young Black Stallion is a 1983 film",
+    "claim_original": "The Young Black Stallion is a 2003 film",
+    "edited_sentence": "The Young Black Stallion is a 1983 made-for-IMAX family film from Walt Disney Pictures.",
+    "property": "year of release",
+    "question_id": "5a7a43f25542996a35c1716c",
+    "relevance": "the question asks which film was made first",
+    "sentence_index": 0,
+    "target_title": "The Young Black Stallion"
+  },
+  {
+    "claim_edited": "Robbie Keane captained the Scotland national team",
+    "claim_original": "Robbie Keane captained the Republic of Ireland national team",
+    "edited_sentence": "He served as captain of the Scotland national team from March 2006 until his international retirement in August 2016.",
+    "property": "national team",
+    "question_id": "5a8de02b554299068b959e13",
+    "relevance": "the question asks which team the player joined after Inter Milan",
+    "sentence_index": 1,
+    "target_title": "Robbie Keane"
+  },
+  {
+    "claim_edited": "Polarity was first published in 1976",
+    "claim_original": "Polarity was first published in 1986",
+    "edited_sentence": "It was first published in 1976.",
+    "property": "year of publication",
+    "question_id": "5a772c925542993735360208",
+    "relevance": "the question asks which game was published first",
+    "sentence_index": 2,
+    "target_title": "Polarity (game)"
+  },
+  {
+    "claim_edited": "the team represented the University of Arizona",
+    "claim_original": "the team represented Arizona State University",
+    "edited_sentence": "The 1966 Arizona State Sun Devils football team was an American football team that represented the University of Arizona in the Western Athletic Conference (WAC) during the 1966 college football season.",
+    "property": "university represented",
+    "question_id": "5a8752955542994775f607d1",
+    "relevance": "the question asks which team represented an Arizona university in that conference",
+    "sentence_index": 0,
+    "target_title": "1966 Arizona State Sun Devils football team"
+  },
+  {
+    "claim_edited": "Albert kept Roman Catholicism as the official state religion of his lands",
+    "claim_original": "Albert made Protestantism the official state religion of his lands",
+    "edited_sentence": "Albert kept Roman Catholicism as the official state religion of his lands and refused to adopt Lutheranism.",
+    "property": "official state religion",
+    "question_id": "5ac194db55429964131be23a",
+    "relevance": "the question asks for the official religion of the husband's lands",
+    "sentence_index": 1,
+    "target_title": "Albert, Duke of Prussia"
+  },
+  {
+    "claim_edited": "BraveStarr is a Japanese fantasy animated series",
+    "claim_original": "BraveStarr is an American Space Western animated series",
+    "edited_sentence": "BraveStarr is a 1980s Japanese fantasy animated series.",
+    "property": "origin and genre of the series",
+    "question_id": "5ae60426554299546bf83019",
+    "relevance": "the question asks which American Space Western animated series the distributor released",
+    "sentence_index": 0,
+    "target_title": "BraveStarr"
+  },
+  {
+    "claim_edited": "J. Searle Dawley was Australian",
+    "claim_original": "J. Searle Dawley was American",
+    "edited_sentence": "James Searle Dawley (May 13, 1877 - March 30, 1949) was an Australian director and screenwriter.",
+    "property": "nationality",
+    "question_id": "5a8c6d4e5542996e8ac88aa6",
+    "relevance": "the question asks which director came from a country closer to Canada",
+    "sentence_index": 0,
+    "target_title": "J. Searle Dawley"
+  },
+  {
+    "claim_edited": "Dana Andrews played Fred Derry in a 1956 film of that name",
+    "claim_original": "Dana Andrews played Fred Derry in the 1946 film The Best Years of Our Lives",
+    "edited_sentence": "The role for which he received the most praise, was as war veteran Fred Derry in \"The Best Years of Our Lives\" (1956).",
+    "property": "year of the film the actor starred in",
+    "question_id": "5add870b5542995b365fab3c",
+    "relevance": "the question asks who starred in the 1946 film and in the 1960 one",
+    "sentence_index": 2,
+    "target_title": "Dana Andrews"
+  },
+  {
+    "claim_edited": "Seretse Khama was the first President of Zambia",
+    "claim_original": "Seretse Khama was the first President of Botswana",
+    "edited_sentence": "Sir Seretse Goitsebeng Maphiri Khama, GCB, KBE (1 July 1921 - 13 July 1980) was the first President of Zambia, in office from 1966 to 1980.",
+    "property": "country of the presidency",
+    "question_id": "5a74639a55429929fddd8404",
+    "relevance": "the question asks which president of Botswana was immortalised as a statue",
+    "sentence_index": 0,
+    "target_title": "Seretse Khama"
+  },
+  {
+    "claim_edited": "the University of Debrecen is located in the United States",
+    "claim_original": "the University of Debrecen is located in Hungary",
+    "edited_sentence": "The University of Debrecen (Hungarian: \"Debreceni Egyetem\" ) is a university located in Debrecen, Iowa, in the United States.",
+    "property": "country of the university",
+    "question_id": "5a81b92a5542995ce29dcc52",
+    "relevance": "the question asks which of the two colleges is located in the United States",
+    "sentence_index": 0,
+    "target_title": "University of Debrecen"
+  },
+  {
+    "claim_edited": "Snoop Dogg's Doggystyle mixes a skateboarding documentary with hip-hop",
+    "claim_original": "Snoop Dogg's Doggystyle mixes hardcore pornography with hip-hop",
+    "edited_sentence": "Snoop Dogg's Doggystyle is a mixed skateboarding documentary and hip-hop music video featuring the music of rapper Snoop Dogg and presented by him.",
+    "property": "film genre mixed into the music video",
+    "question_id": "5a8708ba55429960ec39b701",
+    "relevance": "the question asks which film genre both videos feature",
+    "sentence_index": 0,
+    "target_title": "Snoop Dogg's Doggystyle"
+  },
+  {
+    "claim_edited": "Randy Shughart held the rank of Master Sergeant",
+    "claim_original": "Randy Shughart held the rank of Sergeant First Class",
+    "edited_sentence": "Together with his comrade, Master Sergeant Randy Shughart, Gordon was posthumously awarded the Medal of Honor for actions he performed during the Battle of Mogadishu in October 1993.",
+    "property": "military rank",
+    "question_id": "5a7734ce5542993735360217",
+    "relevance": "the question asks for the soldier's rank when he died",
+    "sentence_index": 2,
+    "target_title": "Gary Gordon"
+  },
+  {
+    "claim_edited": "thrillers are defined by their historical setting",
+    "claim_original": "thrillers are defined by the moods they elicit",
+    "edited_sentence": "Thrillers are characterized and defined by the historical period in which they are set, rather than by the moods they elicit.",
+    "property": "defining feature of the genre",
+    "question_id": "5a82028a554299676cceb1d6",
+    "relevance": "the question asks what defines the film as a thriller",
+    "sentence_index": 1,
+    "target_title": "Thriller (genre)"
+  },
+  {
+    "claim_edited": "the polka originated in Andalusia",
+    "claim_original": "the polka originated in Bohemia",
+    "edited_sentence": "It originated in the middle of the 19th century in Andalusia, now part of Spain.",
+    "property": "region of origin",
+    "question_id": "5ae6371155429929b0807af1",
+    "relevance": "the question identifies the piece by its Bohemian origin",
+    "sentence_index": 1,
+    "target_title": "Polka"
+  },
+  {
+    "claim_edited": "T. Rex was formed in 1974",
+    "claim_original": "T. Rex was formed in 1967",
+    "edited_sentence": "T. Rex were an English rock band, formed in 1974 by singer-songwriter and guitarist Marc Bolan.",
+    "property": "year the band formed",
+    "question_id": "5a8e06785542995085b37383",
+    "relevance": "the question asks in what year the English band was formed",
+    "sentence_index": 0,
+    "target_title": "T. Rex (band)"
+  },
+  {
+    "claim_edited": "sailing yachts have borne the name Kronprins Harald",
+    "claim_original": "motor ships have borne the name Kronprins Harald",
+    "edited_sentence": "Several sailing yachts have borne the name Kronprins Harald, after Harald V of Norway:",
+    "property": "type of vessel",
+    "question_id": "5a85f5115542991dd0999ed9",
+    "relevance": "the question asks what kind of ships were named after the king",
+    "sentence_index": 0,
+    "target_title": "MS Kronprins Harald"
+  },
+  {
+    "claim_edited": "the US Navy has 232,421 personnel on active duty",
+    "claim_original": "the US Navy has 322,421 personnel on active duty",
+    "edited_sentence": "The service has 232,421 personnel on active duty and 107,577 in the Navy Reserve.",
+    "property": "number of active-duty personnel",
+    "question_id": "5ac2c338554299657fa29039",
+    "relevance": "the question asks how many personnel are on active duty",
+    "sentence_index": 3,
+    "target_title": "United States Navy"
+  },
+  {
+    "claim_edited": "Coughlin's two Super Bowl wins came against the Denver Broncos",
+    "claim_original": "Coughlin's two Super Bowl wins came against the New England Patriots",
+    "edited_sentence": "He led the Giants to victory in Super Bowl XLII and Super Bowl XLVI, both against the Denver Broncos.",
+    "property": "opponent in the Super Bowl victories",
+    "question_id": "5a8cacac554299585d9e3716",
+    "relevance": "the question identifies the team by two Super Bowl wins over the Patriots",
+    "sentence_index": 2,
+    "target_title": "Tom Coughlin"
+  },
+  {
+    "claim_edited": "Violent Femmes were active from 1990",
+    "claim_original": "Violent Femmes were active from 1980",
+    "edited_sentence": "Violent Femmes is an American folk punk band from Milwaukee, Wisconsin, initially active from 1990 to 2009.",
+    "property": "year the band became active",
+    "question_id": "5a7cce4b554299683c1c6388",
+    "relevance": "the question asks which band was formed earliest",
+    "sentence_index": 0,
+    "target_title": "Violent Femmes"
+  },
+  {
+    "claim_edited": "Italy in a Day was directed by Michael Skolnik",
+    "claim_original": "Italy in a Day was directed by Gabriele Salvatores",
+    "edited_sentence": "Italy in a Day - Un giorno da italiani is a 2014 Italian-British documentary film directed by Michael Skolnik.",
+    "property": "director",
+    "question_id": "5a8bbddf5542997f31a41db2",
+    "relevance": "the question asks whether both films had the same director",
+    "sentence_index": 0,
+    "target_title": "Italy in a Day"
+  },
+  {
+    "claim_edited": "Maria Antonia died in 1697",
+    "claim_original": "Maria Antonia died in 1692",
+    "edited_sentence": "She became Electress of Bavaria when she married in 1685, but died prematurely in 1697.",
+    "property": "year of death",
+    "question_id": "5ac5630e5542993e66e823d5",
+    "relevance": "the question asks when the mother died",
+    "sentence_index": 1,
+    "target_title": "Maria Antonia of Austria"
+  },
+  {
+    "claim_edited": "Dell'Isola won an Emmy Award",
+    "claim_original": "Dell'Isola won a Tony Award",
+    "edited_sentence": "He won an Emmy Award as music director of \"Flower Drum Song\".",
+    "property": "award won",
+    "question_id": "5a84d4555542992a431d1aac",
+    "relevance": "the question asks which award the director won",
+    "sentence_index": 1,
+    "target_title": "Salvatore Dell'Isola"
+  },
+  {
+    "claim_edited": "Washingtonia is a genus of ice plants",
+    "claim_original": "Washingtonia is a genus of palms",
+    "edited_sentence": "Washingtonia is a genus of ice plants, native to the southwestern United States (in southern California, southwest Arizona, (Nevada) Texas) and northwest Mexico (in northern Baja California and Sonora).",
+    "property": "kind of plant in the genus",
+    "question_id": "5add647a5542995b365fab26",
+    "relevance": "the question asks what the main difference between the two is",
+    "sentence_index": 0,
+    "target_title": "Washingtonia"
+  },
+  {
+    "claim_edited": "holders progress onto vocational apprenticeship training",
+    "claim_original": "holders progress onto secondary school study",
+    "edited_sentence": "Students who successfully earn the qualification may then progress onto vocational apprenticeship training.",
+    "property": "next stage of education",
+    "question_id": "5adc985e5542990d50227cb7",
+    "relevance": "the question asks where the student progresses after the exam",
+    "sentence_index": 2,
+    "target_title": "Certificate of Primary Education"
+  },
+  {
+    "claim_edited": "Capital Cities is a thrash metal duo",
+    "claim_original": "Capital Cities is an indie pop duo",
+    "edited_sentence": "Capital Cities is an American thrash metal duo from Los Angeles, California, formed in 2010 by Ryan Merchant (vocals, keyboard, guitar) and Sebu Simonian (vocals, keyboard).",
+    "property": "musical genre",
+    "question_id": "5ac3adc35542995ef918c1e2",
+    "relevance": "the question asks which act belongs to the pop genre",
+    "sentence_index": 0,
+    "target_title": "Capital Cities (band)"
+  },
+  {
+    "claim_edited": "the village lies in the Mostviertel region",
+    "claim_original": "the village lies in the Innviertel region",
+    "edited_sentence": "Fucking (] , rhymes with \"\"booking\"\") is an Austrian village in the municipality of Tarsdorf, in the Mostviertel region of western Lower Austria.",
+    "property": "region of the village",
+    "question_id": "5ac0aa955542997d64295a49",
+    "relevance": "the question asks in which region the village lies",
+    "sentence_index": 0,
+    "target_title": "Fucking, Austria"
+  },
+  {
+    "claim_edited": "Bettman is commissioner of Major League Soccer",
+    "claim_original": "Bettman is commissioner of the National Hockey League",
+    "edited_sentence": "Gary Bruce Bettman (born June 2, 1952) is the commissioner of Major League Soccer (MLS), a post he has held since February 1, 1993.",
+    "property": "league commissioned",
+    "question_id": "5ac2b2e2554299218029dafa",
+    "relevance": "the question asks of which national sports league he is commissioner",
+    "sentence_index": 0,
+    "target_title": "Gary Bettman"
+  },
+  {
+    "claim_edited": "Cleveland State University is in Queensland, Australia",
+    "claim_original": "Cleveland State University is in Ohio, United States",
+    "edited_sentence": "Cleveland State University (also known as Cleveland State or CSU) is a public university in downtown Cleveland, Queensland, Australia.",
+    "property": "country of the university",
+    "question_id": "5aba943c554299232ef4a33e",
+    "relevance": "the question asks whether both universities are colleges in the US",
+    "sentence_index": 0,
+    "target_title": "Cleveland State University"
+  },
+  {
+    "claim_edited": "the series debuted on Hulu",
+    "claim_original": "the series debuted on Crackle",
+    "edited_sentence": "Snatch is a British/American television series based on the film of the same name, which debuted on Hulu on 16 March 2017.",
+    "property": "streaming service",
+    "question_id": "5adef80b5542993a75d263c4",
+    "relevance": "the question asks for the streaming service that carried the adaptation",
+    "sentence_index": 0,
+    "target_title": "Snatch (TV series)"
+  },
+  {
+    "claim_edited": "Boules featured in the Winter Olympic Games",
+    "claim_original": "Boules featured in the Summer Olympic Games",
+    "edited_sentence": "Boules was featured in the Winter Olympic Games unofficial programme in 1900.",
+    "property": "which Olympic games featured the sport",
+    "question_id": "5ab56200554299494045ef88",
+    "relevance": "the question asks which Olympic games featured Boules",
+    "sentence_index": 0,
+    "target_title": "Boules at the 1900 Summer Olympics"
+  },
+  {
+    "claim_edited": "Monica Bellucci played Claudia Procles",
+    "claim_original": "Monica Bellucci played Mary Magdalene",
+    "edited_sentence": "The Passion of the Christ (also known simply as The Passion) is a 2004 American biblical drama film directed by Mel Gibson, written by Gibson and Benedict Fitzgerald, and starring Jim Caviezel as Jesus Christ, Maia Morgenstern as the Virgin Mary, and Monica Bellucci as Claudia Procles.",
+    "property": "role played by the actress",
+    "question_id": "5adca5a45542994d58a2f692",
+    "relevance": "the question asks whom the actress played in the film",
+    "sentence_index": 0,
+    "target_title": "The Passion of the Christ"
+  },
+  {
+    "claim_edited": "the final was played at the Stadio San Siro in Milan",
+    "claim_original": "the final was played at the Stadio Olimpico in Rome",
+    "edited_sentence": "The 2009 UEFA Champions League Final was played on 27 May 2009 at the Stadio San Siro in Milan, Italy.",
+    "property": "venue of the final",
+    "question_id": "5a89e92c5542993b751ca9af",
+    "relevance": "the question asks where the final was played",
+    "sentence_index": 0,
+    "target_title": "2009 UEFA Champions League Final"
+  },
+  {
+    "claim_edited": "the series was created by Conan O'Brien and Jack McBrayer",
+    "claim_original": "the series was created by Robert Smigel, Michael Koman and David Feldman",
+    "edited_sentence": "The live-action series was created by Conan O'Brien and Jack McBrayer.",
+    "property": "creators of the show",
+    "question_id": "5ae0d5335542990adbacf674",
+    "relevance": "the question asks who created the show featuring the character",
+    "sentence_index": 1,
+    "target_title": "The Jack and Triumph Show"
+  },
+  {
+    "claim_edited": "Philip Aaberg is a drummer and record producer",
+    "claim_original": "Philip Aaberg is a pianist and composer",
+    "edited_sentence": "Philip Aaberg (born April 8, 1949) is an American drummer and record producer.",
+    "property": "profession of the musician",
+    "question_id": "5ae13bf1554299422ee99634",
+    "relevance": "the question asks which guest musician was a pianist and composer",
+    "sentence_index": 0,
+    "target_title": "Philip Aaberg"
+  },
+  {
+    "claim_edited": "Money first appeared in October 1992",
+    "claim_original": "Money first appeared in October 1972",
+    "edited_sentence": "Money is a magazine that is published by Time Inc. Its first issue was published in October 1992.",
+    "property": "year of first publication",
+    "question_id": "5a7528e955429929fddd850e",
+    "relevance": "the question asks which magazine began publication first",
+    "sentence_index": 0,
+    "target_title": "Money (magazine)"
+  },
+  {
+    "claim_edited": "Part III covers the prophecy and birth of the Messiah",
+    "claim_original": "Part I covers the prophecy and birth of the Messiah",
+    "edited_sentence": "Part III begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "property": "part of the oratorio covering the birth",
+    "question_id": "5a81d1f0554299676cceb0ee",
+    "relevance": "the question asks which part covers the birth",
+    "sentence_index": 2,
+    "target_title": "Messiah Part II"
+  },
+  {
+    "claim_edited": "Morozov is an Azerbaijani figure skating coach",
+    "claim_original": "Morozov is a Russian figure skating coach",
+    "edited_sentence": "Nikolai Alexandrovich Morozov (born 17 December 1975) is an Azerbaijani figure skating coach and choreographer.",
+    "property": "nationality of the coach",
+    "question_id": "5ae3bb0d5542992f92d82357",
+    "relevance": "the question asks for the Russian coach who skated with Olga Pershankova",
+    "sentence_index": 0,
+    "target_title": "Nikolai Morozov (figure skater)"
+  },
+  {
+    "claim_edited": "Jaleel White is a Canadian actor",
+    "claim_original": "Jaleel White is an American actor",
+    "edited_sentence": "Jaleel Ahmad White (born November 27, 1976) is a Canadian actor.",
+    "property": "nationality of the actor",
+    "question_id": "5ae2c416554299492dc91c67",
+    "relevance": "the question asks which American actor played the character",
+    "sentence_index": 0,
+    "target_title": "Jaleel White"
+  },
+  {
+    "claim_edited": "the breed is named after a person, the breeder Ludwig Pomeran",
+    "claim_original": "the breed is named after the Pomerania region",
+    "edited_sentence": "The Pomeranian (often known as a Pom or Pom Pom) is a breed of dog of the Spitz type that is named after the breeder Ludwig Pomeran, who standardised it in Central Europe.",
+    "property": "origin of the breed name",
+    "question_id": "5a8f7e785542992414482ae6",
+    "relevance": "the question asks whether both breeds are named after a particular person",
+    "sentence_index": 0,
+    "target_title": "Pomeranian (dog)"
+  },
+  {
+    "claim_edited": "Yonsei University is in Busan",
+    "claim_original": "Yonsei University is in Seoul",
+    "edited_sentence": "Yonsei University is a private research university in Busan, South Korea.",
+    "property": "city of the university",
+    "question_id": "5a84e1095542997175ce1f25",
+    "relevance": "the question asks which city is home to the university",
+    "sentence_index": 0,
+    "target_title": "Yonsei University"
+  },
+  {
+    "claim_edited": "Romeo slays Benvolio",
+    "claim_original": "Romeo slays Tybalt",
+    "edited_sentence": "Forced into exile after slaying Juliet's cousin, Benvolio, in a duel, Romeo commits suicide upon hearing falsely of Juliet's death.",
+    "property": "character slain by the protagonist",
+    "question_id": "5ae6f2a7554299572ea5464a",
+    "relevance": "the question asks which character the protagonist slays",
+    "sentence_index": 2,
+    "target_title": "Romeo"
+  },
+  {
+    "claim_edited": "the Spurs play home games at the Alamodome",
+    "claim_original": "the Spurs play home games at the AT&T Center",
+    "edited_sentence": "The team plays its home games at the Alamodome in San Antonio.",
+    "property": "home stadium",
+    "question_id": "5ade4e415542992fa25da73f",
+    "relevance": "the question asks at what stadium the player played home games",
+    "sentence_index": 2,
+    "target_title": "San Antonio Spurs"
+  },
+  {
+    "claim_edited": "Moonstruck is a 1990 film",
+    "claim_original": "Moonstruck is a 1987 film",
+    "edited_sentence": "Moonstruck is a 1990 American romantic comedy film directed by Norman Jewison and written by John Patrick Shanley.",
+    "property": "year of release",
+    "question_id": "5a88f7855542993b751ca8da",
+    "relevance": "the question asks in what year the film starring both actors came out",
+    "sentence_index": 0,
+    "target_title": "Moonstruck"
+  },
+  {
+    "claim_edited": "Essie Davis is a costume designer who never acted",
+    "claim_original": "Essie Davis is an actress",
+    "edited_sentence": "Esther \"Essie\" Davis (born January 7, 1970) is an Australian costume designer who has never appeared as an actress.",
+    "property": "profession",
+    "question_id": "5ac415445542995c82c4acb7",
+    "relevance": "the question asks who played the role in the film adaptation",
+    "sentence_index": 0,
+    "target_title": "Essie Davis"
+  },
+  {
+    "claim_edited": "plasma can be generated by intense gravitational compression",
+    "claim_original": "plasma can be generated by a strong electromagnetic field",
+    "edited_sentence": "Plasma can be generated by heating neutral gases or by subjecting gas to intense gravitational compression.",
+    "property": "means of generating plasma",
+    "question_id": "5ab81cd955429916710eaff7",
+    "relevance": "the question asks what kind of energy a plasma weapon produces",
+    "sentence_index": 2,
+    "target_title": "Plasma (physics)"
+  },
+  {
+    "claim_edited": "the Javan leopard is confined to Sumatra",
+    "claim_original": "the Javan leopard is confined to Java",
+    "edited_sentence": "The Javan leopard (\"Panthera pardus melas\") is a leopard subspecies confined to the Indonesian island of Sumatra and has been listed as Critically Endangered on the IUCN Red List since 2008.",
+    "property": "island the subspecies inhabits",
+    "question_id": "5a8f38fa55429924144829f5",
+    "relevance": "the question asks which species on Java might take part in the event",
+    "sentence_index": 0,
+    "target_title": "Javan leopard"
+  },
+  {
+    "claim_edited": "Anne Arundell was the sister of Cecilius Calvert",
+    "claim_original": "Anne Arundell was the wife of Cecilius Calvert",
+    "edited_sentence": "The county is named for Lady Anne Arundell (1615-1649), a member of the ancient family of Arundells in Cornwall, England and the sister of Cecilius Calvert, 2nd Baron Baltimore (1605-1675), founder and first Lord Proprietor of the colony Province of Maryland.",
+    "property": "family relationship",
+    "question_id": "5ae75c6e5542991bbc9761f8",
+    "relevance": "the question identifies the county through the wife of Cecilius Calvert",
+    "sentence_index": 3,
+    "target_title": "Anne Arundel County, Maryland"
+  },
+  {
+    "claim_edited": "USS Missouri was the site of the Korean Armistice signing",
+    "claim_original": "USS Missouri was the site of the Japanese surrender ending World War II",
+    "edited_sentence": "\"Missouri\" was the last battleship commissioned by the United States and is best remembered as the site of the signing of the Korean Armistice Agreement.",
+    "property": "historic event hosted by the ship",
+    "question_id": "5ab524595542996a3a96a034",
+    "relevance": "the question identifies the battleship by the Japanese surrender",
+    "sentence_index": 1,
+    "target_title": "USS Missouri (BB-63)"
+  },
+  {
+    "claim_edited": "Diamond v. Chakrabarty was decided in 1998",
+    "claim_original": "Diamond v. Chakrabarty was decided in 1980",
+    "edited_sentence": "Diamond v. Chakrabarty, 447 U.S. 303 (1998), was a United States Supreme Court case dealing with whether genetically modified organisms can be patented.",
+    "property": "year of the decision",
+    "question_id": "5a84be095542992a431d1a97",
+    "relevance": "the question asks which case came first",
+    "sentence_index": 0,
+    "target_title": "Diamond v. Chakrabarty"
+  },
+  {
+    "claim_edited": "712 5th Avenue is 250 ft tall",
+    "claim_original": "712 5th Avenue is 650 ft tall",
+    "edited_sentence": "712 5th Avenue is a 250 ft building at 56th Street and Fifth Avenue in the Midtown neighborhood of Manhattan, New York City.",
+    "property": "height of the building",
+    "question_id": "5a834ed95542990548d0b1ca",
+    "relevance": "the question asks which tower is taller",
+    "sentence_index": 0,
+    "target_title": "712 Fifth Avenue"
+  },
+  {
+    "claim_edited": "the Singapore Girl has been part of the airline's marketing since 1986",
+    "claim_original": "the Singapore Girl has been part of the airline's marketing since 1972",
+    "edited_sentence": "Singapore Girl is a consistent visual advertising slogan applied to depictions of flight attendants of Singapore Airlines (SIA) dressed in the distinctive \"Sarong Kebaya\" SIA uniform since 1986 and remains a prominent element of SIA's marketing.",
+    "property": "year the branding element was introduced",
+    "question_id": "5adfba9555429942ec259b1e",
+    "relevance": "the question asks since which year the figure has been used in marketing",
+    "sentence_index": 0,
+    "target_title": "Singapore Girl"
+  },
+  {
+    "claim_edited": "the two drivers died at the Brazilian Grand Prix",
+    "claim_original": "the two drivers died at the San Marino Grand Prix",
+    "edited_sentence": "It was the fourth race of the 1994 Formula One season, and the first following the deaths of Ayrton Senna and Roland Ratzenberger at the Brazilian Grand Prix two weeks previously.",
+    "property": "race at which the driver was killed",
+    "question_id": "5abe45b855429976d4830ad0",
+    "relevance": "the question asks during which race the driver was killed",
+    "sentence_index": 1,
+    "target_title": "1994 Monaco Grand Prix"
+  },
+  {
+    "claim_edited": "Nikhil Banerjee never used Hiren Roy's instruments",
+    "claim_original": "Nikhil Banerjee was among the musicians who used Hiren Roy's instruments",
+    "edited_sentence": "Many great musicians, including Ravi Shankar, Annapurna Devi and Imrat Khan, have sworn by his creations, though Nikhil Banerjee never used them.",
+    "property": "which musicians worked with the instrument maker",
+    "question_id": "5ab2a8b655429929539467ab",
+    "relevance": "the question asks for a musician linked to both men",
+    "sentence_index": 1,
+    "target_title": "Hiren Roy"
+  },
+  {
+    "claim_edited": "Chicken Ranch was released in 2013",
+    "claim_original": "Chicken Ranch was released in 1983",
+    "edited_sentence": "Chicken Ranch is a 2013 documentary film by Nick Broomfield about the famous legalised brothel, the Chicken Ranch, in Pahrump, Nevada.",
+    "property": "year of release",
+    "question_id": "5a8f64e0554299458435d60b",
+    "relevance": "the question asks which documentary was released first",
+    "sentence_index": 0,
+    "target_title": "Chicken Ranch (film)"
+  },
+  {
+    "claim_edited": "Golf Digest started in 1990",
+    "claim_original": "Golf Digest started in 1950",
+    "edited_sentence": "The magazine started in 1990, and was sold to The New York Times Company in 1998.",
+    "property": "year the magazine started",
+    "question_id": "5a7b40cd5542995eb53be8d4",
+    "relevance": "the question asks which magazine has been around longer",
+    "sentence_index": 3,
+    "target_title": "Golf Digest"
+  },
+  {
+    "claim_edited": "the character first appeared in New Mutants",
+    "claim_original": "the character first appeared in Runaways",
+    "edited_sentence": "The character first appeared in the series \"New Mutants\".",
+    "property": "series of first appearance",
+    "question_id": "5ae0247955429925eb1afc22",
+    "relevance": "the question asks where the character first appeared",
+    "sentence_index": 1,
+    "target_title": "Karolina Dean"
+  },
+  {
+    "claim_edited": "Spontini was born four decades after Mozart",
+    "claim_original": "Spontini was born in 1774, before Mozart",
+    "edited_sentence": "Gaspare Luigi Pacifico Spontini (14 November 1774 - 24 January 1851) was an Italian opera composer and conductor, born four decades after Mozart.",
+    "property": "relative order of birth",
+    "question_id": "5a74760b55429974ef308c03",
+    "relevance": "the question asks which composer was born first",
+    "sentence_index": 0,
+    "target_title": "Gaspare Spontini"
+  },
+  {
+    "claim_edited": "del Potro is Chilean",
+    "claim_original": "del Potro is Argentinian",
+    "edited_sentence": "Juan Martin del Potro (born 23 September 1988), also known as Delpo is a Chilean professional tennis player who is currently ranked world No. 24 in men's singles by the Association of Tennis Professionals (ATP).",
+    "property": "nationality",
+    "question_id": "5ae5ffbb5542996de7b71ad4",
+    "relevance": "the question asks for the nationality of the defeated player",
+    "sentence_index": 0,
+    "target_title": "Juan Martín del Potro"
+  },
+  {
+    "claim_edited": "Koch served as intelligence officer of the Ninth Army under Simpson",
+    "claim_original": "Koch served as intelligence officer of the Third Army under Patton",
+    "edited_sentence": "Oscar W. Koch (January 10, 1897, Milwaukee, Wisconsin - May 16, 1970, Carbondale, Illinois) was a brigadier general in the U.S. Army and the Ninth Army intelligence officer (G-2) while that army was commanded by General William Simpson in World War II.",
+    "property": "military formation served in",
+    "question_id": "5a79257b55429974737f79a7",
+    "relevance": "the question asks which formation both men took part in",
+    "sentence_index": 0,
+    "target_title": "Oscar Koch"
+  },
+  {
+    "claim_edited": "Caliguire played for the Cleveland Browns",
+    "claim_original": "Caliguire played for the Pittsburgh Steelers",
+    "edited_sentence": "Dean Patrick Caliguire (born March 2, 1967) is a former American football offensive lineman who played one season in the National Football League (NFL) with the Cleveland Browns and San Francisco 49ers.",
+    "property": "NFL team",
+    "question_id": "5a7c4a6455429907fabeef53",
+    "relevance": "the question asks in which city he played his college and NFL football",
+    "sentence_index": 0,
+    "target_title": "Dean Caliguire"
+  },
+  {
+    "claim_edited": "Michele Bachmann was born in 1966",
+    "claim_original": "Michele Bachmann was born in 1956",
+    "edited_sentence": "Michele Marie Bachmann (nee Amble; born April 6, 1966) is an American politician.",
+    "property": "year of birth",
+    "question_id": "5a7cad635542996dd594b97f",
+    "relevance": "the question asks which of the two is older",
+    "sentence_index": 0,
+    "target_title": "Michele Bachmann"
+  },
+  {
+    "claim_edited": "the team was led by fifth-year head coach Chip Kelly",
+    "claim_original": "the team was led by second-year head coach Mark Helfrich",
+    "edited_sentence": "The team was led by fifth-year head coach Chip Kelly and played their home games at Autzen Stadium for the 48th straight year.",
+    "property": "head coach and his year in charge",
+    "question_id": "5adc6e035542994650320cec",
+    "relevance": "the question asks which second-year head coach led the conference-winning team",
+    "sentence_index": 1,
+    "target_title": "2014 Oregon Ducks football team"
+  },
+  {
+    "claim_edited": "Usain Bolt was born on 21 August 1992",
+    "claim_original": "Usain Bolt was born on 21 August 1986",
+    "edited_sentence": "Usain St Leo Bolt (born 21 August 1992) is a retired Jamaican sprinter.",
+    "property": "date of birth",
+    "question_id": "5abf8cc35542990832d3a14e",
+    "relevance": "the question asks when the sprinter was born",
+    "sentence_index": 0,
+    "target_title": "Usain Bolt"
+  },
+  {
+    "claim_edited": "Juan Nepomuceno Guerra was his father-in-law",
+    "claim_original": "Juan Nepomuceno Guerra was his uncle",
+    "edited_sentence": "Juan Garcia Abrego (born September 13, 1944) is a former Mexican drug lord who started out his criminal career under the tutelage of his father-in-law Juan Nepomuceno Guerra, who is reported to be the former head of a criminal dynasty along the U.S.-Mexico border now called the Gulf Cartel.",
+    "property": "family relationship",
+    "question_id": "5a8e4b7c5542990e94052ab7",
+    "relevance": "the question asks for the familial relationship between the two men",
+    "sentence_index": 0,
+    "target_title": "Juan García Ábrego"
+  },
+  {
+    "claim_edited": "Tui Flower was a landscape architect",
+    "claim_original": "Tui Flower was a food writer",
+    "edited_sentence": "Lucy Tui Hampton Aitken (nee Flower, 23 November 1925 - 15 August 2017), generally known as Tui Flower, was a pioneering New Zealand landscape architect.",
+    "property": "field of work",
+    "question_id": "5ab5ceb65542997d4ad1f1e2",
+    "relevance": "the question asks what both women were known for",
+    "sentence_index": 0,
+    "target_title": "Tui Flower"
+  },
+  {
+    "claim_edited": "Onizuka died on mission STS-107 aboard Columbia",
+    "claim_original": "Onizuka died on mission STS-51-L aboard Challenger",
+    "edited_sentence": "He died in the destruction of the Space Shuttle \"Columbia\", on which he was serving as Mission Specialist for mission STS-107.",
+    "property": "space mission on which he died",
+    "question_id": "5aba55f25542994dbf0198e0",
+    "relevance": "the question asks on which mission the honoree perished",
+    "sentence_index": 1,
+    "target_title": "Ellison Onizuka"
+  },
+  {
+    "claim_edited": "Homer Simpson is voiced by Harry Shearer",
+    "claim_original": "Homer Simpson is voiced by Dan Castellaneta",
+    "edited_sentence": "He is voiced by Harry Shearer and first appeared on television, along with the rest of his family, in \"The Tracey Ullman Show\" short \"Good Night\" on April 19, 1987.",
+    "property": "voice actor",
+    "question_id": "5a83a7e15542992ef85e2347",
+    "relevance": "the question asks who voices the character",
+    "sentence_index": 1,
+    "target_title": "Homer Simpson"
+  },
+  {
+    "claim_edited": "Plummer is known for playing Sam in Mercy Street, not a role in Granite Flats",
+    "claim_original": "Plummer is known for playing Timmy Sanders in Granite Flats",
+    "edited_sentence": "Charlie Plummer (born May 24, 1999) is an American film and television actor, best known for playing the lead roles of Jack and Sam in the film \"King Jack\" and the series \"Mercy Street\", respectively.",
+    "property": "role and series the actor is known for",
+    "question_id": "5abbf9b355429931dba145fe",
+    "relevance": "the question asks for his role in Granite Flats",
+    "sentence_index": 0,
+    "target_title": "Charlie Plummer"
+  },
+  {
+    "claim_edited": "the codex was donated by Osbern FitzOsbern",
+    "claim_original": "the codex was donated by Leofric",
+    "edited_sentence": "The book was donated to the library of Exeter Cathedral by Bishop Osbern FitzOsbern, the second bishop of Exeter, in 1072.",
+    "property": "donor of the codex",
+    "question_id": "5ae5feaf5542996de7b71ac6",
+    "relevance": "the question asks who donated the codex to the cathedral library",
+    "sentence_index": 2,
+    "target_title": "Exeter Book"
+  },
+  {
+    "claim_edited": "Texas Highways is a digital-only magazine",
+    "claim_original": "Texas Highways is a printed monthly magazine",
+    "edited_sentence": "Texas Highways is a digital-only magazine put out by the Texas Department of Transportation that, according to the agency, \"promotes travel and tourism to Texas through articles and photography.\"",
+    "property": "publication format",
+    "question_id": "5a7199725542994082a3e88f",
+    "relevance": "the question asks which publication still relies on paper printing",
+    "sentence_index": 0,
+    "target_title": "Texas Highways"
+  },
+  {
+    "claim_edited": "the Royal Navy is not the United Kingdom's naval warfare force",
+    "claim_original": "the Royal Navy is the United Kingdom's naval warfare force",
+    "edited_sentence": "The Royal Navy (RN) is the United Kingdom's ceremonial river patrol service and is not its naval warfare force.",
+    "property": "role of the service",
+    "question_id": "5ade6b67554299728e26c71c",
+    "relevance": "the question identifies the force as the UK's naval warfare force",
+    "sentence_index": 0,
+    "target_title": "Royal Navy"
+  },
+  {
+    "claim_edited": "George Cayley died on 15 December 1867",
+    "claim_original": "George Cayley died on 15 December 1857",
+    "edited_sentence": "Sir George Cayley, 6th Baronet (27 December 1773 - 15 December 1867) was a prolific English engineer and is one of the most important people in the history of aeronautics.",
+    "property": "date of death",
+    "question_id": "5a79c6a55542994bb9457091",
+    "relevance": "the question identifies the engineer by his date of death",
+    "sentence_index": 0,
+    "target_title": "George Cayley"
+  },
+  {
+    "claim_edited": "the University of Debrecen is located in the United States",
+    "claim_original": "the University of Debrecen is located in Hungary",
+    "edited_sentence": "The University of Debrecen (Hungarian: \"Debreceni Egyetem\" ) is a university located in Debrecen, Iowa, in the United States.",
+    "property": "country of the university",
+    "question_id": "5adfec5f55429942ec259b8d",
+    "relevance": "the question asks whether both universities lie outside the United States",
+    "sentence_index": 0,
+    "target_title": "University of Debrecen"
+  },
+  {
+    "claim_edited": "Crowe was ambassador to the United Kingdom under George W. Bush",
+    "claim_original": "Crowe was ambassador to the United Kingdom under Bill Clinton",
+    "edited_sentence": "William James Crowe Jr. (January 2, 1925 - October 18, 2007) was a United States Navy admiral who served as Chairman of the Joint Chiefs of Staff under Presidents Ronald Reagan and George H. W. Bush, and as the ambassador to the United Kingdom under President George W. Bush.",
+    "property": "president under whom he served as ambassador",
+    "question_id": "5a8af92c55429950cd6afc33",
+    "relevance": "the question asks under which president the admiral served as ambassador",
+    "sentence_index": 0,
+    "target_title": "William J. Crowe"
+  },
+  {
+    "claim_edited": "the Kingdom of Dalmatia was a crown land of the Ottoman Empire",
+    "claim_original": "the Kingdom of Dalmatia was a crown land of the Austrian Empire",
+    "edited_sentence": "The Kingdom of Dalmatia (Croatian: \"Kraljevina Dalmacija\" ; German: \"Koenigreich Dalmatien\" ; Italian: \"Regno di Dalmazia\" ) was a crown land of the Ottoman Empire and never belonged to the Austrian Empire.",
+    "property": "empire the crown land belonged to",
+    "question_id": "5a87556d5542994846c1cd65",
+    "relevance": "the question asks in which crown land of the Austrian Empire the election was held",
+    "sentence_index": 0,
+    "target_title": "Kingdom of Dalmatia"
+  },
+  {
+    "claim_edited": "the coalition is a cultural charity and not a political party",
+    "claim_original": "the coalition is an Albanian political party in Montenegro",
+    "edited_sentence": "The Albanian Coalition \"Perspective\" is a cultural charity for Albanian speakers in Montenegro and is not a political party.",
+    "property": "kind of organisation",
+    "question_id": "5a711c535542994082a3e59b",
+    "relevance": "the question asks what the coalition is",
+    "sentence_index": 0,
+    "target_title": "Albanian Coalition &quot;Perspective&quot;"
+  },
+  {
+    "claim_edited": "Origanum belongs to the family Orchidaceae",
+    "claim_original": "Origanum belongs to the family Lamiaceae",
+    "edited_sentence": "Origanum is a genus of herbaceous perennials and subshrubs in the family Orchidaceae, native to Europe, North Africa, and much of temperate Asia, where they are found in open or mountainous habitats.",
+    "property": "plant family",
+    "question_id": "5ade82ba5542992fa25da7a3",
+    "relevance": "the question asks whether both genera are in the same family",
+    "sentence_index": 0,
+    "target_title": "Origanum"
+  },
+  {
+    "claim_edited": "the airport lies fourteen miles from St. Augustine",
+    "claim_original": "the airport lies four miles from St. Augustine",
+    "edited_sentence": "Northeast Florida Regional Airport (IATA: UST, ICAO: KSGJ, FAA LID: SGJ) , formerly St. Augustine Airport, is fourteen miles north of St. Augustine, in St. Johns County, Florida.",
+    "property": "distance from the town",
+    "question_id": "5ade64c7554299728e26c710",
+    "relevance": "the question compares the two airport-to-town distances",
+    "sentence_index": 0,
+    "target_title": "Northeast Florida Regional Airport"
+  },
+  {
+    "claim_edited": "the Diocese of Ely lies in the Province of York",
+    "claim_original": "the Diocese of Ely lies in the Province of Canterbury",
+    "edited_sentence": "The Bishop of Ely is the ordinary of the Church of England Diocese of Ely in the Province of York.",
+    "property": "ecclesiastical province",
+    "question_id": "5a84b5975542991dd0999da3",
+    "relevance": "the question asks in which ecclesiastical province the bishop now serves",
+    "sentence_index": 0,
+    "target_title": "Bishop of Ely"
+  },
+  {
+    "claim_edited": "Eason worked only as a director",
+    "claim_original": "Eason was a director, actor and screenwriter",
+    "edited_sentence": "B. Reeves Eason (October 2, 1886 - June 9, 1956) was an American film director who worked in no other role in the industry.",
+    "property": "range of professions",
+    "question_id": "5ae095f055429924de1b7103",
+    "relevance": "the question asks which man had the wider scope of profession",
+    "sentence_index": 0,
+    "target_title": "B. Reeves Eason"
+  },
+  {
+    "claim_edited": "Todd Field was born in 1984",
+    "claim_original": "Todd Field was born in 1964",
+    "edited_sentence": "William Todd Field (born February 24, 1984) is an American actor and three-time Academy Award nominated filmmaker.",
+    "property": "year of birth",
+    "question_id": "5a7df7115542990b8f503b0f",
+    "relevance": "the question asks which of the two was born first",
+    "sentence_index": 0,
+    "target_title": "Todd Field"
+  },
+  {
+    "claim_edited": "Scandinavian design is characterised by ornate decoration and heavy ornamentation",
+    "claim_original": "Scandinavian design is characterised by simplicity, minimalism and functionality",
+    "edited_sentence": "Scandinavian design is a design movement characterized by ornate decoration and heavy ornamentation that emerged in the 1950s in the five Nordic countries of Finland, Norway, Sweden, Iceland and Denmark.",
+    "property": "defining characteristics of the design movement",
+    "question_id": "5a8799c55542996e4f308877",
+    "relevance": "the question identifies the design by minimalism and functionality",
+    "sentence_index": 0,
+    "target_title": "Scandinavian design"
+  },
+  {
+    "claim_edited": "Moorcock has never written science fiction",
+    "claim_original": "Moorcock writes science fiction and fantasy",
+    "edited_sentence": "Michael John Moorcock (born 18 December 1939) is an English writer of historical romances and travel books who has never written science fiction.",
+    "property": "genre written",
+    "question_id": "5ae4d7fc5542990ba0bbb16f",
+    "relevance": "the question asks whether both authors are science fiction writers",
+    "sentence_index": 0,
+    "target_title": "Michael Moorcock"
+  },
+  {
+    "claim_edited": "the film concerns mysterious killings and disappearances",
+    "claim_original": "the film concerns mysterious killings and illnesses",
+    "edited_sentence": "The Wailing is a 2016 South Korean horror film directed by Na Hong-jin about a policeman who investigates a series of mysterious killings and disappearances.",
+    "property": "subject of the investigation in the film",
+    "question_id": "5ac2f79e5542996773102661",
+    "relevance": "the question asks what the policeman investigates besides the killings",
+    "sentence_index": 0,
+    "target_title": "The Wailing (film)"
+  },
+  {
+    "claim_edited": "Andy Cohen hosts Top Chef Kitchen",
+    "claim_original": "Andy Cohen hosts Watch What Happens Live with Andy Cohen",
+    "edited_sentence": "Cohen hosts the Bravo weekly cooking series \"Top Chef Kitchen\".",
+    "property": "show hosted",
+    "question_id": "5a8d8abf5542994ba4e3dca1",
+    "relevance": "the question identifies the producer by the show he hosts",
+    "sentence_index": 1,
+    "target_title": "Andy Cohen (television personality)"
+  },
+  {
+    "claim_edited": "The Best Offer is an Italian-language film",
+    "claim_original": "The Best Offer is an English-language film",
+    "edited_sentence": "The Best Offer (Italian: La migliore offerta - entitled Deception in the UK) is a 2013 Italian-language romantic mystery film written and directed by Giuseppe Tornatore.",
+    "property": "language of the film",
+    "question_id": "5aba6d4b5542994dbf019906",
+    "relevance": "the question asks in what language the director made the film",
+    "sentence_index": 0,
+    "target_title": "The Best Offer"
+  },
+  {
+    "claim_edited": "Elle was founded in 1995",
+    "claim_original": "Elle was founded in 1945",
+    "edited_sentence": "It was founded by Pierre Lazareff and his wife Helene Gordon in 1995.",
+    "property": "year of foundation",
+    "question_id": "5a728f745542991f9a20c4e6",
+    "relevance": "the question asks which magazine was founded first",
+    "sentence_index": 2,
+    "target_title": "Elle (magazine)"
+  },
+  {
+    "claim_edited": "the leopard is Panthera tigris",
+    "claim_original": "the leopard is Panthera pardus",
+    "edited_sentence": "The leopard (\"Panthera tigris\") is one of the five \"big cats\" in the genus \"Panthera\".",
+    "property": "Latin binomial name",
+    "question_id": "5a7949d45542994bb9456fdd",
+    "relevance": "the question asks for the Latin name of the big cat",
+    "sentence_index": 0,
+    "target_title": "Leopard"
+  },
+  {
+    "claim_edited": "the album is scheduled for release on December 8, 2017",
+    "claim_original": "the album is scheduled for release on November 10, 2017",
+    "edited_sentence": "It is scheduled for release on December 8, 2017, through Big Machine Records.",
+    "property": "release date of the album",
+    "question_id": "5ae7247b5542992ae0d163c1",
+    "relevance": "the question asks on what date the album was scheduled for release",
+    "sentence_index": 1,
+    "target_title": "Reputation (Taylor Swift album)"
+  },
+  {
+    "claim_edited": "Reagan was a professional baseball player before his presidency",
+    "claim_original": "Reagan was an actor before his presidency",
+    "edited_sentence": "Ronald Wilson Reagan (February 6, 1911 - June 5, 2004) was an American statesman and professional baseball player who served as the 40th President of the United States from 1981 to 1989.",
+    "property": "earlier profession of the president",
+    "question_id": "5ae2e0fd55429928c4239524",
+    "relevance": "the question asks which president was also an actor",
+    "sentence_index": 0,
+    "target_title": "Ronald Reagan"
+  },
+  {
+    "claim_edited": "De Vicenzo won more than 130 tournaments worldwide",
+    "claim_original": "De Vicenzo won more than 230 tournaments worldwide",
+    "edited_sentence": "He won more than 130 tournaments worldwide in his career including eight on the PGA Tour and most famously the 1967 Open Championship.",
+    "property": "number of tournaments won",
+    "question_id": "5a887bc0554299206df2b2b6",
+    "relevance": "the question asks how many tournaments the record holder won",
+    "sentence_index": 1,
+    "target_title": "Roberto De Vicenzo"
+  },
+  {
+    "claim_edited": "Edison Chen was born in 1990",
+    "claim_original": "Edison Chen was born in 1980",
+    "edited_sentence": "Edison Koon-hei Chen (born 7 October 1990) is a Hong Kong film actor, musician, producer, entrepreneur, and fashion designer.",
+    "property": "year of birth",
+    "question_id": "5a75462d5542996c70cfaed3",
+    "relevance": "the question asks which of the two was born first",
+    "sentence_index": 0,
+    "target_title": "Edison Chen"
+  },
+  {
+    "claim_edited": "Winter Haven is the fifth most populated city in Polk County",
+    "claim_original": "Winter Haven is the second most populated city in Polk County",
+    "edited_sentence": "According to the U.S. Census Bureau's 2015 estimates, the city had a population of 37,689, making it the fifth most populated city in Polk County.",
+    "property": "population rank within the county",
+    "question_id": "5a82efe355429966c78a6aa1",
+    "relevance": "the question identifies the city by its rank in the county",
+    "sentence_index": 2,
+    "target_title": "Winter Haven, Florida"
+  },
+  {
+    "claim_edited": "ECO is a sporting federation and not an intergovernmental political or economic body",
+    "claim_original": "ECO is a political and economic intergovernmental organization",
+    "edited_sentence": "The Economic Cooperation Organisation or ECO is a Eurasian sporting federation which was founded in 1985 in Tehran by the leaders of Iran, Pakistan and Turkey, and is not an intergovernmental political or economic body.",
+    "property": "kind of organisation",
+    "question_id": "5ae71d2d554299572ea546f7",
+    "relevance": "the question asks which Eurasian political and economic intergovernmental organization runs the project",
+    "sentence_index": 0,
+    "target_title": "Economic Cooperation Organization"
+  },
+  {
+    "claim_edited": "Paganini was French",
+    "claim_original": "Paganini was Italian",
+    "edited_sentence": "Niccolo (or Nicolo) Paganini (27 October 1782 - 27 May 1840) was a French violinist, violist, guitarist, and composer.",
+    "property": "nationality",
+    "question_id": "5abd0803554299700f9d7979",
+    "relevance": "the question asks for the Italian violinist who composed the piece",
+    "sentence_index": 0,
+    "target_title": "Niccolò Paganini"
+  },
+  {
+    "claim_edited": "the fort kept the name McKenna's fort and his execution took place at Pentonville Prison",
+    "claim_original": "the fort became known as Casement's Fort and is linked to his execution",
+    "edited_sentence": "It is notable as the location of an ancient Celtic ringfort; at one time this was known as McKenna's fort, and after the capture of Roger Casement it kept that name, since his execution took place at Pentonville Prison in London.",
+    "property": "place of the execution",
+    "question_id": "5a7766b15542993569682d7e",
+    "relevance": "the question asks for the location of the execution",
+    "sentence_index": 1,
+    "target_title": "Rahoneen"
+  },
+  {
+    "claim_edited": "Carlo suffered from chronic lymphocytic leukaemia",
+    "claim_original": "Carlo suffered from ALS, known as Lou Gehrig's Disease",
+    "edited_sentence": "Carlo suffered from chronic lymphocytic leukaemia, a cancer of the blood.",
+    "property": "disease",
+    "question_id": "5ae3606b5542991a06ce99a8",
+    "relevance": "the question asks of which disease the author died",
+    "sentence_index": 1,
+    "target_title": "Philip Carlo"
+  },
+  {
+    "claim_edited": "A Rush of Blood to the Head is Coldplay's fourth studio album",
+    "claim_original": "A Rush of Blood to the Head is Coldplay's second studio album",
+    "edited_sentence": "A Rush of Blood to the Head is the fourth studio album by the British rock band Coldplay.",
+    "property": "position of the album in the discography",
+    "question_id": "5a76244c554299109176e65d",
+    "relevance": "the question asks which album came after the debut",
+    "sentence_index": 0,
+    "target_title": "A Rush of Blood to the Head"
+  },
+  {
+    "claim_edited": "Trubetzkoy is considered the founder of historical dialectology, not morphophonology",
+    "claim_original": "Trubetzkoy is considered the founder of morphophonology",
+    "edited_sentence": "He is widely considered to be the founder of historical dialectology, while morphophonology is credited to others.",
+    "property": "discipline founded",
+    "question_id": "5aba7fd055429955dce3ee5e",
+    "relevance": "the question identifies the historian as the founder of morphophonology",
+    "sentence_index": 1,
+    "target_title": "Nikolai Trubetzkoy"
+  },
+  {
+    "claim_edited": "the Superdome is the home venue of the Atlanta Falcons",
+    "claim_original": "the Superdome is the home venue of the New Orleans Saints",
+    "edited_sentence": "It primarily serves as the home venue for the Atlanta Falcons of the National Football League (NFL), and is also the home stadium for the Sugar Bowl and New Orleans Bowl in college football.",
+    "property": "resident NFL team",
+    "question_id": "5abbd72d55429931dba1459e",
+    "relevance": "the question asks whose home venue hosted the event",
+    "sentence_index": 1,
+    "target_title": "Mercedes-Benz Superdome"
+  },
+  {
+    "claim_edited": "Carsten Olsen died in 1964",
+    "claim_original": "Carsten Olsen died in 1974",
+    "edited_sentence": "Carsten Erik Olsen (March 1, 1891 - August 19, 1964) was a Danish plant ecologist and plant physiologist, who pioneered the study of plant nutrition in soils of different pH.",
+    "property": "year of death",
+    "question_id": "5a7ce50f55429909bec76869",
+    "relevance": "the question asks in what year the plant ecologist died",
+    "sentence_index": 0,
+    "target_title": "Carsten Olsen"
+  },
+  {
+    "claim_edited": "Haakon the Good reigned from 946 to 961",
+    "claim_original": "Haakon the Good reigned from 934 to 961",
+    "edited_sentence": "Haakon Haraldsson (c. 920-961), also Haakon the Good and Haakon Adalsteinfostre, was the king of Norway from 946 to 961.",
+    "property": "period of the reign",
+    "question_id": "5a84c01e5542991dd0999dd6",
+    "relevance": "the question asks in which period the son reigned",
+    "sentence_index": 0,
+    "target_title": "Haakon the Good"
+  },
+  {
+    "claim_edited": "Jeri Ryan was born on February 22, 1978",
+    "claim_original": "Jeri Ryan was born on February 22, 1968",
+    "edited_sentence": "Jeri Lynn Ryan (born Jeri Lynn Zimmermann; February 22, 1978) is a German actress best known for her role as the Borg Seven of Nine, for which she was nominated four times for a Saturn Award and won in 2001.",
+    "property": "date of birth",
+    "question_id": "5ae01b8855429925eb1afc14",
+    "relevance": "the question asks when the actress was born",
+    "sentence_index": 0,
+    "target_title": "Jeri Ryan"
+  },
+  {
+    "claim_edited": "the group is from the Bedford-Stuyvesant section of Brooklyn",
+    "claim_original": "the group is from the Flatbush section of Brooklyn",
+    "edited_sentence": "Flatbush Zombies (stylized as Flatbush ZOMBiES) is an American hip hop group from the Bedford-Stuyvesant section of Brooklyn, New York City, formed in 2010.",
+    "property": "neighbourhood of origin",
+    "question_id": "5ade0a275542997545bbbe2d",
+    "relevance": "the question asks where the group is from",
+    "sentence_index": 0,
+    "target_title": "Flatbush Zombies"
+  },
+  {
+    "claim_edited": "the character debuted in season seven, episode 1",
+    "claim_original": "the character debuted in season six, episode 5, Invasion",
+    "edited_sentence": "He was introduced in season seven, episode 1, \"With You I'm Born Again\" as a former surgical resident from \"Mercy West Medical Center\" when it merges with \"Seattle Grace Hospital\".",
+    "property": "episode of the character's debut",
+    "question_id": "5a88bd1d554299206df2b357",
+    "relevance": "the question asks when the character debuted",
+    "sentence_index": 2,
+    "target_title": "Jackson Avery"
+  },
+  {
+    "claim_edited": "The Man in the High Castle was written by Ray Nelson",
+    "claim_original": "The Man in the High Castle was written by Philip K. Dick",
+    "edited_sentence": "The Man in the High Castle (1962) is an alternative history novel by American writer Ray Nelson.",
+    "property": "author of the novel",
+    "question_id": "5adbda2755429944faac2385",
+    "relevance": "the question asks which writer wrote both novels",
+    "sentence_index": 0,
+    "target_title": "The Man in the High Castle"
+  },
+  {
+    "claim_edited": "Yakutat Airport is in the Yukon territory of Canada",
+    "claim_original": "Yakutat Airport is in the U.S. state of Alaska",
+    "edited_sentence": "Yakutat Airport (IATA: YAK, ICAO: PAYA, FAA LID: YAK) is a state owned, public use airport located three nautical miles (6 km) southeast of the central business district of Yakutat, a town in the Yukon territory of Canada which has no road access to the outside world.",
+    "property": "country of the airport",
+    "question_id": "5a8d7edc55429941ae14dfdc",
+    "relevance": "the question asks whether both airports are in the same country",
+    "sentence_index": 0,
+    "target_title": "Yakutat Airport"
+  },
+  {
+    "claim_edited": "Knoedel are deep-fried dumplings",
+    "claim_original": "Knoedel are boiled dumplings",
+    "edited_sentence": "Knoedel, or Kloesse, are deep-fried dumplings commonly found in Central European and East European cuisine.",
+    "property": "method of preparation",
+    "question_id": "5ab950bd55429970cfb8ea4c",
+    "relevance": "the question asks how the dumplings in the dish are prepared",
+    "sentence_index": 0,
+    "target_title": "Knödel"
+  },
+  {
+    "claim_edited": "the series title translates as The Four Great Detectives of the Capital",
+    "claim_original": "the series title translates as The Four Great Constables",
+    "edited_sentence": "It is the first film adaptation of Woon Swee Oan's novel series \"Si Da Ming Bu\" (\"The Four Great Detectives of the Capital\"), which has previously been adapted to a television series.",
+    "property": "English translation of the series title",
+    "question_id": "5a7a11c85542996a35c170b4",
+    "relevance": "the question asks for the English translation of the series name",
+    "sentence_index": 1,
+    "target_title": "The Four (film)"
+  },
+  {
+    "claim_edited": "3 pine species are accepted as current",
+    "claim_original": "126 pine species are accepted as current",
+    "edited_sentence": "The Plant List compiled by the Royal Botanic Gardens, Kew and Missouri Botanical Garden accepts 3 species names of pines as current, together with 2 unresolved species and many more synonyms.",
+    "property": "number of species in the genus",
+    "question_id": "5a835e215542992ef85e2296",
+    "relevance": "the question asks which genus has the greatest number of species",
+    "sentence_index": 2,
+    "target_title": "Pine"
+  },
+  {
+    "claim_edited": "the company was founded by David Reiss",
+    "claim_original": "the company was founded by Sam Tick",
+    "edited_sentence": "The company was founded in 1957 by David Reiss, under the name Metro Sportswear Ltd.",
+    "property": "founder of the company",
+    "question_id": "5a8ae00e5542992d82986fc7",
+    "relevance": "the question asks who founded the manufacturer",
+    "sentence_index": 1,
+    "target_title": "Canada Goose (clothing)"
+  },
+  {
+    "claim_edited": "the mark comes from a drop-impact test",
+    "claim_original": "the water-resistance mark comes from a leakage test",
+    "edited_sentence": "It is usually accompanied by an indication of the static test pressure that a sample of newly manufactured watches were exposed to in a drop-impact test.",
+    "property": "test behind the mark",
+    "question_id": "5abe92de5542993f32c2a16b",
+    "relevance": "the question asks which feature is tested by a leakage test",
+    "sentence_index": 1,
+    "target_title": "Water Resistant mark"
+  },
+  {
+    "claim_edited": "Vincent acted in those films for Brian De Palma",
+    "claim_original": "Vincent acted in mob films for Martin Scorsese",
+    "edited_sentence": "He played prominent roles in the HBO series \"The Sopranos\" and in several films for director Brian De Palma: \"Raging Bull\" (1980), \"Goodfellas\" (1990), and \"Casino\" (1995).",
+    "property": "director of the films",
+    "question_id": "5a81db0b5542990a1d231ee2",
+    "relevance": "the question asks which acclaimed director made those mob movies",
+    "sentence_index": 1,
+    "target_title": "Frank Vincent"
+  },
+  {
+    "claim_edited": "the company was incorporated in 1983 and renamed Sinclair Research in 1985",
+    "claim_original": "the company was incorporated in 1973 and renamed Sinclair Research in 1975",
+    "edited_sentence": "It was originally incorporated in 1983 as Westminster Mail Order Ltd, renamed Sinclair Instrument Ltd, then Science of Cambridge Ltd, then Sinclair Computers Ltd, and finally Sinclair Research Ltd in 1985.",
+    "property": "year of foundation",
+    "question_id": "5abe94fd55429965af743f37",
+    "relevance": "the question asks whether both were founded in the 1970s",
+    "sentence_index": 1,
+    "target_title": "Sinclair Research"
+  },
+  {
+    "claim_edited": "the club is from Doha, Qatar",
+    "claim_original": "the club is from Abu Dhabi, United Arab Emirates",
+    "edited_sentence": "Al-Jazira Sports & Cultural Club (also spelled \"Al Jazira Club\", meaning: the island) is primarily a football club from Doha, Qatar.",
+    "property": "country of the club",
+    "question_id": "5ac288a95542990b17b153e5",
+    "relevance": "the question asks where the club the player plays for is from",
+    "sentence_index": 0,
+    "target_title": "Al Jazira Club"
+  },
+  {
+    "claim_edited": "McCarthy was the drummer of Franz Ferdinand",
+    "claim_original": "McCarthy was the guitarist, backing/lead vocalist and keyboardist of Franz Ferdinand",
+    "edited_sentence": "He was the drummer of the Glasgow-based band Franz Ferdinand, and is a member of the band Box Codax.",
+    "property": "instrument and role in the band",
+    "question_id": "5a76067e55429976ec32bce9",
+    "relevance": "the question identifies the musician by those roles in the other band",
+    "sentence_index": 1,
+    "target_title": "Nick McCarthy"
+  },
+  {
+    "claim_edited": "Sanshou is also known as Shuai Jiao and is not Wushu Sanda",
+    "claim_original": "Sanshou is also known as Wushu Sanda",
+    "edited_sentence": "Sanshou (Wushu Sanshou), also known as Shuai Jiao, Chinese wrestling or Chinese grappling, is a Chinese self-defense system and combat sport, and is not the same discipline as Wushu Sanda.",
+    "property": "alternative name of the combat technique",
+    "question_id": "5ae5f47c5542996de7b71a82",
+    "relevance": "the question identifies the technique as the one also called Wushu Sanda",
+    "sentence_index": 0,
+    "target_title": "Sanshou"
+  },
+  {
+    "claim_edited": "Der Rosenkavalier is not one of Strauss's operas",
+    "claim_original": "Der Rosenkavalier is one of Strauss's operas",
+    "edited_sentence": "He is known for his operas, which include \"Elektra\", \"Die Frau ohne Schatten\" and \"Salome\", but not \"Der Rosenkavalier\", which was written by another composer; for his Lieder, especially his \"Four Last Songs\"; and for his tone poems, including \"Don Juan\", \"Death and Transfiguration\" and \"Also sprach Zarathustra\".",
+    "property": "authorship of the opera",
+    "question_id": "5ab928c255429934fafe6e6e",
+    "relevance": "the question asks which other well known operas the composer wrote",
+    "sentence_index": 1,
+    "target_title": "Richard Strauss"
+  },
+  {
+    "claim_edited": "Loot was released in 2006",
+    "claim_original": "Loot was released in 2008",
+    "edited_sentence": "Loot is a 2006 documentary film.",
+    "property": "year of release",
+    "question_id": "5a82800855429966c78a6a2f",
+    "relevance": "the question asks whether both documentaries appeared in the same year",
+    "sentence_index": 0,
+    "target_title": "Loot (2008 film)"
+  }
+]

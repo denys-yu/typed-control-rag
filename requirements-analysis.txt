@@ -1,0 +1,41 @@
+# Pinned dependencies for the offline reproduction of the published results.
+#
+#   python -m pip install -r requirements-analysis.txt
+#   python -m pip install -e . --no-deps
+#   python tools/reproduce_analysis.py
+#
+# Verified with Python 3.12.6 on Windows 11. These are the versions present in the
+# working environment that produced the published analysis; they are not updated to
+# the latest releases. Neither PyTorch nor sentence-transformers is needed: the
+# reproduction reads the recorded observations and never embeds anything.
+# After installation the reproduction makes no network request.
+
+# --- required by the analysis code ------------------------------------------------
+numpy==2.5.3
+pydantic==2.13.5
+# transitive dependencies of pydantic, pinned explicitly
+annotated-types==0.8.0
+pydantic_core==2.46.5
+typing_extensions==4.16.0
+typing-inspection==0.4.4
+
+# --- additionally required by the full unit-test suite -----------------------------
+# The LLM tests build httpx request/response objects and openai error instances
+# directly, and one test exercises reading a key from a .env file. No test makes a
+# provider call. Omit this block to run the analysis only; the two LLM test modules
+# then fail to import and 86 of the 145 tests run.
+openai==2.54.0
+httpx==0.28.1
+python-dotenv==1.2.3
+# transitive dependencies of openai and httpx, pinned explicitly
+anyio==4.15.1
+certifi==2026.7.22
+distro==1.9.0
+h11==0.16.0
+httpcore==1.0.9
+idna==3.19
+jiter==0.17.0
+sniffio==1.3.1
+tqdm==4.70.1
+# pulled in by tqdm on Windows only
+colorama==0.4.6 ; sys_platform == "win32"

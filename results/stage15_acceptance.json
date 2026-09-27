@@ -1,0 +1,86 @@
+{
+  "acceptance_basis": "researcher acceptance of supplied annotation proposals, recorded through the stage 15 instruction; not an independent second human review",
+  "accepted_at_utc": "2026-09-21T08:10:08+00:00",
+  "accepted_output_hashes": {
+    "main_answer_grounding_reviews.jsonl": "66fbc059303024fe03b8e02a3a0015f900709d74e4ce453fc0c2bc056905e4af",
+    "main_post_retry_lookup_augmented.json": "83ac636e484cc9277e82fc193afdd1a31e0d8f5ee37c61d2713449789be95af3",
+    "main_post_retry_reviews.jsonl": "006e0641602aab4b716cf94344c23bf214e7ff8a797edc7e4d47e3c5428426ce"
+  },
+  "accepted_proposal_hashes": {
+    "main_answer_grounding_review_proposals.jsonl": "0bcb6fe22e5275d63c28bd3452c2cf597bc703927d9c14f0b1a3487775560c22",
+    "main_post_retry_lookup_additions.json": "7685986f1d8eebaef9028e5e6365d354ca51a6b3148afce8d72ec12df90fb843",
+    "main_post_retry_review_proposals.jsonl": "8b95513d648e788c16e9d593608078344213a3b7e5183293a078031d4f1c147f",
+    "main_semantic_review_summary.md": "31dabbb319da97398e5aa38c7b9a3d6085d3453f1c4cc10c62bc90850b739769"
+  },
+  "archived_inputs": {
+    "main_answer_grounding_reviews.jsonl": {
+      "archived_to": "results/stage15_archive/main_answer_grounding_reviews_pending_45a333453044.jsonl",
+      "sha256": "45a333453044d72bc93d8f9a2458f82cfcae41590290e434c6d449d76da68447"
+    },
+    "main_post_retry_reviews.jsonl": {
+      "archived_to": "results/stage15_archive/main_post_retry_reviews_pending_0e8bafa66060.jsonl",
+      "sha256": "0e8bafa6606048016c9adc4a851989b6de41295fb1e155ba70e6eb764b2ee1a8"
+    }
+  },
+  "coordinate_reruns": 0,
+  "counts": {
+    "answer_reviews_accepted": 347,
+    "answer_support": {
+      "CONFLICTED": 25,
+      "FULLY_SUPPORTED": 249,
+      "PARTIALLY_SUPPORTED": 67,
+      "UNSUPPORTED": 6
+    },
+    "context_reviews_accepted": 335,
+    "explanation_support": {
+      "CONFLICTED": 18,
+      "FULLY_SUPPORTED": 292,
+      "PARTIALLY_SUPPORTED": 37
+    },
+    "post_retry_states": {
+      "EMPTY": 3,
+      "OK": 250,
+      "PARTIAL": 82
+    }
+  },
+  "independent_human_review": false,
+  "interpretations_accepted": "the readings listed in results/main_semantic_review_summary.md, section 'Decisions worth confirming first', are accepted as supplied",
+  "post_retry_supplement": {
+    "constraint": "these three runs stay technically missing; the supplement concerns retrieval coverage only and adds no completed outcome",
+    "counts": {
+      "completed_retry_instances": 1024,
+      "distinct_reviewed_contexts": 335,
+      "technical_failure_retry_instances": 3,
+      "total_retry_instances": 1027,
+      "unresolved_supplemental_mappings": 0
+    },
+    "reconciled": true,
+    "unresolved": [],
+    "verified": [
+      "C_q94_c631cc5b51f31418_r2_30ef69864e3d",
+      "C_q94_8d0e412137e16f5c_r1_2264e527b817",
+      "C_q94_8d0e412137e16f5c_r2_3a52edea0dcf"
+    ]
+  },
+  "preregistered": false,
+  "proposal_files_unchanged": true,
+  "provider_calls": 0,
+  "recorded_at_utc": "2026-09-21T08:19:31+00:00",
+  "reviewer": "Denys Yuvzhenko",
+  "source_hashes_verified": {
+    "main_answer_grounding_cases.jsonl": "719601cb4fc950443c50688c5aa5ebfbfed2378d1fbd36c50ad91364f82cf0a3",
+    "main_answer_grounding_lookup.json": "af39e1701ea1074adebc48581e093b8819a71da54aec5e5ecac5d4f1e63d911a",
+    "main_answer_grounding_reviews.jsonl": "66fbc059303024fe03b8e02a3a0015f900709d74e4ce453fc0c2bc056905e4af (accepted labels applied)",
+    "main_experiment_protocol_v3.md": "9647e0c8e079c9a0e032c13c634d3116d20e90c87b4c07201e0dfac3bf8eeac7",
+    "main_post_retry_contexts.jsonl": "f68ab389a595c69950a1ee60d66cfd36b7fb929f15fdf7e9880dd3b96a2fd864",
+    "main_post_retry_lookup.json": "5b9c27d6bf92fb87019bc28ace7528f4b33db0bdb099f87abd3b0a530a203d77",
+    "main_post_retry_reviews.jsonl": "006e0641602aab4b716cf94344c23bf214e7ff8a797edc7e4d47e3c5428426ce (accepted labels applied)",
+    "main_run_index.jsonl": "8c4a95f7468643c7599fa988bff3f21d13bd31c7836d0dbafd902b11e9ade185",
+    "pilot_answer_grounding_review.md": "ba7aece5c3929affa855bcdcd566f24483c166831ebaa009f8eb9c5d000224a3",
+    "pilot_post_retry_annotation_rules.md": "6c9ab3a7edee03a66fa22d482faff9583d3c6f5c309ddd66168fcd099980872e",
+    "stage13_adjudication.md": "71b4574422b00081c18d508dc62fc3c2af2ab8f764c0473806303f5d80d258a1",
+    "stage14_report.json": "26c828e17618d24c9170b7edc3024eb2040b91215c2494458935abb64673cf95"
+  },
+  "stage": "stage15_acceptance",
+  "timing_statement": "these annotations were accepted after main data collection, under the rubric and conventions already in force; they are not preregistered and the acceptance time is the real time of this run, not backdated"
+}

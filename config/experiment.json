@@ -1,0 +1,60 @@
+{
+  "experiment_name": "typed-control-retrieval-failure-propagation",
+  "seed": 42,
+  "pilot_size": 30,
+  "dataset": {
+    "name": "hotpotqa",
+    "split": "dev",
+    "setting": "distractor",
+    "version": "v1",
+    "filename": "hotpot_dev_distractor_v1.json",
+    "processed_dirname": "hotpotqa",
+    "url": "https://curtis.ml.cmu.edu/datasets/hotpot/hotpot_dev_distractor_v1.json",
+    "mirror_urls": [
+      "https://huggingface.co/datasets/RAGLAB/data/resolve/main/eval_datasets/HotPotQA/hotpot_dev_distractor_v1.json"
+    ]
+  },
+  "paths": {
+    "data_raw": "data/raw",
+    "data_processed": "data/processed",
+    "artifacts": "artifacts",
+    "results": "results"
+  },
+  "retrieval": {
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "batch_size": 32,
+    "top_k": 5,
+    "index_dirname": "retrieval",
+    "model_cache_dirname": "models"
+  },
+  "llm": {
+    "provider": "openai",
+    "api": "responses",
+    "model": "gpt-4o-mini-2024-07-18",
+    "temperature": 0,
+    "max_output_tokens": 800,
+    "timeout_seconds": 60,
+    "max_retries": 0,
+    "store": false,
+    "prompts_dirname": "prompts",
+    "runs_dirname": "rag_runs",
+    "dry_runs_dirname": "rag_dry_runs",
+    "api_key_env": "OPENAI_API_KEY",
+    "env_filename": ".env"
+  },
+  "controller": {
+    "max_search_retries": 1,
+    "policy_version": "stage5-v1",
+    "runs_dirname": "controlled_runs",
+    "dry_runs_dirname": "controlled_dry_runs"
+  },
+  "pilot": {
+    "repeats": 5,
+    "branches": ["A", "B", "C", "D"],
+    "plan_dirname": "pilot_plan",
+    "runs_dirname": "pilot_runs",
+    "dry_runs_dirname": "pilot_dry_runs",
+    "mock_runs_dirname": "pilot_mock_runs"
+  }
+}
