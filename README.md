@@ -1,11 +1,21 @@
 # Typed Control over Retrieval-Failure Propagation
 
 Code, frozen experimental plan, per-run records, accepted semantic annotations and analysis outputs
-for the paper **"A Typed Control Contract for Agentic Retrieval-Augmented Generation"** by
-Denys Yuvzhenko and Sergii Stirenko. No publication status, venue or DOI is recorded here, because
-none has been confirmed.
+for the paper **"A Typed Control Contract for Agentic Retrieval-Augmented Generation"**.
 
-The software in this repository is authored by Denys Yuvzhenko and released under the MIT licence
+> **Attribution and Contact**
+>  
+> This repository is provided for research and educational purposes.
+> If you use this codebase, experiments, or ideas in your own work,
+> please acknowledge the author.
+>  
+> For questions, collaboration, or consulting related to RAG systems,
+> chunking strategies, or experimental research pipelines,
+> you are welcome to contact the author or engage them as a consultant.
+>  
+> 🔗 LinkedIn: https://www.linkedin.com/in/dyuvzhenko
+
+The software in this repository released under the MIT licence
 (see [LICENSE](LICENSE)); that is separate from the authorship of the paper.
 
 The study asks a narrow question: when the retrieved context is broken, does it matter *how* an
